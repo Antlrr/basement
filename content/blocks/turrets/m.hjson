@@ -11,45 +11,45 @@ health: 250
 inaccuracy: 2
 rotateSpeed 10
 ammoTypes: {
-  copper: {
-    type: BasicBulletType
-    damage: 16
-    speed: 2
-    lifetime: 60
-    trailColor: c4a18b
-  }
-  silicon: {
-    type: BasicBulletType
-    damage: 20
-    speed: 2
-    lifetime: 60
-    ammoMultiplier: 4
-    reloadMultiplier: 1.4
-    frontColor: b0b9bf
-    backColor: "6e7080"
-    trailColor: "6e7080"
-  }
-  pyratite: {
-    type: BasicBulletType
-    damage: 18
-    speed: 2
-    lifetime: 60
-    ammoMultiplier: 4
-    frontColor: f68021
-    backColor: f8ad42
-    trailColor: f8ad42
-    status: burning
-    makeFire: true
-    incendChance: 0.5
-    despawnEffect: {
-      type: ParticleEffect
-      lifetime: 20
-      length: 12
-      colorFrom: f68021
-      colorTo: f8ad42
+   copper: {
+     type: BasicBulletType
+     damage: 16
+     speed: 2
+     lifetime: 60
+     trailColor: c4a18b
+   }
+   silicon: {
+     type: BasicBulletType
+     damage: 20
+     speed: 2
+     lifetime: 60
+     ammoMultiplier: 4
+     reloadMultiplier: 1.4
+     frontColor: b0b9bf
+     backColor: "6e7080"
+     trailColor: "6e7080"
+   }
+   pyratite: {
+     type: BasicBulletType
+     damage: 18
+     speed: 2
+     lifetime: 60
+     ammoMultiplier: 4
+     frontColor: f68021
+     backColor: f8ad42
+     trailColor: f8ad42
+     status: burning
+     makeFire: true
+     incendChance: 0.5
+     despawnEffect: {
+       type: ParticleEffect
+       lifetime: 20
+       length: 12
+       colorFrom: f68021
+       colorTo: f8ad42
+       }
     }
-  }
-}
+ }
 category: turret
 requirements: [
   copper/45
