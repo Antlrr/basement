@@ -9,15 +9,13 @@ shootCone: 15
 ammoUseEffect: casing1
 health: 250
 inaccuracy: 2
-rotate speed 10
+rotateSpeed 10
 ammoTypes: {
   copper: {
     type: BasicBulletType
     damage: 16
     speed: 2
     lifetime: 60
-    weaveMag: 3
-    weaveScale: 4
     trailColor: c4a18b
   }
   silicon: {
@@ -27,8 +25,6 @@ ammoTypes: {
     lifetime: 60
     ammoMultiplier: 4
     reloadMultiplier: 1.4
-    weaveMag: 3
-    weaveScale: 4
     frontColor: b0b9bf
     backColor: "6e7080"
     trailColor: "6e7080"
@@ -39,8 +35,6 @@ ammoTypes: {
     speed: 2
     lifetime: 60
     ammoMultiplier: 4
-    weaveMag: 3
-    weaveScale: 4
     frontColor: f68021
     backColor: f8ad42
     trailColor: f8ad42
@@ -57,7 +51,6 @@ ammoTypes: {
   }
 }
 category: turret
-research: duo
 requirements: [
   copper/45
   lead/20
