@@ -1,0 +1,7 @@
+name: "basement"
+displayName: "Antlrr's Basement"
+author: Antlrr
+description: "[red]aaaaa"
+version: "1.0"
+minGameVersion: "130"
+hidden: false
