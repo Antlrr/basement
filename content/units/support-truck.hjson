@@ -2,7 +2,7 @@ type: mech
 health: 150
 hitSize: 4
 commandLimit: 6
-speed: 0.60
+speed: 1
 accel: 0.1
 drag: 0.02
 controller: DefenderAI
@@ -39,7 +39,7 @@ weapons: [
    name: repair-mount
    type: RepairBeamWeapon
    x: 3
-   y: -8
+   y: -8.75
    shootY: 6
    beamWidth: 0.8
    mirror: true
