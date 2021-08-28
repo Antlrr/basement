@@ -35,4 +35,18 @@ weapons: [
          damage: 15
     }
   }
+  {
+   name: repair-mount
+   type: RepairBeamWeapon
+   x: 3
+   y: -6.75
+   shootY: 6
+   beamWidth: 0.8
+   mirror: true
+   repairSpeed: 1
+   bullet: {
+      type: BulletType
+      maxRange: 120
+      }
+   }
 ]
