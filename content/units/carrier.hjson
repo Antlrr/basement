@@ -10,6 +10,13 @@ drag: 0.017
 lowAltitude: true
 flying: true
 rotateShooting: false
-engineOffset: 10.5
+engineOffset: 10
 payloadCapacity: 98.89
 buildSpeed: 2.6
+weapons: [
+   name: basic-weapon-mount
+   rotate: true
+   top: true
+   mirror: true
+   bullet: {
+      
