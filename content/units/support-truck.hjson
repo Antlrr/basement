@@ -1,0 +1,27 @@
+type: mech
+health: 150
+hitSize: 4
+commandLimit: 6
+speed: 0.60
+accel: 1
+drag: 2
+controller: GroundAI
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: segment-mount
+   top: true
+   mirror: true
+   x: 4
+   y: 2
+   shots: 1
+   recoil: 1
+   reload: 10
+   bullet: {
+     type: basicBulletType
+     collidesTeam: false
+     damage: 0
+    }
+  }
+]
