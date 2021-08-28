@@ -8,7 +8,8 @@ drag: 0.02
 controller: DefenderAI
 rotateShooting: false
 lightRadius: 30
-lightColor: 8cc7f5
+lightColor: ffffff
+mechSideSway: 0
 weapons: [
    {
    name: segment-mount
