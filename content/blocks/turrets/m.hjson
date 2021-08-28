@@ -26,8 +26,8 @@ ammoTypes: {
      ammoMultiplier: 4
      reloadMultiplier: 1.4
      frontColor: b0b9bf
-     backColor: "6e7080"
-     trailColor: "6e7080"
+     backColor: "767a84"
+     trailColor: "767a84"
    }
    pyratite: {
      type: BasicBulletType
