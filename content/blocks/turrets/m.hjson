@@ -21,6 +21,7 @@ ammoTypes: {
    silicon: {
      type: BasicBulletType
      damage: 20
+     homingPower: 0.02
      speed: 2
      lifetime: 60
      ammoMultiplier: 4
