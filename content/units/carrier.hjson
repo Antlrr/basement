@@ -1,0 +1,14 @@
+type: payload
+controller: defenderAI
+mineTier: 3
+mineSpeed: 4
+health: 460
+armor: 3
+speed: 2.5
+accel: 0.06
+drag: 0.017
+lowAltitude: true
+flying: true
+rotateShooting: false
+payloadCapacity: 1
+buildSpeed: 2.6
