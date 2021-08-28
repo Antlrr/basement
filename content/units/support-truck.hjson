@@ -21,7 +21,7 @@ weapons: [
       inaccuracy: 4
       shotDelay: 6.50
       x: 3
-      y: -2.75
+      y: -3
       reload: 9
       recoil: 1
       targetInterval: 10
