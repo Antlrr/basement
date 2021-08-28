@@ -10,5 +10,5 @@ drag: 0.017
 lowAltitude: true
 flying: true
 rotateShooting: false
-payloadCapacity: 100
+payloadCapacity: 99.44
 buildSpeed: 2.6
