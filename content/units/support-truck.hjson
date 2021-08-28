@@ -5,7 +5,8 @@ commandLimit: 6
 speed: 0.60
 accel: 0.1
 drag: 0.02
-controller: GroundAI
+controller: DefenderAI
+rotateShooting: false
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
