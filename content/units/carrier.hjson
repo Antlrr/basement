@@ -15,17 +15,20 @@ payloadCapacity: 98.89
 buildSpeed: 2.6
 weapons: [
    name: basic-weapon-mount
-   rotate: true
    top: true
    mirror: true
    x: 4
    y: 6
-   bullet: {  
+   shots: 1
+   recoil: 0
+   reload: 13
+   shootSound: lasershoot
+   bullet: {
      type: laserBoltBulletType
      healPercent: 2
-     pierce: false
      collidesTeam: true
-     damage: 20
+     damage: 10
      lifetime: 83
-     speed: 2
+     speed: 3
+     } 
   ]
