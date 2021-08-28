@@ -18,5 +18,15 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   bullet: {
-      
+   x: 4
+   y: 6
+   bullet: {  
+     type: laserBoltBulletType
+     healPercent: 2
+     pierce: false
+     collidesTeam: true
+     damage: 20
+     lifetime: 83
+     speed: 2
+     }
+  ]
