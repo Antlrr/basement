@@ -20,7 +20,7 @@ weapons: [
    mirror: true
    rotate: true
    x: 7
-   y: 5
+   y: 4
    shots: 1
    recoil: 0
    reload: 13
