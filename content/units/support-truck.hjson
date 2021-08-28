@@ -25,7 +25,7 @@ weapons: [
       reload: 9
       recoil: 1
       targetInterval: 10
-      targetSwitchInterval: 15
+      targetSwitchInterval: 8
       bullet: {
          type: BulletType
          shootEffect: sparkShoot
@@ -39,11 +39,11 @@ weapons: [
    name: repair-mount
    type: RepairBeamWeapon
    x: 3
-   y: -6.75
+   y: -8
    shootY: 6
    beamWidth: 0.8
    mirror: true
-   repairSpeed: 1
+   repairSpeed: 5
    bullet: {
       type: BulletType
       maxRange: 120
