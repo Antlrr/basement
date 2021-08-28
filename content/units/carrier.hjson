@@ -28,5 +28,4 @@ weapons: [
      damage: 20
      lifetime: 83
      speed: 2
-     }
   ]
