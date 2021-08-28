@@ -14,7 +14,7 @@ weapons: [
       type: pointDefenseWeapon
       rotate: true
       top: true
-      mirror: false
+      mirror: true
       shots: 1
       inaccuracy: 4
       shotDelay: 6.50
@@ -31,7 +31,6 @@ weapons: [
          hitEffect: pointHit
          despawnEffect: none
          damage: 15
-         buildingDamageMultiplier: 0.01
     }
   }
 ]
