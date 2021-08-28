@@ -3,25 +3,35 @@ health: 150
 hitSize: 4
 commandLimit: 6
 speed: 0.60
-accel: 1
-drag: 2
+accel: 0.1
+drag: 0.02
 controller: GroundAI
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
    name: segment-mount
-   top: true
-   mirror: true
-   x: 4
-   y: 2
-   shots: 1
-   recoil: 1
-   reload: 10
-   bullet: {
-     type: basicBulletType
-     collidesTeam: false
-     damage: 0
+      type: pointDefenseWeapon
+      rotate: true
+      top: true
+      mirror: false
+      shots: 1
+      inaccuracy: 4
+      shotDelay: 6.50
+      x: 3
+      y: -2.75
+      reload: 9
+      recoil: 1
+      targetInterval: 10
+      targetSwitchInterval: 15
+      bullet: {
+         type: BulletType
+         shootEffect: sparkShoot
+         maxRange: 100
+         hitEffect: pointHit
+         despawnEffect: none
+         damage: 15
+         buildingDamageMultiplier: 0.01
     }
   }
 ]
