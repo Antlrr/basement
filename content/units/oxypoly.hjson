@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 5
    inaccuracy: 10f
-   ejectEffect: casing
+   ejectEffect: casing1
    shootSound: flame
    shootCone: 30
    bullet: {
