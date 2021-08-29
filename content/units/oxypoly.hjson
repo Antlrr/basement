@@ -18,7 +18,7 @@ weapons: [
    rotateSpeed: 5
    top: true
    mirror: true
-   x: 3
+   x: 4
    y: 0.75
    recoil: 1
    reload: 5
