@@ -37,6 +37,7 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       hitEffect: hitFlamePlasma
+      shootEffect: shootSmallFlame
       ejectEffect: none
       despawnEffect: none
       status: burning
