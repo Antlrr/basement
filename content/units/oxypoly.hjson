@@ -43,4 +43,4 @@ weapons: [
     }
   }
 ]
-immunities: [burning,freezing,unmoving,slow,wet,muddy,melting,sapped,electrified,sporeSlowed,tarred,shielded,shocked,blasted,corroded,disarmed]
+immunities: [burning,freezing,unmoving,slow,wet,muddy,melting,sapped,electrified,spore-slowed,tarred,shielded,shocked,blasted,corroded,disarmed]
