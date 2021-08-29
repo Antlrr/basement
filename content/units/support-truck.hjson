@@ -1,5 +1,6 @@
 type: mech
-health: 150
+health: 500
+armor: 4
 hitSize: 4
 commandLimit: 6
 speed: 1
