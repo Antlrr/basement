@@ -19,7 +19,7 @@ weapons: [
    top: true
    mirror: true
    x: 3
-   y: 0.25
+   y: 0.75
    recoil: 1
    reload: 5
    inaccuracy: 10f
