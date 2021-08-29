@@ -22,7 +22,7 @@ weapons: [
       inaccuracy: 4
       shotDelay: 6.50
       x: 3
-      y: -3
+      y: -3.50
       reload: 9
       recoil: 1
       targetInterval: 10
@@ -40,7 +40,7 @@ weapons: [
    name: repair-mount
    type: RepairBeamWeapon
    x: 3
-   y: -8.75
+   y: -9.50
    shootY: 6
    beamWidth: 0.8
    mirror: true
