@@ -8,7 +8,9 @@ accel: 0.4
 drag: 0.14
 controller: GroundAI
 lightRadius: 30
-lightColor: 8cc7f5
+lightColor: ffffff
+rotateShooting: false
+lowAltitude: true
 weapons: [
    {
    name: plasma-mount-weapon
