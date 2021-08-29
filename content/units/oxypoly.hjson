@@ -1,0 +1,46 @@
+type: naval
+flying: false
+canBoost: true
+commandLimit: 3
+health: 560
+speed: 0.83
+accel: 0.4
+drag: 0.14
+controller: GroundAI
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: plasma-mount-weapon
+   rotate: true
+   rotateSpeed: 5
+   top: true
+   mirror: true
+   x: 0.25
+   y: 3
+   recoil: 1
+   reload: 5
+   inaccuracy: 10f
+   ejectEffect: casing
+   shootSound: flame
+   shootCone: 30
+   bullet: {
+   type: BulletType
+   healPercent: 1.5
+   collidesTeam: true
+   ammoMultiplier: 3
+   hitSize: 7
+   lifetime: 18
+   pierce: true
+   collidesAir: true
+   statusDuration: 240
+    hitEffect: hitFlamePlasma
+    ejectEffect: none
+    despawnEffect: none
+    status: burning
+    keepVelocity: false
+    hittable: false
+    }
+  }
+]
+immunities: [burning,freezing,unmoving,slow,wet,muddy,melting,sapped,electrified,sporeSlowed,tarred,shielded,shocked,blasted,corroded,disarmed]
