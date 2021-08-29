@@ -5,6 +5,7 @@ commandLimit: 6
 speed: 1
 accel: 0.1
 drag: 0.02
+hitSize:48
 controller: DefenderAI
 rotateShooting: false
 lightRadius: 30
