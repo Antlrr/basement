@@ -1,5 +1,5 @@
 type: payload
-controller: flyingAI
+controller: FlyingAI
 mineTier: 3
 mineSpeed: 4
 health: 460
