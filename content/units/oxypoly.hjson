@@ -16,8 +16,8 @@ weapons: [
    rotateSpeed: 5
    top: true
    mirror: true
-   x: 0.25
-   y: 3
+   x: 3
+   y: 0.25
    recoil: 1
    reload: 5
    inaccuracy: 10f
@@ -25,21 +25,21 @@ weapons: [
    shootSound: flame
    shootCone: 30
    bullet: {
-   type: BulletType
-   healPercent: 1.5
-   collidesTeam: true
-   ammoMultiplier: 3
-   hitSize: 7
-   lifetime: 18
-   pierce: true
-   collidesAir: true
-   statusDuration: 240
-    hitEffect: hitFlamePlasma
-    ejectEffect: none
-    despawnEffect: none
-    status: burning
-    keepVelocity: false
-    hittable: false
+      type: BulletType
+      healPercent: 1.5
+      collidesTeam: true
+      ammoMultiplier: 3
+      hitSize: 7
+      lifetime: 18
+      pierce: true
+      collidesAir: true
+      statusDuration: 240
+      hitEffect: hitFlamePlasma
+      ejectEffect: none
+      despawnEffect: none
+      status: burning
+      keepVelocity: false
+      hittable: false
     }
   }
 ]
