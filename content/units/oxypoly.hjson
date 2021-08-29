@@ -36,7 +36,7 @@ weapons: [
       pierce: true
       collidesAir: true
       statusDuration: 240
-      hitEffect: hitFlamePlasma
+      hitEffect: hitFlameSmall
       shootEffect: shootSmallFlame
       ejectEffect: none
       despawnEffect: none
