@@ -1,0 +1,37 @@
+type: flying
+flying: false
+canBoost: true
+commandLimit: 8
+health: 560
+speed: 1
+accel: 0.4
+drag: 0.14
+controller: GroundAI
+lightRadius: 30
+lightColor: ffffff
+rotateShooting: false
+lowAltitude: true
+weapons: [
+   {
+   rotate: false
+   top: false
+   mirror: false
+   x: 0
+   y: 3
+   recoil: 1
+   reload: 5
+   bullet: {
+      type: ElectricBulletType
+      healPercent: 1.5
+      collidesTeam: false
+      ammoMultiplier: 3
+      lifetime: 18
+      pierce: true
+      collidesAir: true
+      statusDuration: 240
+      status: electrified
+      keepVelocity: false
+      hittable: false
+    }
+  }
+]
