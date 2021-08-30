@@ -31,6 +31,7 @@ weapons: [
       statusDuration: 240
       status: shocked
       length: 10
+      serrations: 0
       keepVelocity: false
       hittable: false
       recoil: -10
