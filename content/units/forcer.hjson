@@ -20,6 +20,8 @@ weapons: [
    y: 3
    recoil: 1
    reload: 5
+   shots: 2
+   shootSound: spark
    bullet: {
       type: LightningBulletType
       healPercent: 1.5
