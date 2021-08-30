@@ -2,6 +2,7 @@ type: mech
 canBoost: false
 commandLimit: 8
 health: 560
+armor: 8
 speed: 1
 accel: 0.4
 drag: 0.14
@@ -30,7 +31,7 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       status: shocked
-      length: 10
+      length: 12
       serrations: 0
       keepVelocity: false
       hittable: false
