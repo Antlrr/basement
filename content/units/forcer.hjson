@@ -21,9 +21,9 @@ weapons: [
    recoil: 1
    reload: 5
    shots: 2
-   shootSound: shootBig
+   shootSound: shotgun
    bullet: {
-      type: ShrapnellBulletType
+      type: ShrapnelBulletType
       healPercent: 1.5
       collidesTeam: false
       damage: 24
