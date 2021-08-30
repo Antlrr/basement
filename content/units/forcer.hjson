@@ -10,7 +10,7 @@ controller: GroundAI
 lightRadius: 30
 lightColor: ffffff
 rotateShooting: true
-rotatSpeed: 5
+rotateSpeed: 5
 weapons: [
    {
    rotate: false
@@ -32,7 +32,7 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       status: shocked
-      length: 12
+      length: 18
       serrations: 0
       keepVelocity: false
       hittable: false
