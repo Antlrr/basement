@@ -1,15 +1,15 @@
 type: flying
-flying: false
+flying: true
 canBoost: true
 commandLimit: 8
 health: 560
 speed: 1
 accel: 0.4
 drag: 0.14
-controller: GroundAI
+controller: FlyingAI
 lightRadius: 30
 lightColor: ffffff
-rotateShooting: false
+rotateShooting: true
 lowAltitude: true
 weapons: [
    {
@@ -24,12 +24,11 @@ weapons: [
       type: LightningBulletType
       healPercent: 1.5
       collidesTeam: false
-      ammoMultiplier: 3
       lifetime: 18
       pierce: true
       collidesAir: true
       statusDuration: 240
-      status: electrified
+      status: shocked
       keepVelocity: false
       hittable: false
       recoil: -10
