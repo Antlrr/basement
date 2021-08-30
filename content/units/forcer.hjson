@@ -10,6 +10,7 @@ controller: GroundAI
 lightRadius: 30
 lightColor: ffffff
 rotateShooting: true
+rotatSpeed: 5
 weapons: [
    {
    rotate: false
