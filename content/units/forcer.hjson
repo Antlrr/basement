@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 5
    bullet: {
-      type: ElectricBulletType
+      type: LightningBulletType
       healPercent: 1.5
       collidesTeam: false
       ammoMultiplier: 3
@@ -32,6 +32,7 @@ weapons: [
       status: electrified
       keepVelocity: false
       hittable: false
+      recoil: -10
     }
   }
 ]
