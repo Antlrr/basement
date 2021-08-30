@@ -30,6 +30,7 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       status: shocked
+      length: 10
       keepVelocity: false
       hittable: false
       recoil: -10
