@@ -32,7 +32,7 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       status: shocked
-      length: 26
+      length: 34
       serrations: 0
       keepVelocity: false
       hittable: false
