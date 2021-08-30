@@ -21,11 +21,12 @@ weapons: [
    recoil: 1
    reload: 5
    shots: 2
-   shootSound: spark
+   shootSound: shootBig
    bullet: {
-      type: LightningBulletType
+      type: ShrapnellBulletType
       healPercent: 1.5
       collidesTeam: false
+      damage: 24
       lifetime: 18
       pierce: true
       collidesAir: true
