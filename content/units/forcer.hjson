@@ -1,6 +1,6 @@
-type: flying
-flying: true
-canBoost: true
+type: mech
+flying: false
+canBoost: false
 commandLimit: 8
 health: 560
 speed: 1
