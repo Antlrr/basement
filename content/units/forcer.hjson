@@ -17,7 +17,7 @@ weapons: [
    top: false
    mirror: false
    x: 0
-   y: 3
+   y: 5
    recoil: 1
    reload: 5
    shots: 2
@@ -32,7 +32,7 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       status: shocked
-      length: 34
+      length: 42
       serrations: 0
       keepVelocity: false
       hittable: false
