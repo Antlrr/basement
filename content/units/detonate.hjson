@@ -14,7 +14,7 @@ rotateSpeed: 5
 weapons: [
   {
    mirror: false
-reload: 100
+reload: 140
 shots: 4
 shotDelay: 20
 x: 0
