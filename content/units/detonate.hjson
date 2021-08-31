@@ -44,14 +44,14 @@ bullet: {
    lifetime: 500
    hitEffect: {
       type: MultiEffect
-      effects: [
+      effects: {
          {
          type: blastExplosion
          }
          {
          type: greenCloud
          }
-      ]
+      }
    }
    keepVelocity: false
    shrinkX: 0
