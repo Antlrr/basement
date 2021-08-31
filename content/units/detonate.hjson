@@ -24,7 +24,7 @@ shootY: 0
 shootSound: mineDeploy
 bullet: {
    type: BasicBulletType
-   sprite: mine-bullet
+   sprite: detonate-bullet
    width: 11
    height: 11
    shootEffect: none
@@ -33,8 +33,8 @@ bullet: {
    maxRange: 50
    ignoreRotation: true
    healPercent: 4
-   backColor: a9d8ff
-   frontColor: ffffff
+   backColor: ffffff
+   frontColor: a9d8ff
    mixColorTo: ffffff
    hitSound: spark
    shootCone: 360
