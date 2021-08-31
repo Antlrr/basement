@@ -3,14 +3,14 @@ canBoost: false
 commandLimit: 8
 health: 820
 armor: 10
-speed: 2
+speed: 0.80
 accel: 0.4
 drag: 0.14
 controller: HugAI
 lightRadius: 30
 lightColor: ffffff
 rotateShooting: true
-rotateSpeed: 10
+rotateSpeed: 5
 weapons: [
   {
    mirror: false
@@ -27,9 +27,9 @@ bullet: {
    sprite: mine-bullet
    width: 11
    height: 11
-   shootEffect: hitLancer
+   shootEffect: none
    smokeEffect: none
-   ejectEffect: none
+   ejectEffect: hitLancer
    maxRange: 50
    ignoreRotation: true
    healPercent: 4
@@ -61,7 +61,8 @@ bullet: {
    fragBullets: 8
    fragBullet: {
       type: LightningBulletType
-      lightningLength: 8
+      lightningLength: 4
+      damage: 24
          }
       }
    }
