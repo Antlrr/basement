@@ -24,7 +24,7 @@ shootY: 0
 shootSound: mineDeploy
 bullet: {
    type: BasicBulletType
-   sprite: detonate-bullet
+   sprite: detonate-bullet-back
    width: 11
    height: 11
    shootEffect: none
