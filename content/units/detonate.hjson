@@ -15,8 +15,8 @@ weapons: [
   {
    mirror: false
 reload: 80
-shots: 3
-shotDelay: 7
+shots: 1
+shotDelay: 10
 x: 0
 y: 0
 shootX: 0
@@ -27,14 +27,14 @@ bullet: {
    sprite: basement-detonate-bullet
    width: 11
    height: 11
-   shootEffect: none
+   shootEffect: hitLancer
    smokeEffect: none
-   ejectEffect: hitLancer
+   ejectEffect: none
    maxRange: 50
    ignoreRotation: true
    healPercent: 4
-   backColor: ffffff
-   frontColor: a9d8ff
+   backColor: a9d8ff
+   frontColor: ffffff
    mixColorTo: ffffff
    hitSound: spark
    shootCone: 360
