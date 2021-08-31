@@ -36,7 +36,7 @@ bullet: {
    backColor: a9d8ff
    frontColor: ffffff
    mixColorTo: ffffff
-   hitSound: plasmaboom
+   hitSound: spark
    shootCone: 360
    hitSize: 22
    collidesAir: false
@@ -61,6 +61,7 @@ bullet: {
    fragBullets: 8
    fragBullet: {
       type: LightningBulletType
+      lightningLength: 8
          }
       }
    }
