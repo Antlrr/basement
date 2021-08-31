@@ -14,9 +14,9 @@ rotateSpeed: 5
 weapons: [
   {
    mirror: false
-reload: 80
-shots: 1
-shotDelay: 10
+reload: 70.80
+shots: 4
+shotDelay: 20
 x: 0
 y: 0
 shootX: 0
@@ -35,7 +35,7 @@ bullet: {
    healPercent: 4
    backColor: a9d8ff
    frontColor: ffffff
-   mixColorTo: ffffff
+   mixColorTo: a9d8ff
    hitSound: spark
    shootCone: 360
    hitSize: 22
