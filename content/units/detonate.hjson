@@ -27,7 +27,6 @@ bullet: {
    sprite: mine-bullet
    width: 11
    height: 11
-   layer: scorch
    shootEffect: none
    smokeEffect: none
    ejectEffect: none
