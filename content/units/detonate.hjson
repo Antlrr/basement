@@ -1,1 +1,63 @@
-
+type: mech
+canBoost: false
+commandLimit: 8
+health: 820
+armor: 10
+speed: 2
+accel: 0.4
+drag: 0.14
+controller: HugAI
+lightRadius: 30
+lightColor: ffffff
+rotateShooting: true
+rotateSpeed: 10
+weapons: [
+  {
+   mirror: false
+reload: 80
+shots: 3
+shotDelay: 7
+x: 0
+y: 0
+shootX: 0
+shootY: 0
+shootSound: mineDeploy
+bullet: {
+   type: BasicBulletType
+   sprite: mine-bullet
+   width: 11
+   height: 11
+   layer: scorch
+   shootEffect: none
+   smokeEffect: none
+   ejectEffect: none
+   maxRange: 50
+   ignoreRotation: true
+   healPercent: 4
+   backColor: f00000
+   frontColor: ffffff
+   mixColorTo: ffffff
+   hitSound: plasmaboom
+   shootCone: 360
+   hitSize: 22
+   collidesAir: false
+   lifetime: 500
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+         type: blastExplosion
+         }
+         {
+         type: greenCloud
+         }
+      ]
+   }
+   keepVelocity: false
+   shrinkX: 0
+   shrinkY: 0
+   speed: 0
+   splashDamage: 55
+   splashDamageRadius: 45
+   }
+ ]  
