@@ -50,7 +50,7 @@ bullet: {
          {
          type: WaveEffect
             sizeFrom: 0
-            sizeTo: 4
+            sizeTo: 40
             sides: -1
          }
       ]
