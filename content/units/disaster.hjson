@@ -35,7 +35,6 @@ weapons: [
          collidesTiles: true
          frontColor: a9d8ff
          backColor: a9d8ff
-         buildingDamageMultiplier: 0.5
          speed: 2.75
          lifetime: 60.80
          scaleVelocity: true
@@ -96,11 +95,11 @@ weapons: [
          fragBullets: 4
          fragBullet: {
             type: BasicBulletType
-            sprite: missle
+            sprite: missile
             lightningLength: 4
             damage: 24
-            lifetime: 80
-            speed: 2
+            lifetime: 20
+            speed: 10
             fragBullets: 4
             fragBullet: {
                type: BasicBulletType
@@ -128,30 +127,17 @@ weapons: [
                collidesAir: false
                lifetime: 500
                layer: 5
-               hitEffect: {
-                  type: MultiEffect
-                  effects: [
-                  {
-                  type: blastExplosion
-                  }
-                  {
-                  type: WaveEffect
-                  sizeFrom: 0
-                  sizeTo: 20
-                  sides: -1
-                  }
-               ]
-            }
-            keepVelocity: false
-            shrinkX: 0
-            shrinkY: 0
-            speed: 0
-            splashDamage: 55
-            splashDamageRadius: 45
-            fragBullet: {
-               type: LightningBulletType
-               lightningLength: 4
-               damage: 24
+               hitEffect: blastExplosion
+               keepVelocity: false
+               shrinkX: 0
+               shrinkY: 0
+               speed: 0
+               splashDamage: 55
+               splashDamageRadius: 45
+               fragBullet: {
+                  type: LightningBulletType
+                  lightningLength: 4
+                  damage: 24
                   }
                }
             }
