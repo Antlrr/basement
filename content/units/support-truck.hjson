@@ -1,7 +1,7 @@
 type: mech
 health: 500
 armor: 4
-hitSize: 4
+hitSize: 3
 commandLimit: 6
 speed: 1
 accel: 0.1
