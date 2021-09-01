@@ -66,11 +66,21 @@ bullet: {
    fragBullets: 8
    fragBullet: {
       type: BasicBulletType
-      sprite: basement-round
+      backColor: a9d8ff
+      frontColor: ffffff
+      sprite: missile
       shootCone: 360
-      lifetime: 20
+      lifetime: 25
       speed: 2
       damage: 24
+      fragBullets: 1
+      fragBullet: {
+         type: BasicBulletType
+         backColor: a9d8ff
+         frontColor: ffffff
+         speed: 40
+         lifetime: 20
+         knockback: 100
          }
       }
    }
