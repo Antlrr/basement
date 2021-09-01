@@ -99,6 +99,7 @@ weapons: [
       type: LightningBulletType
       lightningLength: 4
       damage: 24
+            }
          }               
       }
    }
