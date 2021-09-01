@@ -128,18 +128,7 @@ bullet: {
             sizeFrom: 25
             sizeTo: 0
             sides: -1
-                   }
-      fragBullets: 8
-      fragBullet: {
-         type: LaserBulletType
-         length: 1
-         width: 1
-         shootCone: 360
-         hitEffect: {
-            type: WaveEffect
-            sizeFrom: 25
-            sizeTo: 0
-            sides: -1
+                     }
                    }
                  }
                }
