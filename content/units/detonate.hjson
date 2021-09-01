@@ -42,7 +42,7 @@ bullet: {
    hitSize: 22
    collidesAir: false
    lifetime: 500
-   layer: 5
+   layer: 66
    hitEffect: {
       type: MultiEffect
       effects: [
