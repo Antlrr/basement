@@ -1,5 +1,5 @@
 type: flying
-controller: HugAI
+controller: FlyingAI
 mineTier: 3
 mineSpeed: 4
 health: 305
@@ -22,7 +22,6 @@ weapons: [
       x: 4
       y: 0
       shots: 2
-      shotDelay: 3
       recoil: 0.5
       shootSound: missle
       bullet: {
