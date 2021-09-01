@@ -2,6 +2,7 @@ type: mech
 canBoost: false
 commandLimit: 8
 health: 820
+hitSize: 2
 armor: 10
 speed: 0.80
 accel: 0.4
@@ -50,7 +51,7 @@ bullet: {
          {
          type: WaveEffect
             sizeFrom: 0
-            sizeTo: 40
+            sizeTo: 20
             sides: -1
          }
       ]
