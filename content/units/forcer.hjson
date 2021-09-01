@@ -39,9 +39,9 @@ weapons: [
       recoil: -7.20
       hitEffect: {
                type: ParticleEffect
-               particles: 10
+               particles: 2
                region: basement-round
-               sizeFrom: 5
+               sizeFrom: 15
                sizeTo: 0
                }
             }
