@@ -38,8 +38,12 @@ weapons: [
       hittable: false
       recoil: -7.20
       hitEffect: {
-         MultiEffect: {
-           
-    }
-  }
-]
+               type: ParticleEffect
+               particles: 10
+               region: basement-round
+               sizeFrom: 5
+               sizeTo: 0
+               }
+            }
+         }
+      ]
