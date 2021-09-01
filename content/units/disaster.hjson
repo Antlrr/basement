@@ -28,7 +28,7 @@ weapons: [
       bullet: {
          type: BasicBulletType
          bulletSprite: missle
-         hitEffect: lancerHit
+         hitEffect: hitLancer
          width: 8
          heaight: 8
          damage: 5
