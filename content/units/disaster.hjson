@@ -100,7 +100,7 @@ weapons: [
             damage: 24
             lifetime: 20
             speed: 10
-            fragBullets: 1
+            fragBullets: 2
             fragBullet: {
                type: BasicBulletType
                sprite: basement-detonate-bullet
