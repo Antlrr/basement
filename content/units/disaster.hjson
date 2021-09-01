@@ -11,3 +11,63 @@ lowAltitude: true
 flying: true
 rotateShooting: false
 buildSpeed: 2.6
+weapons: [
+   {
+      name: basic-weapon-mount
+      top: true
+      mirror: true
+      rotate: true
+      alternate: true
+      reload: 120
+      x: 4
+      y: 0
+      shots: 2
+      shotDelay: 3
+      recoil: 0.5
+      shootSound: missle
+      bullet: {
+         type: BasicBulletType
+         bulletSprite: missle
+         hitEffect: lancerHit
+         width: 8
+         heaight: 8
+         damage: 5
+         collidesTiles: true
+         frontColor: ffffff
+         backColor: ffffff
+         buildingDamageMultiplier: 0.5
+         speed: 2.75
+         lifetime: 105
+         scaleVelocity: true
+         trailMult: 1
+         trailSize: 4
+         trailColor: ffffff
+         trailChance: 0.2
+         splashDamageRadius: 56
+         splashDamage: 20
+         homingPower: 0.07
+         fragBullets: 2
+         fragLifeMin: 0.3
+         fragBullet: {
+            type: BasicBulletType
+            bulletSprite: basement-detonate-bullet
+            hitEffect: explosion
+            damage: 2
+            lifetime: 90
+            speed: 2.3
+            collidesTiles: false
+            frontColor: ff6666
+            backColor: cf5367
+            buildingDamageMultiplier: 0.5
+            trailEffect: artilleryTrail
+            trailMult: 1
+            trailSize: 4
+            trailColor: cf5367
+            trailInterp: slope
+            trailChance: 0.2
+            splashDamageRadius: 32
+            splashDamage: 5
+         }               
+      }
+   }
+]
