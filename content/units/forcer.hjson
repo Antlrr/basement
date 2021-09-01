@@ -37,6 +37,9 @@ weapons: [
       keepVelocity: false
       hittable: false
       recoil: -7.20
+      hitEffect: {
+         MultiEffect: {
+           
     }
   }
 ]
