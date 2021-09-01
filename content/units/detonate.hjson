@@ -67,3 +67,23 @@ bullet: {
       }
    }
 ]
+abilities: [
+ {
+  type: MoveLightningAbility
+  damage: 11
+  status: shock
+  statusDuration: 170
+  shootEffect: {
+      type: ParticleEffect
+      layer: 99
+      particles: 1
+      sizeFrom: 6
+      sizeTo: 6
+      length: 0.01
+      lifetime: 15
+      region: basement-round
+      colorFrom: ffffff
+      colorTo: a9d8ff
+    }
+  }
+]
