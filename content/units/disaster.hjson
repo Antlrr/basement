@@ -33,11 +33,11 @@ weapons: [
          heaight: 8
          damage: 5
          collidesTiles: true
-         frontColor: ffffff
-         backColor: ffffff
+         frontColor: a9d8ff
+         backColor: a9d8ff
          buildingDamageMultiplier: 0.5
          speed: 2.75
-         lifetime: 105
+         lifetime: 60.80
          scaleVelocity: true
          trailMult: 1
          trailSize: 4
@@ -84,21 +84,72 @@ weapons: [
                type: WaveEffect
                sizeFrom: 0
                sizeTo: 20
-              sides: -1
+               sides: -1
+               }
+            ]
          }
-      ]
-   }
-   keepVelocity: false
-   shrinkX: 0
-   shrinkY: 0
-   speed: 0
-   splashDamage: 55
-   splashDamageRadius: 45
-   fragBullets: 8
-   fragBullet: {
-      type: LightningBulletType
-      lightningLength: 4
-      damage: 24
+         keepVelocity: false
+         shrinkX: 0
+         shrinkY: 0
+         speed: 0
+         splashDamage: 55
+         splashDamageRadius: 45
+         fragBullets: 4
+         fragBullet: {
+            type: BasicBulletType
+            sprite: missle
+            lightningLength: 4
+            damage: 24
+            lifetime: 80
+            speed: 2
+            fragBullets: 4
+            fragBullet: {
+               type: BasicBulletType
+            sprite: basement-detonate-bullet
+            width: 11
+            height: 11
+            shootEffect: hitLancer
+            smokeEffect: none 
+            ejectEffect: none
+            maxRange: 5
+            trailEffect: artilleryTrail
+            trailMult: 1
+            trailSize: 4
+            trailColor: ffffff
+            trailInterp: slope
+            trailChance: 0.2
+            ignoreRotation: true
+            healPercent: 4
+            backColor: a9d8ff
+            frontColor: ffffff
+            mixColorTo: a9d8ff
+            hitSound: spark
+            shootCone: 360
+            hitSize: 22
+            collidesAir: false
+            lifetime: 500
+            layer: 5
+            hitEffect: {
+               type: MultiEffect
+               effects: [
+               {
+               type: blastExplosion
+               }
+               {
+               type: WaveEffect
+               sizeFrom: 0
+               sizeTo: 20
+               sides: -1
+               }
+            ]
+         }
+         keepVelocity: false
+         shrinkX: 0
+         shrinkY: 0
+         speed: 0
+         splashDamage: 55
+         splashDamageRadius: 45
+               }
             }
          }               
       }
