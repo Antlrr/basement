@@ -83,6 +83,13 @@ weapons: [
                sizeTo: 30
                sides: -1
                }
+               {
+               type: ParticleEffect
+               sizeFrom: 15
+               sizeTo: 0
+               region: basement-diamond
+               particles: 4
+               }
             ]
          }
          keepVelocity: false
