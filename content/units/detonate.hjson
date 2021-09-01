@@ -80,7 +80,7 @@ bullet: {
          frontColor: ffffff
          speed: 40
          lifetime: 20
-         knockback: 100
+         knockback: 50
             }
          }
       }
