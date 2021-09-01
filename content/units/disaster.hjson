@@ -27,10 +27,10 @@ weapons: [
       shootSound: missle
       bullet: {
          type: BasicBulletType
-         bulletSprite: missle
+         bulletSprite: missile
          hitEffect: hitLancer
          width: 8
-         heaight: 8
+         height: 8
          damage: 5
          collidesTiles: true
          frontColor: a9d8ff
@@ -68,7 +68,6 @@ weapons: [
             backColor: a9d8ff
             frontColor: ffffff
             mixColorTo: a9d8ff
-            hitSound: spark
             shootCone: 360
             hitSize: 22
             collidesAir: false
@@ -83,7 +82,7 @@ weapons: [
                {
                type: WaveEffect
                sizeFrom: 0
-               sizeTo: 20
+               sizeTo: 30
                sides: -1
                }
             ]
@@ -105,50 +104,55 @@ weapons: [
             fragBullets: 4
             fragBullet: {
                type: BasicBulletType
-            sprite: basement-detonate-bullet
-            width: 11
-            height: 11
-            shootEffect: hitLancer
-            smokeEffect: none 
-            ejectEffect: none
-            maxRange: 5
-            trailEffect: artilleryTrail
-            trailMult: 1
-            trailSize: 4
-            trailColor: ffffff
-            trailInterp: slope
-            trailChance: 0.2
-            ignoreRotation: true
-            healPercent: 4
-            backColor: a9d8ff
-            frontColor: ffffff
-            mixColorTo: a9d8ff
-            hitSound: spark
-            shootCone: 360
-            hitSize: 22
-            collidesAir: false
-            lifetime: 500
-            layer: 5
-            hitEffect: {
-               type: MultiEffect
-               effects: [
-               {
-               type: blastExplosion
-               }
-               {
-               type: WaveEffect
-               sizeFrom: 0
-               sizeTo: 20
-               sides: -1
-               }
-            ]
-         }
-         keepVelocity: false
-         shrinkX: 0
-         shrinkY: 0
-         speed: 0
-         splashDamage: 55
-         splashDamageRadius: 45
+               sprite: basement-detonate-bullet
+               width: 11
+               height: 11
+               shootEffect: hitLancer
+               smokeEffect: none 
+               ejectEffect: none
+               maxRange: 5
+               trailEffect: artilleryTrail
+               trailMult: 1
+               trailSize: 4
+               trailColor: ffffff
+               trailInterp: slope
+               trailChance: 0.2
+               ignoreRotation: true
+               healPercent: 4
+               backColor: a9d8ff
+               frontColor: ffffff
+               mixColorTo: a9d8ff
+               hitSound: spark
+               shootCone: 360
+               hitSize: 22
+               collidesAir: false
+               lifetime: 500
+               layer: 5
+               hitEffect: {
+                  type: MultiEffect
+                  effects: [
+                  {
+                  type: blastExplosion
+                  }
+                  {
+                  type: WaveEffect
+                  sizeFrom: 0
+                  sizeTo: 20
+                  sides: -1
+                  }
+               ]
+            }
+            keepVelocity: false
+            shrinkX: 0
+            shrinkY: 0
+            speed: 0
+            splashDamage: 55
+            splashDamageRadius: 45
+            fragBullet: {
+               type: LightningBulletType
+               lightningLength: 4
+               damage: 24
+                  }
                }
             }
          }               
