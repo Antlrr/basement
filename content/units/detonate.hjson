@@ -128,7 +128,6 @@ bullet: {
             sizeFrom: 25
             sizeTo: 0
             sides: -1
-                   }
                  }
                }
             }
