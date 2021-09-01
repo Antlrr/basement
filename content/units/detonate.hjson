@@ -47,7 +47,11 @@ bullet: {
       type: MultiEffect
       effects: [
          {
-         type: blastExplosion
+         type: ParticleEffect
+         particles: 2
+         region: basement-round
+         sizeFrom: 5
+         sizeTo: 0
          }
          {
          type: WaveEffect
