@@ -85,7 +85,7 @@ weapons: [
                }
                {
                type: ParticleEffect
-               sizeFrom: 15
+               sizeFrom: 4
                sizeTo: 0
                region: basement-diamond
                particles: 4
