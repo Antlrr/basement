@@ -95,10 +95,10 @@ weapons: [
          fragBullets: 4
          fragBullet: {
             type: BasicBulletType
-            sprite: missile
-            lightningLength: 4
+            sprite: basement-detonate-bullet
+            backColor: a9d8ff
             damage: 24
-            lifetime: 20
+            lifetime: 10
             speed: 10
             fragBullets: 2
             fragBullet: {
