@@ -41,7 +41,7 @@ bullet: {
    shootCone: 360
    hitSize: 22
    collidesAir: false
-   lifetime: 500
+   lifetime: 200
    layer: 66
    hitEffect: {
       type: MultiEffect
