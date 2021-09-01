@@ -117,21 +117,25 @@ bullet: {
    splashDamageRadius: 45
    fragBullets: 8
    fragBullet: {
-      type: BasicBulletType
-      backColor: a9d8ff
-      frontColor: ffffff
-      sprite: missile
+      type: LightningBulletType
+      lightningColor: a9d8ff
       shootCone: 360
-      lifetime: 99999999
+      lightningLength: 8
       speed: 2
-      damage: 0
+      damage: 10
+      shootEffect: {
+            type: WaveEffect
+            sizeFrom: 25
+            sizeTo: 0
+            sides: -1
+                   }
       fragBullets: 90
       fragBullet: {
          type: LaserBulletType
          length: 1
          width: 1
          shootCone: 360
-         shootEffect: {
+         hitEffect: {
             type: WaveEffect
             sizeFrom: 25
             sizeTo: 0
