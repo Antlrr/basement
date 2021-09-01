@@ -129,7 +129,7 @@ bullet: {
             sizeTo: 0
             sides: -1
                    }
-      fragBullets: 90
+      fragBullets: 8
       fragBullet: {
          type: LaserBulletType
          length: 1
