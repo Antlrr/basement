@@ -100,7 +100,7 @@ weapons: [
             damage: 24
             lifetime: 20
             speed: 10
-            fragBullets: 4
+            fragBullets: 1
             fragBullet: {
                type: BasicBulletType
                sprite: basement-detonate-bullet
@@ -133,7 +133,8 @@ weapons: [
                shrinkY: 0
                speed: 0
                splashDamage: 55
-               splashDamageRadius: 45
+               splashDamageRadius: 48
+               fragBullets: 4
                fragBullet: {
                   type: LightningBulletType
                   lightningLength: 4
