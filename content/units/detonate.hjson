@@ -81,6 +81,7 @@ bullet: {
          speed: 40
          lifetime: 20
          knockback: 100
+            }
          }
       }
    }
