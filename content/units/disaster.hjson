@@ -19,7 +19,7 @@ weapons: [
       rotate: true
       alternate: true
       reload: 80
-      x: 4
+      x: 2
       y: 0
       shots: 2
       recoil: 0.5
