@@ -65,8 +65,11 @@ bullet: {
    splashDamageRadius: 45
    fragBullets: 8
    fragBullet: {
-      type: LightningBulletType
-      lightningLength: 4
+      type: BasicBulletType
+      sprite: basement-round
+      shootCone: 360
+      lifetime: 20
+      speed: 2
       damage: 24
          }
       }
