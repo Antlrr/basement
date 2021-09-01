@@ -18,12 +18,12 @@ weapons: [
       mirror: true
       rotate: true
       alternate: true
-      reload: 120
+      reload: 80
       x: 4
       y: 0
       shots: 2
       recoil: 0.5
-      shootSound: missle
+      shootSound: missile
       bullet: {
          type: BasicBulletType
          bulletSprite: missile
