@@ -2,7 +2,7 @@ type: mech
 canBoost: false
 commandLimit: 8
 health: 820
-hitSize: 2
+hitSize: 3
 armor: 10
 speed: 0.80
 accel: 0.4
@@ -42,7 +42,7 @@ bullet: {
    hitSize: 22
    collidesAir: false
    lifetime: 500
-   layer: 1
+   layer: 5
    hitEffect: {
       type: MultiEffect
       effects: [
