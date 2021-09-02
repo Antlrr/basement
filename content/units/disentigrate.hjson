@@ -16,7 +16,6 @@ weapons: [
    y: 0
    mirror: false
    reload: 40
-   minShootVelocity: 0.01
    soundPitchMin: 1
    shootSound: plasmaDrop
    bullet: { 
