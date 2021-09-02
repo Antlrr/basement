@@ -7,7 +7,7 @@ armor: 10
 speed: 2.5
 accel: 0.06
 drag: 0.017
-lowAltitude: false
+lowAltitude: true
 flying: true
 rotateShooting: false
 weapons: [
@@ -90,7 +90,7 @@ weapons: [
       spin: 3
       shrinkX: 0.7
       shrinkY: 0.7
-      speed: 0
+      speed: 2
       collides: false
       healPercent: 15
       splashDamage: 980
