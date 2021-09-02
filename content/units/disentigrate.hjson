@@ -20,7 +20,7 @@ weapons: [
    soundPitchMin: 1
    shootSound: plasmaDrop
    chargeSound: lasercharge2
-   firstShotDelay: {
+   chargeEffect: {
       type: MultiEffect
       effects: [
          {
