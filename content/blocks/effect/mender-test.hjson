@@ -1,16 +1,14 @@
 type: MendProjector
 size: 1
-reload: 200
-range: 40
-healPercent: 4
-phaseBoost: 4
-phaseRangeBoost: 20
-health: 80
+reload: 0
+range: 80
+healPercent: 99999999
+health: 9999999999
 requirements: [
-   copper/25
-   lead/30
+   copper/0
 ]
 consumes: {
-   power: 0.3
+   power: 0
 }
 category: effect
+buildVisibility: sandboxOnly
