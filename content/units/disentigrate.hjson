@@ -54,6 +54,15 @@ weapons: [
             colorFrom: ffffff
             colorTo: a9d8ff
          }
+         {
+            type: ParticuleEffect
+            region: basement-star-back   
+            sizeFrom: 6
+            sizeTo: 0
+            particles: 5
+            colorFrom: ffffff
+            colorTo: a9d8ff            
+         }
       ]
    }
       hitEffect: massiveExplosion
