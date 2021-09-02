@@ -22,8 +22,8 @@ weapons: [
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
-      width: 120
-      height: 120
+      width: 80
+      height: 80
       maxRange: 30
       ignoreRotation: true
       backColor: f00000
@@ -36,7 +36,16 @@ weapons: [
       collidesAir: false
       lifeTime: 70
       despawnEffect: greenBomb
-      hitEffect: massiveExplosion
+      hitEffect: {
+         type: MultiEffect
+         effects: [
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 160
+         }
+      ]
+   }
       keepVelocity: false
       spin: 2
       shrinkX: 0.7
