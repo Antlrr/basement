@@ -38,15 +38,24 @@ weapons: [
       hittable: false
       recoil: -7.20
       shootEffect: {
+         type: MultiEffect
+         effects: [
          type: WaveEffect
          sizeFrom: 0
-         sizeTo: 4
+         sizeTo: 4.50
          }
+         {
+         type: WaveEffect
+         sizeFrom: 4.50
+         sizeTo: 0
+         }
+       ]
+     }
       hitEffect: {
                type: ParticleEffect
                particles: 2
                region: basement-star
-               sizeFrom: 8
+               sizeFrom: 4
                sizeTo: 0
                }
             }
