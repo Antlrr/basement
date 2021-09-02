@@ -23,7 +23,6 @@ weapons: [
       sprite: basement-star
       width: 25
       height: 25
-      maxRange: 30
       ignoreRotation: true
       backColor: a9d8ff
       frontColor: ffffff
