@@ -26,9 +26,9 @@ weapons: [
       height: 40
       maxRange: 30
       ignoreRotation: true
-      backColor: f00000
+      backColor: a9d8ff
       frontColor: ffffff
-      mixColorTo: f00000
+      mixColorTo: a9d8ff
       hitSound: plasmaboom
       shootCone: 80
       ejectEffect: none
@@ -42,7 +42,7 @@ weapons: [
             type: WaveEffect
             sizeFrom: 0
             sizeTo: 130
-            colorFrom: f00000
+            colorFrom: a9d8ff
             colorTo: ffffff
          }
          {
@@ -52,7 +52,7 @@ weapons: [
             sizeTo: 0
             particles: 6
             colorFrom: ffffff
-            colorTo: f00000
+            colorTo: a9d8ff
          }
       ]
    }
