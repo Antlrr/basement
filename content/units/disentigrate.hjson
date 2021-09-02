@@ -1,1 +1,50 @@
-
+type: flying
+controller: FlyingAI
+mineTier: 3
+mineSpeed: 4
+health: 305
+armor: 10
+speed: 2.5
+accel: 0.06
+drag: 0.017
+lowAltitude: false
+flying: true
+rotateShooting: false
+weapons: [
+   {
+   x: 0
+y: 0
+mirror: false
+reload: 55
+minShootVelocity: 0.01
+soundPitchMin: 1
+shootSound: plasmaDrop
+bullet: { 
+   type: BasicBulletType
+   sprite: large-bomb
+   width: 120
+   height: 120
+   maxRange: 30
+   ignoreRotation: true
+   backColor: f00000
+   frontColor: ffffff
+   mixColorTo: f00000
+   hitSound: plasmaboom
+   shootCone: 80
+   ejectEffect: none
+   hitShake: 4
+   collidesAir: false
+   lifeTime: 70
+   despawnEffect: greenBomb
+   hitEffect: massiveExplosion
+   keepVelocity: false
+   spin: 2
+   shrinkX: 0.7
+   shrinkY: 0.7
+   speed: 0
+   collides: false
+   healPercent: 15
+   splashDamage: 220
+   splashDamageRadius: 80
+   }
+]
