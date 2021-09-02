@@ -40,6 +40,7 @@ weapons: [
       shootEffect: {
          type: MultiEffect
          effects: [
+         {
          type: WaveEffect
          sizeFrom: 0
          sizeTo: 4.50
