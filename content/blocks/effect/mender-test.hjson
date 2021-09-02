@@ -13,3 +13,4 @@ requirements: [
 consumes: [
    power/0.3
 ]
+category: effect
