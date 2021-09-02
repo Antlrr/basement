@@ -22,8 +22,8 @@ weapons: [
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
-      width: 40
-      height: 40
+      width: 25
+      height: 25
       maxRange: 30
       ignoreRotation: true
       backColor: a9d8ff
