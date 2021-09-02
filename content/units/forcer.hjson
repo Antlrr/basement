@@ -43,13 +43,13 @@ weapons: [
          {
          type: ParticleEffect
          sizeFrom: 0
-         sizeTo: 3
+         sizeTo: 2
          region: basement-star
          particles: 3
          }
          {
          type: ParticleEffect
-         sizeFrom: 8
+         sizeFrom: 6
          sizeTo: 0
          region: basement-round
          particles: 3
