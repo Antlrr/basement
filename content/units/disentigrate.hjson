@@ -42,7 +42,9 @@ weapons: [
          {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 160
+            sizeTo: 130
+            colorFrom: f00000
+            colorTo: ffffff
          }
       ]
    }
