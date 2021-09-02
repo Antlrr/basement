@@ -40,7 +40,7 @@ weapons: [
       hitEffect: {
                type: ParticleEffect
                particles: 2
-               region: basement-round
+               region: basement-star
                sizeFrom: 15
                sizeTo: 0
                }
