@@ -62,10 +62,30 @@ weapons: [
             particles: 5
             colorFrom: ffffff
             colorTo: a9d8ff            
-         }
-      ]
-   }
-      hitEffect: massiveExplosion
+            }
+         ]
+      }
+      hitEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 8
+            colorFrom: a9d8ff
+            colorTo: ffffff
+            }
+            {
+            type: ParticleEffect
+            region: basement-star  
+            sizeFrom: 0
+            sizeTo: 3
+            particles: 3
+            colorFrom: ffffff
+            colorTo: a9d8ff
+            }
+         ]
+      }      
       keepVelocity: false
       spin: 3
       shrinkX: 0.7
