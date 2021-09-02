@@ -1,6 +1,6 @@
 type: MendProjector
 size: 1
-reload: 0
+reload: 1
 range: 80
 healPercent: 99999999
 health: 9999999999
