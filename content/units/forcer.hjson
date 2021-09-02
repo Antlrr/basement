@@ -49,7 +49,7 @@ weapons: [
          }
          {
          type: ParticleEffect
-         sizeFrom: 3
+         sizeFrom: 8
          sizeTo: 0
          region: basement-round
          particles: 3
