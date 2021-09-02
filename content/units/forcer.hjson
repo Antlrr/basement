@@ -41,7 +41,7 @@ weapons: [
                type: ParticleEffect
                particles: 2
                region: basement-star
-               sizeFrom: 15
+               sizeFrom: 8
                sizeTo: 0
                }
             }
