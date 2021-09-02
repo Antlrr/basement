@@ -15,31 +15,10 @@ weapons: [
    x: 0
    y: 0
    mirror: false
-   reload: 55
+   reload: 40
    minShootVelocity: 0.01
    soundPitchMin: 1
    shootSound: plasmaDrop
-   shootEffect: {
-      type: MultiEffect
-      effects: [
-         {
-            type: WaveEffect
-            sizeFrom: 20
-            sizeTo: 0
-            colorFrom: ffffff
-            colorTo: a9d8ff
-         }
-         {
-            type: ParticleEffect
-            region: basement-star
-            sizeFrom: 5
-            sizeTo: 0
-            particles: 4
-            colorFrom: ffffff
-            colorTo: a9d8ff
-          }
-        ]
-      }
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
@@ -55,7 +34,7 @@ weapons: [
       ejectEffect: none
       hitShake: 4
       collidesAir: false
-      lifeTime: 70
+      lifeTime: 100
       despawnEffect: {
          type: MultiEffect
          effects: [
