@@ -37,6 +37,11 @@ weapons: [
       keepVelocity: false
       hittable: false
       recoil: -7.20
+      shootEffect: {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 4
+         }
       hitEffect: {
                type: ParticleEffect
                particles: 2
