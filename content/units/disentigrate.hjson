@@ -19,6 +19,28 @@ weapons: [
    minShootVelocity: 0.01
    soundPitchMin: 1
    shootSound: plasmaDrop
+   chargeSound: lasercharge2
+   firstShotDelay: {
+      type: MultiEffect
+      effects: [
+         {
+            type: WaveEffect
+            sizeFrom: 20
+            sizeTo: 0
+            colorFrom: ffffff
+            colorTo: a9d8ff
+         }
+         {
+            type: ParticleEffect
+            region: basement-star
+            sizeFrom: 5
+            sizeTo: 0
+            particles: 4
+            colorFrom: ffffff
+            colorTo: a9d8ff
+          }
+        ]
+      }
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
