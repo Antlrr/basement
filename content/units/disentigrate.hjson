@@ -48,8 +48,8 @@ weapons: [
          {
             type: ParticleEffect
             region: basement-star
-            sizeFrom: 0
-            sizeTo: 5
+            sizeFrom: 5
+            sizeTo: 0
             particles: 6
             colorFrom: ffffff
             colorTo: f00000
