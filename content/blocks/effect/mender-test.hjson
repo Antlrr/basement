@@ -10,7 +10,7 @@ requirements: [
    copper/25
    lead/30
 ]
-consumes: [
-   power/0.3
-]
+consumes: {
+   power: 0.3
+}
 category: effect
