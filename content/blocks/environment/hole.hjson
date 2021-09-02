@@ -1,4 +1,3 @@
 type: Floor
 itemDrop: blast-compound
 playerUnmineable: false
-hasShadow: false
