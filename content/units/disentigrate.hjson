@@ -40,8 +40,8 @@ weapons: [
          effects: [
          {
             type: WaveEffect
-            sizeFrom: 0
-            sizeTo: 130
+            sizeFrom: 130
+            sizeTo: 0
             colorFrom: a9d8ff
             colorTo: ffffff
          }
