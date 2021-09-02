@@ -35,8 +35,7 @@ weapons: [
       hitShake: 4
       collidesAir: false
       lifeTime: 70
-      despawnEffect: greenBomb
-      hitEffect: {
+      despawnEffect: {
          type: MultiEffect
          effects: [
          {
@@ -48,6 +47,7 @@ weapons: [
          }
       ]
    }
+      hitEffect: massiveExplosion
       keepVelocity: false
       spin: 2
       shrinkX: 0.7
