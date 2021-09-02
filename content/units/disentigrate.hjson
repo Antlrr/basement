@@ -67,14 +67,14 @@ weapons: [
    }
       hitEffect: massiveExplosion
       keepVelocity: false
-      spin: 2
+      spin: 3
       shrinkX: 0.7
       shrinkY: 0.7
       speed: 0
       collides: false
       healPercent: 15
-      splashDamage: 220
-      splashDamageRadius: 250
+      splashDamage: 980
+      splashDamageRadius: 160
       }
    }
 ]
