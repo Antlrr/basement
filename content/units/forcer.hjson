@@ -41,14 +41,18 @@ weapons: [
          type: MultiEffect
          effects: [
          {
-         type: WaveEffect
+         type: ParticleEffect
          sizeFrom: 0
-         sizeTo: 4.50
+         sizeTo: 3
+         region: basement-star
+         particles: 3
          }
          {
-         type: WaveEffect
-         sizeFrom: 4.50
+         type: ParticleEffect
+         sizeFrom: 3
          sizeTo: 0
+         region: basement-round
+         particles: 3
          }
        ]
      }
