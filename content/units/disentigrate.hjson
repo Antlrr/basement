@@ -99,6 +99,7 @@ weapons: [
          shootEffect: {
             type: MultiEffect
             effects: [
+               {
                type: ParticleEffect
                region: basement-round
                particles: 4
