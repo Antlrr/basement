@@ -5,6 +5,7 @@ range: 200
 recoilAmount: 3
 powerUse: 2.6
 reloadTime: 50
+shots: 4
 shootType: {
    type: BasicBulletType
    despawnEffect: {
