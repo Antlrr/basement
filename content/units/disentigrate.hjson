@@ -97,10 +97,11 @@ weapons: [
       fragBullet: {
          type: BasicBulletType
          sprite: basement-detonate-bullet
-         width: 5
+         width: 9
          height: 9
-         weaveMag: 6
-         weaveScale: 6
+         spin: 3
+         shrinkX: 0.7
+         shrinkY: 0.7
          frontColor: ffffff
          backColor: a9d8ff
          lifeTime: 80
