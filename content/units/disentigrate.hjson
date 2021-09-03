@@ -141,7 +141,7 @@ weapons: [
                shootCone: 360
                hitSize: 22
                collidesAir: false
-               lifetime: 5
+               lifetime: 500
                hitEffect: {
                   type: MultiEffect
                   effects: [
