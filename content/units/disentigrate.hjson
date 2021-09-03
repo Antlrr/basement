@@ -95,7 +95,10 @@ weapons: [
       splashDamageRadius: 130
       fragBullets: 4
       fragBullet: {
-         type: FireBulletType
+         type: BasicBulletType
+         sprite: basement-round
+         width: 18
+         height: 18
          shootEffect: {
             type: MultiEffect
             effects: [
