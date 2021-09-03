@@ -100,12 +100,12 @@ weapons: [
          width: 12
          height: 12
          spin: 3
-         shrinkX: 0.7
-         shrinkY: 0.7
+         shrinkX: 0.1
+         shrinkY: 0.1
          frontColor: ffffff
          backColor: a9d8ff
          lifeTime: 80
-         shootEffect: {
+         hitEffect: {
             type: MultiEffect
             effects: [
                {
