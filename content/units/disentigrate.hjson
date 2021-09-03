@@ -124,7 +124,46 @@ weapons: [
                ]
             }
             fragBullets: 1
-            fragBullet:
+            fragBullet: {
+               type: BasicBulletType
+               sprite: mine-bullet
+               width: 11
+               height: 11
+               shootEffect: hitLancer
+               smokeEffect: none
+               ejectEffect: none
+               maxRange: 50
+               ignoreRotation: true
+               healPercent: 4
+               backColor: a9d8ff
+               frontColor: ffffff
+               mixColorTo: a9d8ff
+               shootCone: 360
+               hitSize: 22
+               collidesAir: false
+               lifetime: 5
+               hitEffect: {
+                  type: MultiEffect
+                  effects: [
+                     {
+                        type: blastExplosion
+                     }
+                     {
+                        type: WaveEffect
+                        sizeFrom: 20
+                        sizeTo: 0
+                        sides: -1
+                     }
+                  ]
+               }
+               keepVelocity: false
+               shrinkX: 0
+               shrinkY: 0
+               speed: 0
+               splashDamage: 55
+               splashDamageRadius: 45
+               }
+            }
          }
       }
    }
