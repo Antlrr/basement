@@ -119,7 +119,7 @@ weapons: [
                {
                   type: WaveEffect
                   sizeFrom: 0
-                  sizeTo: 2
+                  sizeTo: 5
                   }
                ]
             }
