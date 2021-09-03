@@ -53,7 +53,7 @@ weapons: [
             colorTo: a9d8ff
          }
          {
-            type: ParticuleEffect
+            type: ParticleEffect
             region: basement-star-back   
             sizeFrom: 6
             sizeTo: 0
@@ -106,6 +106,13 @@ weapons: [
          backColor: a9d8ff
          lifeTime: 130
          homingPower: 0.02
+         trailEffect: {
+            type: ParticleEffect
+            particles: 4
+            region: basement-diamond
+            sizeFrom: 3
+            sizeTo: 0
+            }
          despawnEffect: {
             type: MultiEffect
             effects: [
@@ -126,7 +133,7 @@ weapons: [
             fragBullets: 1
             fragBullet: {
                type: BasicBulletType
-               sprite: mine-bullet
+               sprite: basement-detonate-bullet
                width: 11
                height: 11
                shootEffect: hitLancer
