@@ -96,14 +96,14 @@ weapons: [
       fragBullets: 4
       fragBullet: {
          type: BasicBulletType
-         sprite: detonate-bullet
+         sprite: basement-detonate-bullet
          width: 5
          height: 9
          weaveMag: 6
          weaveScale: 6
          frontColor: ffffff
          backColor: a9d8ff
-         lifeTime: 40
+         lifeTime: 80
          shootEffect: {
             type: MultiEffect
             effects: [
