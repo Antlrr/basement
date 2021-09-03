@@ -123,6 +123,8 @@ weapons: [
                   }
                ]
             }
+            fragBullets: 1
+            fragBullet:
          }
       }
    }
