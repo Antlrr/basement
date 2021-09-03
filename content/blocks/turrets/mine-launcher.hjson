@@ -2,12 +2,15 @@ type: PowerTurret
 health: 720
 size: 2
 range: 200
-recoilAmount: 3
+recoilAmount: 1
 powerUse: 2.6
 reloadTime: 50
-shots: 4
 shootType: {
    type: BasicBulletType
+   sprite: basement-detonate-bullet
+   backColor: 665c9f
+   frontColor: bf92f9
+   spin: 3
    despawnEffect: {
       type: WaveEffect
       sizeFrom: 0
@@ -16,7 +19,11 @@ shootType: {
    damage: 200
    speed: 2
    lifetime: 80
+   fragBullets: 1
+   fragBullet: {
+      type: BasicBulletType
    }
+}
 requirements: [
   silicon/120
   copper/180
