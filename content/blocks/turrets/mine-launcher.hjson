@@ -8,6 +8,8 @@ reloadTime: 50
 shootType: {
    type: BasicBulletType
    sprite: basement-detonate-bullet
+   shrinkX: 0
+   shrinkY: 0
    backColor: 665c9f
    frontColor: bf92f9
    spin: 3
