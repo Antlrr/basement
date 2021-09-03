@@ -105,7 +105,7 @@ weapons: [
          frontColor: ffffff
          backColor: a9d8ff
          lifeTime: 130
-         shootCone: 360
+         homingPower: 0.02
          despawnEffect: {
             type: MultiEffect
             effects: [
@@ -113,9 +113,14 @@ weapons: [
                   type: ParticleEffect
                   region: basement-diamond
                   particles: 4
+                  sizeFrom: 2
+                  sizeTo: 0
+               }
+               {
+                  type: WaveEffect
                   sizeFrom: 0
-                  sizeTo: 5
-                 }
+                  sizeTo: 2
+                  }
                ]
             }
          }
