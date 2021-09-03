@@ -14,7 +14,7 @@ rotateShooting: true
 rotateSpeed: 5
 weapons: [
   {
-   mirror: false
+mirror: false
 reload: 140
 shots: 4
 shotDelay: 20
@@ -23,6 +23,17 @@ y: 0
 shootX: 0
 shootY: 0
 shootSound: mineDeploy
+shootEffect: {
+   type: ParticleEffect
+   length: 0.01
+   lifeTime: 30
+   particles: 1
+   cone: 0
+   region: basement-round
+   colorFrom: f00000
+   sizeFrom: 35
+   sizeTo: 35
+   }
 bullet: {
    type: BasicBulletType
    sprite: basement-detonate-bullet
