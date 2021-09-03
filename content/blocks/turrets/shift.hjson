@@ -1,22 +1,21 @@
 type: PowerTurret
-description: laser
 health: 720
 size: 2
 range: 200
 recoilAmount: 3
 powerUse: 2.6
-reloadTime: 100
-chargeTime: 40
-chargeMaxDelay: 20
+reloadTime: 50
 shootType: {
-  type: laserBulletType
-  damage: 200
-  length: 170
-  }
-  requirements: [
-     silicon/120
-     titanium/100
-     plastanium/50
-     copper/120
-     ]
+   type: BasicBulletType
+   despawnEffect: {
+      type: WaveEffect
+      sizeFrom: 0
+      sizeTo: 6
+   }
+   damage: 200
+   }
+requirements: [
+  silicon/120
+  copper/180
+  ]
 category: turret
