@@ -105,7 +105,8 @@ weapons: [
                particles: 4
                sizeFrom: 0
                sizeTo: 5
-               }
+                 }
+               ]
             }
          }
       }
