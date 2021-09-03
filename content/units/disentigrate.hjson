@@ -20,6 +20,7 @@ weapons: [
    shootSound: plasmaDrop
    shootCone: 360
    shots: 4
+   shotDelay: 5
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
