@@ -13,6 +13,8 @@ shootType: {
       sizeTo: 6
    }
    damage: 200
+   speed: 2
+   lifetime: 80
    }
 requirements: [
   silicon/120
