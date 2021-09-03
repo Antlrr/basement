@@ -10,6 +10,7 @@ drag: 0.017
 lowAltitude: false
 flying: true
 rotateShooting: true
+circleTarget: true
 weapons: [
    {
    x: 0
