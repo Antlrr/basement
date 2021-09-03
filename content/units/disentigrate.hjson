@@ -97,7 +97,7 @@ weapons: [
       fragBullet: {
          type: BasicBulletType
          sprite: missile
-         width: 9
+         width: 5
          height: 9
          weaveMag: -2
          weaveScale: 2
