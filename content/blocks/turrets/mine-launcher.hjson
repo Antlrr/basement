@@ -77,7 +77,7 @@ shootType: {
       shootCone: 360
       lightningLength: 8
       speed: 2
-      damage: 10
+      damage: 120
       }
    }
 }
