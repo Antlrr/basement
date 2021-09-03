@@ -18,9 +18,6 @@ weapons: [
    reload: 40
    soundPitchMin: 1
    shootSound: plasmaDrop
-   shootCone: 360
-   shots: 4
-   shotDelay: 5
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
@@ -98,4 +95,89 @@ weapons: [
       splashDamageRadius: 130
       }
    }
+   {
+   x: 0
+   y: 0
+   mirror: false
+   reload: 40
+   soundPitchMin: 1
+   shootSound: plasmaDrop
+   bullet: {
+      type: BasicBulletType
+      sprite: basement-star
+      width: 25
+      height: 25
+      ignoreRotation: true
+      backColor: a9d8ff
+      frontColor: ffffff
+      mixColorTo: a9d8ff
+      hitSound: plasmaboom
+      shootCone: 80
+      ejectEffect: none
+      hitShake: 4
+      collidesAir: false
+      lifeTime: 100
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+         {
+            type: WaveEffect
+            sizeFrom: 130
+            sizeTo: 0
+            colorFrom: a9d8ff
+            colorTo: ffffff
+         }
+         {
+            type: ParticleEffect
+            region: basement-star
+            sizeFrom: 5
+            sizeTo: 0
+            particles: 6
+            colorFrom: ffffff
+            colorTo: a9d8ff
+         }
+         {
+            type: ParticuleEffect
+            region: basement-star-back   
+            sizeFrom: 6
+            sizeTo: 0
+            particles: 5
+            colorFrom: ffffff
+            colorTo: a9d8ff            
+            }
+         ]
+      }
+      hitEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 10
+            colorFrom: a9d8ff
+            colorTo: ffffff
+            }
+            {
+            type: ParticleEffect
+            region: basement-star  
+            sizeFrom: 0
+            sizeTo: 3
+            particles: 3
+            colorFrom: ffffff
+            colorTo: a9d8ff
+            }
+         ]
+      }      
+      keepVelocity: false
+      spin: 3
+      shrinkX: 0.7
+      shrinkY: 0.7
+      speed: -2
+      collides: false
+      healPercent: 15
+      splashDamage: 980
+      splashDamageRadius: 130
+      }
+   }
 ]
+
