@@ -99,11 +99,8 @@ weapons: [
          sprite: missile
          width: 9
          height: 9
-         shrinkX: 0.4
-         shrinkY: 0.4
-         spin: 4
          weaveMag: -2
-         weaveScale: 1
+         weaveScale: 2
          shootEffect: {
             type: MultiEffect
             effects: [
