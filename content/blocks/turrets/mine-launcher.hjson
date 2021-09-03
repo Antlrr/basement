@@ -11,6 +11,8 @@ shootType: {
    backColor: 665c9f
    frontColor: bf92f9
    spin: 3
+   width: 11
+   height: 11
    despawnEffect: {
       type: WaveEffect
       sizeFrom: 0
@@ -38,7 +40,6 @@ shootType: {
       hitSize: 22
       collidesAir: false
       lifetime: 200
-      layer: 66
       hitEffect: {
       type: MultiEffect
       effects: [
@@ -67,6 +68,10 @@ shootType: {
    speed: 0
    splashDamage: 55
    splashDamageRadius: 45
+   fragBullets: 4
+   fragBullet: {
+      type: LightningBulletType
+      lightningColor: bf92f9
    }
 }
 requirements: [
