@@ -67,7 +67,6 @@ shootType: {
    speed: 0
    splashDamage: 55
    splashDamageRadius: 45
-      }
    }
 }
 requirements: [
