@@ -76,6 +76,7 @@ shootType: {
       lightningLength: 8
       speed: 2
       damage: 10
+      }
    }
 }
 requirements: [
