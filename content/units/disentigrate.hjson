@@ -96,11 +96,11 @@ weapons: [
       fragBullets: 4
       fragBullet: {
          type: BasicBulletType
-         sprite: basement-detonate-bullet-back
-         width: 10
-         height: 10
-         shrinkX: 0.7
-         shrinkY: 0.7
+         sprite: basement-diamond
+         width: 9
+         height: 9
+         shrinkX: 0.4
+         shrinkY: 0.4
          spin: 4
          shootEffect: {
             type: MultiEffect
