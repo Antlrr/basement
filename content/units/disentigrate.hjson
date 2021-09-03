@@ -104,16 +104,17 @@ weapons: [
          shrinkY: 0.1
          frontColor: ffffff
          backColor: a9d8ff
-         lifeTime: 80
+         lifeTime: 130
+         shootCone: 360
          hitEffect: {
             type: MultiEffect
             effects: [
                {
-               type: ParticleEffect
-               region: basement-diamond
-               particles: 4
-               sizeFrom: 0
-               sizeTo: 5
+                  type: ParticleEffect
+                  region: basement-diamond
+                  particles: 4
+                  sizeFrom: 0
+                  sizeTo: 5
                  }
                ]
             }
