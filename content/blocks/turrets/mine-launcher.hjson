@@ -72,6 +72,10 @@ shootType: {
    fragBullet: {
       type: LightningBulletType
       lightningColor: bf92f9
+      shootCone: 360
+      lightningLength: 8
+      speed: 2
+      damage: 10
    }
 }
 requirements: [
