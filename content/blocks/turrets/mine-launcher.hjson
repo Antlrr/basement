@@ -20,7 +20,7 @@ shootType: {
       sizeFrom: 0
       sizeTo: 6
    }
-   damage: 200
+   damage: 40
    speed: 2
    lifetime: 80
    fragBullets: 1
@@ -68,7 +68,7 @@ shootType: {
    shrinkX: 0
    shrinkY: 0
    speed: 0
-   splashDamage: 55
+   splashDamage: 250
    splashDamageRadius: 45
    fragBullets: 4
    fragBullet: {
