@@ -22,6 +22,52 @@ shootType: {
    fragBullets: 1
    fragBullet: {
       type: BasicBulletType
+      sprite: basement-detonate-bullet
+      width: 11
+      height: 11
+      smokeEffect: none
+      ejectEffect: none
+      maxRange: 50
+      ignoreRotation: true
+      healPercent: 4
+      backColor: 665c9f
+      frontColor: bf92f9
+      mixColorTo: a9d8ff
+      hitSound: spark
+      shootCone: 360
+      hitSize: 22
+      collidesAir: false
+      lifetime: 200
+      layer: 66
+      hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+         type: ParticleEffect
+            particles: 2
+            region: basement-round
+            sizeFrom: 5
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: 665c9f
+         }
+         {
+         type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 20
+            sides: -1
+            colorFrom: bf92f9
+            colorTo: 665c9f
+         }
+      ]
+   }
+   keepVelocity: false
+   shrinkX: 0
+   shrinkY: 0
+   speed: 0
+   splashDamage: 55
+   splashDamageRadius: 45
+      }
    }
 }
 requirements: [
