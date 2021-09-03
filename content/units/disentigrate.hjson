@@ -106,7 +106,7 @@ weapons: [
          backColor: a9d8ff
          lifeTime: 130
          shootCone: 360
-         hitEffect: {
+         despawnEffect: {
             type: MultiEffect
             effects: [
                {
