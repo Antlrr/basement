@@ -13,9 +13,15 @@ reloadTime: 80
 cooldown: 0.03
 powerUse: 6
 shootShake: 2
-shootEffect: lancerLaserShoot
+shootEffect: {
+   type: WaveEffect
+   sizeFrom: 0
+   sizeTo: 10
+   colorFrom: bf92f9
+   colorTo: 665c9f
+}
 smokeEffect: none
-chargeEffect: {
+chargeBeginEffect: {
    type: MultiEffect
    effects: [
       {
@@ -37,7 +43,7 @@ chargeEffect: {
       }
    ]
 }
-chargeBeginEffect: {
+chargeEffect: {
    type: ParticleEffect
    region: basement-diamond
    colorFrom: bf92f9
