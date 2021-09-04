@@ -59,3 +59,4 @@ shootType: {
    length: 173
    ammoMultiplier: 1
 }
+category: turret
