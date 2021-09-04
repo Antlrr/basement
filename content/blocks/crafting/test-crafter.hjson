@@ -8,6 +8,9 @@ drawer: DrawRotator
 drawSpinSprite: true
 ambientSound: grinding
 ambientSoundVolume: 0.025
+requirements: [
+   copper/1
+]
 consumes: {
    power: 0.50
 }
