@@ -2,22 +2,12 @@ type: GenericCrafter
 craftEffect: pulverize
 craftTime: 40
 updateEffect: {
-   type: MultiEffect
-   effects: [
-      {
-         type: WaveEffect
-         sizeFrom: 6
-         sizeTo: 0
-      }
-      {
-         type: ParticleEffect
-         region: basement-diamond
-         sizeFrom: 4
-         sizeTo: 0
-         particles: 4
-       }
-     ]
-   }
+   type: ParticleEffect
+   region: basement-diamond
+   sizeFrom: 2
+   sizeTo: 0
+   particles: 4
+}
 hasItems: true
 hasPower: true
 drawer: DrawRotator
@@ -25,10 +15,12 @@ drawSpinSprite: true
 ambientSound: grinding
 ambientSoundVolume: 0.025
 requirements: [
-   copper/1
+   scrap/1
 ]
 outputItem: scrap/1
 consumes: {
-   power: 0.50
+      items: {
+         scrap/1
+   }
 }
 category: crafting
