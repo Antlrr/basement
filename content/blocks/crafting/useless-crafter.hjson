@@ -1,10 +1,10 @@
 type: GenericCrafter
 craftEffect: pulverize
-craftTime: 40
+craftTime: 60
 updateEffect: {
    type: ParticleEffect
    region: basement-diamond
-   sizeFrom: 2
+   sizeFrom: 0.30
    sizeTo: 0
    particles: 4
 }
