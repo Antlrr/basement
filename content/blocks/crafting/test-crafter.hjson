@@ -1,7 +1,23 @@
 type: GenericCrafter
 craftEffect: pulverize
 craftTime: 40
-updateEffect: pulverizeSmall
+updateEffect: {
+   type: MultiEffect
+   effects: [
+      {
+         type: WaveEffect
+         sizeFrom: 6
+         sizeTo: 0
+      }
+      {
+         type: ParticleEffect
+         region: basement-diamond
+         sizeFrom: 4
+         sizeTo: 0
+         particles: 4
+       }
+     ]
+   }
 hasItems: true
 hasPower: true
 drawer: DrawRotator
@@ -11,6 +27,7 @@ ambientSoundVolume: 0.025
 requirements: [
    copper/1
 ]
+outputItem: scrap
 consumes: {
    power: 0.50
 }
