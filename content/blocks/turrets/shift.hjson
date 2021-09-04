@@ -1,0 +1,34 @@
+type: PowerTurret
+requirements: [
+   copper/60
+   lead/70
+   silicon/50
+]
+range: 165
+chargeTime: 40
+chargeMaxDelay: 30
+chargeEffects: 7
+recoilAmount: 2
+reloadTime: 80
+cooldown: 0.03
+powerUse: 6
+shootShake: 2
+shootEffect: lancerLaserShoot
+smokeEffect: none
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserCharge
+size: 2
+health: 280
+targetAir: false
+shootSound: laser
+shootType: {
+   type: LaserBulletType
+   colors: [665c9f, bf92f9, ffffff]
+   hitEffect: hitLancer
+   hitSize: 4
+   lifetime: 16
+   drawSize: 400
+   collidesAir: false
+   length: 173
+   ammoMultiplier: 1
+}
