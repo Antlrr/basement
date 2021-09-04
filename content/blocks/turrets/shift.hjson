@@ -20,7 +20,7 @@ chargeEffect: {
    effects: [
       {
          type: WaveEffect
-         sizeFrom: 8
+         sizeFrom: 14
          sizeTo: 0
          colorFrom: bf92f9
          colorTo: 665c9f
