@@ -15,7 +15,26 @@ powerUse: 6
 shootShake: 2
 shootEffect: lancerLaserShoot
 smokeEffect: none
-chargeEffect: lancerLaserCharge
+chargeEffect: {
+   type: MultiEffect
+   effects: [
+      {
+         type: WaveEffect
+         sizeFrom: 6
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: 665c9f
+      }
+      {
+         type: ParticleEffect
+         region: basement-diamond
+         sizeFrom: 2
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: 665c9f
+      }
+   ]
+}
 chargeBeginEffect: lancerLaserCharge
 size: 2
 health: 280
