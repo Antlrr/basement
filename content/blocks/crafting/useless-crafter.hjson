@@ -19,6 +19,8 @@ requirements: [
 ]
 outputItem: scrap/1
 consumes: {
-   items: {
+   items: [
       scrap/1
+      ]
+   }
 category: crafting
