@@ -9,7 +9,7 @@ updateEffect: {
    particles: 4
 }
 hasItems: true
-hasPower: true
+hasPower: false
 drawer: DrawRotator
 drawSpinSprite: true
 ambientSound: grinding
