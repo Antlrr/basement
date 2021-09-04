@@ -8,7 +8,6 @@ drawer: DrawRotator
 drawSpinSprite: true
 ambientSound: grinding
 ambientSoundVolume: 0.025
-outputItem: blast-compound
 consumes: {
    power: 0.50
 }
