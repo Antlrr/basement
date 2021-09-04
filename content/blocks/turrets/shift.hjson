@@ -7,7 +7,7 @@ requirements: [
 range: 165
 chargeTime: 40
 chargeMaxDelay: 30
-chargeEffects: 7
+chargeEffects: 1
 recoilAmount: 2
 reloadTime: 80
 cooldown: 0.03
@@ -20,7 +20,7 @@ chargeEffect: {
    effects: [
       {
          type: WaveEffect
-         sizeFrom: 14
+         sizeFrom: 10
          sizeTo: 0
          colorFrom: bf92f9
          colorTo: 665c9f
@@ -33,6 +33,7 @@ chargeEffect: {
          sizeTo: 0
          colorFrom: bf92f9
          colorTo: 665c9f
+         particles: 8
       }
    ]
 }
@@ -59,5 +60,6 @@ shootType: {
    collidesAir: false
    length: 173
    ammoMultiplier: 1
+   damage: 280
 }
 category: turret
