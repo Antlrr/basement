@@ -20,7 +20,7 @@ chargeEffect: {
    effects: [
       {
          type: WaveEffect
-         sizeFrom: 6
+         sizeFrom: 8
          sizeTo: 0
          colorFrom: bf92f9
          colorTo: 665c9f
@@ -35,7 +35,15 @@ chargeEffect: {
       }
    ]
 }
-chargeBeginEffect: lancerLaserCharge
+chargeBeginEffect: {
+   type: ParticleEffect
+   region: basement-diamond
+   colorFrom: bf92f9
+   colorTo: 665c9f
+   sizeFrom: 2
+   sizeTo: 0
+   particles: 10
+}
 size: 2
 health: 280
 targetAir: false
