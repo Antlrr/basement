@@ -21,5 +21,4 @@ outputItem: scrap/1
 consumes: {
    items: {
       scrap/1
-   }
 category: crafting
