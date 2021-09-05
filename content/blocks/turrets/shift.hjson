@@ -16,7 +16,7 @@ shootShake: 2
 shootEffect: {
    type: WaveEffect
    sizeFrom: 0
-   sizeTo: 10
+   sizeTo: 4
    colorFrom: bf92f9
    colorTo: 665c9f
 }
@@ -44,13 +44,10 @@ chargeBeginEffect: {
    ]
 }
 chargeEffect: {
-   type: ParticleEffect
-   region: basement-diamond
-   colorFrom: bf92f9
-   colorTo: 665c9f
-   sizeFrom: 2
-   sizeTo: 0
-   particles: 10
+   Massive
+Ass
+Storage
+Exporter
 }
 size: 2
 health: 280
@@ -59,7 +56,15 @@ shootSound: laser
 shootType: {
    type: LaserBulletType
    colors: [665c9f, bf92f9, ffffff]
-   hitEffect: hitLancer
+   hitEffect: {
+      type: ParticleEffect
+      region: basement-diamond
+      sizeFrom: 2
+      sizeTo: 0
+      colorFrom: bf92f9
+      colorTo: 665c9f
+      particles: 6
+      }
    hitSize: 4
    lifetime: 16
    drawSize: 400
