@@ -44,10 +44,13 @@ chargeBeginEffect: {
    ]
 }
 chargeEffect: {
-   Massive
-Ass
-Storage
-Exporter
+   type: ParticleEffect
+   region: basement-diamond
+   colorFrom: bf92f9
+   colorTo: 665c9f
+   sizeFrom: 2
+   sizeTo: 0
+   particles: 10
 }
 size: 2
 health: 280
