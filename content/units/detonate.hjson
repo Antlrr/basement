@@ -31,7 +31,8 @@ shootEffect: {
    particles: 1
    cone: 0
    region: basement-round
-   colorFrom: f00000
+   colorFrom: 665c9f
+   colorTo: bf92f9
    sizeFrom: 35
    sizeTo: 35
    }
@@ -46,9 +47,9 @@ bullet: {
    maxRange: 50
    ignoreRotation: true
    healPercent: 4
-   backColor: a9d8ff
+   backColor: bf92f9
    frontColor: ffffff
-   mixColorTo: a9d8ff
+   mixColorTo: 665c9f
    hitSound: spark
    shootCone: 360
    hitSize: 22
@@ -59,17 +60,21 @@ bullet: {
       type: MultiEffect
       effects: [
          {
-         type: ParticleEffect
-         particles: 2
-         region: basement-round
-         sizeFrom: 5
-         sizeTo: 0
+            type: ParticleEffect
+            particles: 2
+            region: basement-round
+            sizeFrom: 5
+            sizeTo: 0
+            colorFrom: 665c9f
+            colorTo: bf92f9
          }
          {
-         type: WaveEffect
+            type: WaveEffect
             sizeFrom: 0
             sizeTo: 20
             sides: -1
+            colorFrom: 665c9f
+            colorTo: bf92f9
          }
       ]
    }
@@ -82,7 +87,7 @@ bullet: {
    fragBullets: 4
    fragBullet: {
       type: BasicBulletType
-      backColor: a9d8ff
+      backColor: bf92f9
       frontColor: ffffff
       sprite: missile
       shootCone: 360
@@ -102,9 +107,9 @@ bullet: {
          maxRange: 50
          ignoreRotation: true
          healPercent: 4
-         backColor: a9d8ff
+         backColor: bf92f9
          frontColor: ffffff
-         mixColorTo: a9d8ff
+         mixColorTo: bf92f9
          hitSound: spark
          shootCone: 360
          hitSize: 22
@@ -122,6 +127,8 @@ bullet: {
             sizeFrom: 20
             sizeTo: 0
             sides: -1
+            colorFrom: 665c9f
+            colorTo: bf92f9
          }
       ]
    }
@@ -134,7 +141,7 @@ bullet: {
    fragBullets: 2
    fragBullet: {
       type: LightningBulletType
-      lightningColor: a9d8ff
+      lightningColor: bf92f9
       shootCone: 360
       lightningLength: 8
       speed: 2
