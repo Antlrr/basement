@@ -37,6 +37,7 @@ weapons: [
       keepVelocity: false
       hittable: false
       recoil: -7.20
+      colors: [665c9f, bf92f9, ffffff]
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -46,6 +47,8 @@ weapons: [
          sizeTo: 2
          region: basement-star
          particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
          }
          {
          type: ParticleEffect
@@ -53,6 +56,8 @@ weapons: [
          sizeTo: 0
          region: basement-round
          particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
          }
        ]
      }
@@ -62,6 +67,8 @@ weapons: [
                region: basement-star
                sizeFrom: 4
                sizeTo: 0
+               colorFrom: bf92f9
+               colorTo: 665c9f
                }
             }
          }
