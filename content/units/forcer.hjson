@@ -2,6 +2,7 @@ type: mech
 canBoost: false
 commandLimit: 8
 health: 560
+hitSize: 7.5
 armor: 8
 speed: 1
 accel: 0.4
