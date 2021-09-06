@@ -1,8 +1,9 @@
-type: mech
+type: flying
+flying: true
 canBoost: false
-commandLimit: 8
+commandLimit: 4
 health: 820
-hitSize: 5
+hitSize: 8
 armor: 10
 speed: 0.80
 accel: 0.4
