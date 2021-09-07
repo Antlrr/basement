@@ -7,9 +7,9 @@ armor: 3
 speed: 2.5
 accel: 0.06
 drag: 0.017
-hitSize: 16
 lowAltitude: true
 flying: true
 rotateShooting: false
-engineOffset: 10
 buildSpeed: 2.6
+isCounted: false
+lightRadius: 0
