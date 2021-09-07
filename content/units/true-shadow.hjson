@@ -13,3 +13,5 @@ rotateShooting: false
 buildSpeed: 2.6
 isCounted: false
 lightRadius: 0
+engineSize: 0
+drawCell: false
