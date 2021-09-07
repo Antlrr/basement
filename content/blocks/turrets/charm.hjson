@@ -12,7 +12,5 @@ range: 280
 damage: 6
 health: 160
 rotateSpeed: 10
-consumes: [
-   power: 5
-]
+powerUse: 5
 category: turret
