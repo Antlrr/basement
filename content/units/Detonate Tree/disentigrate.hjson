@@ -1,0 +1,177 @@
+type: flying
+controller: FlyingAI
+mineTier: 3
+mineSpeed: 4
+health: 305
+armor: 10
+speed: 2.5
+accel: 0.06
+drag: 0.017
+lowAltitude: false
+flying: true
+rotateShooting: true
+circleTarget: true
+weapons: [
+   {
+   x: 0
+   y: 0
+   mirror: false
+   reload: 40
+   soundPitchMin: 1
+   shootSound: plasmaDrop
+   bullet: { 
+      type: BasicBulletType
+      sprite: basement-star
+      width: 25
+      height: 25
+      ignoreRotation: true
+      backColor: a9d8ff
+      frontColor: ffffff
+      mixColorTo: a9d8ff
+      hitSound: plasmaboom
+      shootCone: 80
+      ejectEffect: none
+      hitShake: 4
+      collidesAir: false
+      lifeTime: 100
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+         {
+            type: WaveEffect
+            sizeFrom: 130
+            sizeTo: 0
+            colorFrom: a9d8ff
+            colorTo: ffffff
+         }
+         {
+            type: ParticleEffect
+            region: basement-star
+            sizeFrom: 5
+            sizeTo: 0
+            particles: 6
+            colorFrom: ffffff
+            colorTo: a9d8ff
+         }
+         {
+            type: ParticleEffect
+            region: basement-star-back   
+            sizeFrom: 6
+            sizeTo: 0
+            particles: 5
+            colorFrom: ffffff
+            colorTo: a9d8ff            
+            }
+         ]
+      }
+      hitEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 10
+            colorFrom: a9d8ff
+            colorTo: ffffff
+            }
+            {
+            type: ParticleEffect
+            region: basement-star  
+            sizeFrom: 0
+            sizeTo: 3
+            particles: 3
+            colorFrom: ffffff
+            colorTo: a9d8ff
+            }
+         ]
+      }      
+      keepVelocity: false
+      spin: 3
+      shrinkX: 0.7
+      shrinkY: 0.7
+      speed: 0.01
+      collides: false
+      healPercent: 15
+      splashDamage: 980
+      splashDamageRadius: 130
+      fragBullets: 4
+      fragBullet: {
+         type: BasicBulletType
+         sprite: basement-detonate-bullet
+         width: 12
+         height: 12
+         spin: 3
+         shrinkX: 0.1
+         shrinkY: 0.1
+         frontColor: ffffff
+         backColor: a9d8ff
+         lifeTime: 130
+         homingPower: 0.02
+         trailEffect: {
+            type: ParticleEffect
+            particles: 4
+            region: basement-diamond
+            sizeFrom: 3
+            sizeTo: 0
+            }
+         despawnEffect: {
+            type: MultiEffect
+            effects: [
+               {
+                  type: ParticleEffect
+                  region: basement-diamond
+                  particles: 4
+                  sizeFrom: 2
+                  sizeTo: 0
+               }
+               {
+                  type: WaveEffect
+                  sizeFrom: 0
+                  sizeTo: 5
+                  }
+               ]
+            }
+            fragBullets: 1
+            fragBullet: {
+               type: BasicBulletType
+               sprite: basement-detonate-bullet
+               width: 11
+               height: 11
+               shootEffect: hitLancer
+               smokeEffect: none
+               ejectEffect: none
+               maxRange: 50
+               ignoreRotation: true
+               healPercent: 4
+               backColor: a9d8ff
+               frontColor: ffffff
+               mixColorTo: a9d8ff
+               shootCone: 360
+               hitSize: 22
+               collidesAir: false
+               lifetime: 500
+               hitEffect: {
+                  type: MultiEffect
+                  effects: [
+                     {
+                        type: blastExplosion
+                     }
+                     {
+                        type: WaveEffect
+                        sizeFrom: 20
+                        sizeTo: 0
+                        sides: -1
+                     }
+                  ]
+               }
+               keepVelocity: false
+               shrinkX: 0
+               shrinkY: 0
+               speed: 0
+               splashDamage: 55
+               splashDamageRadius: 45
+            }
+         }
+      }
+   }
+]
