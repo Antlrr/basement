@@ -1,0 +1,18 @@
+type: TractorBeamTurret
+requirements: [
+   silicon/160
+   titanium/110
+   graphite/65
+]
+hasPower: true
+size: 2
+force: 24
+scaledForce: 12
+range: 280
+damage: 6
+health: 160
+rotateSpeed: 10
+consumes: [
+   power: 5
+]
+category: turret
