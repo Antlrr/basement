@@ -11,6 +11,8 @@ lowAltitude: true
 flying: true
 rotateShooting: true
 buildSpeed: 2.6
+engineOffset: 1
+engineSize: 3.75
 weapons: [
    {
       name: purple-weapon-mount
