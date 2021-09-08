@@ -89,7 +89,7 @@ abilities: [
       type: ParticleEffect
       lightOpacity: 10
       particles: 8
-      region: basement-star
+      region: basement-forcer
       lifetime: 20
       length: 0
       sizeFrom: 6
