@@ -9,14 +9,14 @@ accel: 0.06
 drag: 0.017
 lowAltitude: true
 flying: true
-rotateShooting: false
+rotateShooting: true
 buildSpeed: 2.6
 weapons: [
    {
       name: purple-weapon-mount
       top: false
       mirror: true
-      rotate: true
+      rotate: false
       alternate: true
       reload: 80
       x: 5
