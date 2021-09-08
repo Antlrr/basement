@@ -11,8 +11,8 @@ lowAltitude: false
 flying: true
 rotateShooting: true
 buildSpeed: 2.6
-engineOffset: 1
-engineSize: 3.75
+engineOffset: -1
+engineSize: 2
 weapons: [
    {
       name: purple-weapon-mount
@@ -72,7 +72,6 @@ weapons: [
             hitSize: 22
             collidesAir: false
             lifetime: 500
-            layer: 5
             hitEffect: {
                type: MultiEffect
                effects: [
