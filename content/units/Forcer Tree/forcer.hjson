@@ -78,10 +78,10 @@ weapons: [
 abilities: [
   {
     type: MoveLightningAbility
-    chance: 2
+    chance: 1
     minSpeed: -1
     maxSpeed: 0
-    length: 0
+    length: 0.01
     shootSound: none
     shootEffect: {
       type: ParticleEffect
