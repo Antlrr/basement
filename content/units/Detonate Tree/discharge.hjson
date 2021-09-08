@@ -132,7 +132,6 @@ weapons: [
                hitSize: 22
                collidesAir: false
                lifetime: 500
-               layer: 5
                hitEffect: blastExplosion
                keepVelocity: false
                shrinkX: 0
