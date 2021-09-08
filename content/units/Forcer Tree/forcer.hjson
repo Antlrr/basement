@@ -83,6 +83,7 @@ abilities: [
     maxSpeed: 0
     length: 0.01
     shootSound: none
+    lifetime: 20
     shootEffect: {
       type: ParticleEffect
       lightOpacity: 10
