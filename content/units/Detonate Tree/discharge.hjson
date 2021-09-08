@@ -13,14 +13,14 @@ rotateShooting: false
 buildSpeed: 2.6
 weapons: [
    {
-      name: basic-weapon-mount
-      top: true
+      name: purple-weapon-mount
+      top: false
       mirror: true
       rotate: true
       alternate: true
       reload: 80
-      x: 2
-      y: 0
+      x: 5
+      y: 1
       shots: 2
       recoil: 0.5
       shootSound: missile
