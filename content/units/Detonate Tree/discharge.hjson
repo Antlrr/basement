@@ -11,7 +11,7 @@ lowAltitude: false
 flying: true
 rotateShooting: true
 buildSpeed: 2.6
-engineOffset: 3
+engineOffset: 6
 engineSize: 2
 deathExplosionEffect: {
    type: MultiEffect
