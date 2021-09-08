@@ -89,11 +89,11 @@ abilities: [
       type: ParticleEffect
       lightOpacity: 10
       particles: 8
-      region: basement-forcer
+      region: basement-forcer-glow
       lifetime: 20
       length: 0
-      sizeFrom: 6
-      sizeTo: 6
+      sizeFrom: 7
+      sizeTo: 7
       colorFrom: bf92f9
       colorTo: bf92f900
     }
