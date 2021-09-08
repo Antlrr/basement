@@ -11,8 +11,29 @@ lowAltitude: false
 flying: true
 rotateShooting: true
 buildSpeed: 2.6
-engineOffset: -1
+engineOffset: 3
 engineSize: 2
+deathExplosionEffect: {
+   type: MultiEffect
+   effects: [
+      {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 10
+         colorFrom: bf92f9
+         colorTo: bf92f900
+      }
+      {
+         type: ParticleEffect
+         sizeFrom: 4
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: bf92f900
+         region: basement-star
+         particles: 8
+      }
+   ]
+}
 weapons: [
    {
       name: purple-weapon-mount
