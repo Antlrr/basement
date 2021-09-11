@@ -6,7 +6,7 @@ health: 830
 armor: 10
 speed: 1.75
 accel: 0.4
-drag: 0.04
+drag: 4
 controller: GroundAI
 lightRadius: 60
 lightColor: bf92f9
@@ -21,8 +21,6 @@ legSplashRange: 0
 rippleScale: 0.01
 maxStretch: 2
 allowLegStep: true
-lightRadius: 30
-lightColor: ffffff
 weapons: [
    {
    rotate: false
@@ -112,8 +110,8 @@ abilities: [
       region: basement-impulse-glow
       lifetime: 20
       length: 0
-      sizeFrom: 10
-      sizeTo: 10
+      sizeFrom: 9.75
+      sizeTo: 9.75
       colorFrom: bf92f9
       colorTo: bf92f900
     }
