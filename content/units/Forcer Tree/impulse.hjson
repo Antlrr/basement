@@ -96,16 +96,15 @@ weapons: [
    }
    {
    rotate: false
+   name: purple-weapon-mount
    top: false
-   mirror: false
+   mirror: true
    x: 6
    y: 4
    reload: 60
    shots: 1
    bullet: {
       type: BasicBulletType
-      name: purple-weapon-mount
-      healPercent: 1.5
       collidesTeam: false
       damage: 54
       lifetime: 10
@@ -113,7 +112,7 @@ weapons: [
       collidesAir: true
       keepVelocity: false
       hittable: true
-      recoil: 2
+      recoil: 0
       backColor: 665c9f
       frontColor: bf92f9
       speed: 2
