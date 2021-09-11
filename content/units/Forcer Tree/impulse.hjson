@@ -13,9 +13,9 @@ lightColor: bf92f9
 rotateShooting: true
 rotateSpeed: 18.20
 legCount: 6
-legLength: 20
-legBaseOffset: 4
-legExtension: 2
+legLength: 10
+legBaseOffset: 2
+legExtension: 1
 legSpeed: 0.50
 legSplashRange: 0
 rippleScale: 0.01
@@ -31,7 +31,7 @@ weapons: [
    mirror: false
    x: 0
    y: 6
-   reload: 10
+   reload: 80
    shots: 1
    firstShotDelay: 80
    shootStatus: unmoving
