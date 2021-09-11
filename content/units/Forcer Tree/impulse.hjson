@@ -100,7 +100,7 @@ weapons: [
    top: false
    mirror: true
    x: 4
-   y: 2
+   y: 2.75
    reload: 40
    shots: 1
    bullet: {
@@ -167,10 +167,10 @@ abilities: [
       lightOpacity: 10
       particles: 8
       region: basement-impulse-glow
-      lifetime: 20
+      lifetime: 40
       length: 0
-      sizeFrom: 9.75
-      sizeTo: 9.75
+      sizeFrom: 9
+      sizeTo: 9
       colorFrom: bf92f9
       colorTo: bf92f900
     }
