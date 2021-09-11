@@ -30,7 +30,7 @@ weapons: [
    mirror: false
    x: 0
    y: 6
-   reload: 80
+   reload: 120
    shots: 1
    firstShotDelay: 80
    shootStatus: unmoving
@@ -112,8 +112,8 @@ abilities: [
       region: basement-impulse-glow
       lifetime: 20
       length: 0
-      sizeFrom: 12
-      sizeTo: 12
+      sizeFrom: 11
+      sizeTo: 11
       colorFrom: bf92f9
       colorTo: bf92f900
     }
