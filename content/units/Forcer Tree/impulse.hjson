@@ -1,0 +1,106 @@
+type: legs
+canBoost: false
+commandLimit: 10
+health: 830
+armor: 10
+speed: 1.75
+accel: 0.4
+drag: 0.14
+controller: GroundAI
+lightRadius: 60
+lightColor: bf92f9
+rotateShooting: true
+rotateSpeed: 18.20
+weapons: [
+   {
+   rotate: false
+   top: false
+   mirror: false
+   x: 0
+   y: 6
+   reload: 10
+   shots: 1
+   shootSound: shotgun
+   colors: [665c9f, bf92f9, ffffff]
+   bullet: {
+      type: ShrapnelBulletType
+      healPercent: 1.5
+      collidesTeam: false
+      damage: 24
+      lifetime: 10
+      pierce: true
+      collidesAir: true
+      statusDuration: 240
+      status: shocked
+      length: 42
+      serrations: 0
+      keepVelocity: false
+      hittable: false
+      recoil: -16
+      colors: [665c9f, bf92f9, ffffff]
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 0
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 0
+         }
+         {
+         type: WaveEffect
+         sizeFrom: 8
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         }
+       ]
+     }
+     hitEffect: {
+        type: ParticleEffect
+        particles: 2
+        region: basement-star
+        sizeFrom: 2
+        sizeTo: 0
+        colorFrom: bf92f9
+        colorTo: bf92f9
+         }
+      }
+   }
+]
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 8
+      region: missile
+      lifetime: 20
+      length: 0
+      sizeFrom: 7
+      sizeTo: 7
+      colorFrom: bf92f9
+      colorTo: bf92f900
+    }
+  }
+]
