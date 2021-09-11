@@ -23,7 +23,6 @@ maxStretch: 2
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
-rotateSpeed: 1.65
 weapons: [
    {
    rotate: false
@@ -39,10 +38,10 @@ weapons: [
    shootSound: shotgun
    colors: [665c9f, bf92f9, ffffff]
    bullet: {
-      type: ShrapnelBulletType
+      type: LaserBulletType
       healPercent: 1.5
       collidesTeam: false
-      damage: 24
+      damage: 54
       lifetime: 10
       pierce: true
       collidesAir: true
@@ -113,8 +112,8 @@ abilities: [
       region: basement-impulse-glow
       lifetime: 20
       length: 0
-      sizeFrom: 10
-      sizeTo: 10
+      sizeFrom: 12
+      sizeTo: 12
       colorFrom: bf92f9
       colorTo: bf92f900
     }
