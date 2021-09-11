@@ -6,7 +6,7 @@ health: 830
 armor: 10
 speed: 1.75
 accel: 0.4
-drag: 4
+drag: 0.1
 controller: GroundAI
 lightRadius: 60
 lightColor: bf92f9
@@ -143,13 +143,23 @@ weapons: [
        ]
      }
      hitEffect: {
-        type: ParticleEffect
-        particles: 2
-        region: basement-star
-        sizeFrom: 2
-        sizeTo: 0
-        colorFrom: bf92f9
-        colorTo: bf92f9
+        type: MultiEffect
+        effects: [
+           {
+           type: ParticleEffect
+           particles: 2
+           region: basement-star
+           sizeFrom: 2
+           sizeTo: 0
+           colorFrom: bf92f9
+           colorTo: bf92f9
+           }
+           {
+           type: WaveEffect
+           sizeFrom: 0
+           sizeTo: 4
+           colorFrom: bf92f9
+           colorTo: bf92f9
          }
       }
    }
