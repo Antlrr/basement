@@ -160,6 +160,9 @@ weapons: [
            sizeTo: 4
            colorFrom: bf92f9
            colorTo: bf92f9
+                  }
+               ]
+            }
          }
       }
    }
