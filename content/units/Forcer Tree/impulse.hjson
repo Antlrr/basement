@@ -110,7 +110,7 @@ abilities: [
       type: ParticleEffect
       lightOpacity: 10
       particles: 8
-      region: missile
+      region: basement-impulse-glow
       lifetime: 20
       length: 0
       sizeFrom: 7
