@@ -99,14 +99,14 @@ weapons: [
    name: purple-weapon-mount
    top: false
    mirror: true
-   x: 6
-   y: 4
-   reload: 60
+   x: 4
+   y: 3
+   reload: 40
    shots: 1
    bullet: {
       type: BasicBulletType
       collidesTeam: false
-      damage: 54
+      damage: 25
       lifetime: 10
       pierce: true
       collidesAir: true
