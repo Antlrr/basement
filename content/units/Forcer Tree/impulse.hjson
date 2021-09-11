@@ -4,7 +4,7 @@ canBoost: false
 commandLimit: 10
 health: 830
 armor: 10
-speed: 1.75
+speed: 0.85
 accel: 0.4
 drag: 0.1
 controller: GroundAI
@@ -21,6 +21,7 @@ legSplashRange: 0
 rippleScale: 0.01
 maxStretch: 2
 allowLegStep: true
+targetAir: false
 weapons: [
    {
    rotate: false
@@ -101,12 +102,12 @@ weapons: [
    mirror: true
    x: 4
    y: 2.75
-   reload: 40
+   reload: 30.20
    shots: 1
    bullet: {
       type: BasicBulletType
       collidesTeam: false
-      damage: 25
+      damage: 24
       lifetime: 10
       pierce: true
       collidesAir: true
