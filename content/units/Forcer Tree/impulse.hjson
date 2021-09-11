@@ -12,7 +12,7 @@ lightRadius: 60
 lightColor: bf92f9
 rotateShooting: true
 rotateSpeed: 18.20
-legCount: 6
+legCount: 4
 legLength: 10
 legBaseOffset: 2
 legExtension: 1
@@ -48,8 +48,8 @@ weapons: [
       collidesAir: true
       statusDuration: 240
       status: shocked
-      length: 42
-      serrations: 0
+      length: 84
+      serrations: 4
       keepVelocity: false
       hittable: false
       recoil: -16
@@ -79,7 +79,7 @@ weapons: [
          }
          {
          type: WaveEffect
-         sizeFrom: 8
+         sizeFrom: 16
          sizeTo: 0
          colorFrom: bf92f9
          colorTo: 665c9f
