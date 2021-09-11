@@ -104,6 +104,7 @@ weapons: [
    shots: 1
    bullet: {
       type: BasicBulletType
+      name: purple-weapon-mount
       healPercent: 1.5
       collidesTeam: false
       damage: 54
@@ -112,7 +113,7 @@ weapons: [
       collidesAir: true
       keepVelocity: false
       hittable: true
-      recoil: -26
+      recoil: 2
       backColor: 665c9f
       frontColor: bf92f9
       speed: 2
