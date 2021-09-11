@@ -140,29 +140,28 @@ weapons: [
          colorTo: 665c9f
          lightOpacity: 1
          }
-       ]
-     }
-     hitEffect: {
-        type: MultiEffect
-        effects: [
-           {
-           type: ParticleEffect
-           particles: 2
-           region: basement-star
-           sizeFrom: 2
-           sizeTo: 0
-           colorFrom: bf92f9
-           colorTo: bf92f9
-           }
-           {
-           type: WaveEffect
-           sizeFrom: 0
-           sizeTo: 4
-           colorFrom: bf92f9
-           colorTo: bf92f9
-                  }
-               ]
-            }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
          }
       }
    }
