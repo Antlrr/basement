@@ -1,4 +1,5 @@
 type: legs
+hovering: true
 canBoost: false
 commandLimit: 10
 health: 830
@@ -11,6 +12,18 @@ lightRadius: 60
 lightColor: bf92f9
 rotateShooting: true
 rotateSpeed: 18.20
+legCount: 6
+legLength: 20
+legBaseOffset: 4
+legExtension: 2
+legSpeed: 0.50
+legSplashRange: 0
+rippleScale: 0.01
+maxStretch: 2
+allowLegStep: true
+lightRadius: 30
+lightColor: ffffff
+rotateSpeed: 1.65
 weapons: [
    {
    rotate: false
@@ -20,6 +33,9 @@ weapons: [
    y: 6
    reload: 10
    shots: 1
+   firstShotDelay: 80
+   shootStatus: unmoving
+   shootStatusDuration: 80
    shootSound: shotgun
    colors: [665c9f, bf92f9, ffffff]
    bullet: {
