@@ -100,7 +100,7 @@ weapons: [
    top: false
    mirror: true
    x: 4
-   y: 3
+   y: 2
    reload: 40
    shots: 1
    bullet: {
@@ -115,8 +115,8 @@ weapons: [
       recoil: 0
       backColor: 665c9f
       frontColor: bf92f9
-      speed: 2
-      lifetime: 68
+      speed: 3
+      lifetime: 56
       shootEffect: {
          type: MultiEffect
          effects: [
