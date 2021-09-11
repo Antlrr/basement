@@ -83,7 +83,7 @@ abilities: [
     chance: 1
     minSpeed: -1
     maxSpeed: 0
-    length: 0.01
+    length: 0
     shootSound: none
     shootEffect: {
       type: ParticleEffect
