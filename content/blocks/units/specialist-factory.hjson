@@ -1,0 +1,29 @@
+type: UnitFactory
+name: Smol Factory
+size: 2
+consumes: {
+  power: 1
+}
+plans: [
+  {
+    unit: forcer
+    time: 1200
+    requirements: [
+      silicon/35
+      titanium/20
+      thorium/24
+    ]
+  }
+  {
+    unit: detonate
+    time: 1200
+    requirements: [
+      silicon/35
+      thorium/24
+    ]
+  }
+]
+requirements: [
+  silicon/35
+]
+category: units
