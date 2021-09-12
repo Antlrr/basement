@@ -1,8 +1,7 @@
 type: UnitFactory
-name: Smol Factory
 size: 2
 consumes: {
-  power: 1
+  power: 6
 }
 plans: [
   {
@@ -24,6 +23,7 @@ plans: [
   }
 ]
 requirements: [
-  silicon/35
+  silicon/60
+  thorium/40
 ]
 category: units
