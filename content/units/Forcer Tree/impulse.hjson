@@ -22,6 +22,27 @@ rippleScale: 0.01
 maxStretch: 2
 allowLegStep: true
 targetAir: false
+deathExplosionEffect: {
+   type: MultiEffect
+   effects: [
+      {
+      type: WaveEffect
+      sizeFrom: 0
+      sizeTo: 14
+      colorFrom: bf92f9
+      colorTo: bf92f9
+      }
+      {
+      type: ParticleEffect
+      sizeFrom: 0
+      sizeTo: 2
+      colorFrom: bf92f9
+      colorTo: bf92f900
+      region: basement-star
+      particles: 4
+      }
+   ]
+}
 weapons: [
    {
    rotate: false
