@@ -148,8 +148,8 @@ weapons: [
       frontColor: bf92f9
       speed: 3
       lifetime: 56
-      width: 5
-      length: 4
+      width: 8
+      length: 6
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -220,15 +220,15 @@ weapons: [
       backColor: 665c9f
       frontColor: bf92f9
       speed: 3
-      width: 6
-      height: 6
+      width: 8
+      height: 8
       lifetime: 56
       weaveScale: 5
       weaveMag: 5.20
       trailLength: 2
       trailWidth: 2
       trailColor: bf92f9
-      trailInterval: 0
+      trailInterval: 0.01
       shootEffect: {
          type: MultiEffect
          effects: [
