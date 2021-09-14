@@ -104,6 +104,7 @@ weapons: [
          sizeTo: 0
          colorFrom: bf92f9
          colorTo: 665c9f
+         }
          {
          type: WaveEffect
          sizeFrom: 10
