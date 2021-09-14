@@ -221,8 +221,8 @@ weapons: [
       lifetime: 56
       weaveScale: 5
       weaveMag: 5.20
-      trailLength: 20
-      trailWidth: 6
+      trailLength: 4
+      trailWidth: 4
       trailColor: bf92f9
       trailInterval: 3
       trailRotation: true
