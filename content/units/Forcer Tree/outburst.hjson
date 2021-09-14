@@ -229,6 +229,7 @@ weapons: [
       trailWidth: 2
       trailColor: bf92f9
       trailInterval: 0.01
+      homingPower: 0.5
       shootEffect: {
          type: MultiEffect
          effects: [
