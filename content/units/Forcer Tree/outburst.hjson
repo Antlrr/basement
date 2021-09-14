@@ -213,8 +213,8 @@ abilities: [
       region: basement-outburst-glow
       lifetime: 40
       length: 0
-      sizeFrom: 12
-      sizeTo: 12
+      sizeFrom: 16
+      sizeTo: 16
       colorFrom: bf92f9
       colorTo: bf92f900
     }
