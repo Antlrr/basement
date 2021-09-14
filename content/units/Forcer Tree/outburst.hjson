@@ -198,11 +198,11 @@ weapons: [
    }
    {
    rotate: true
-   name: purple-mount
+   name: big-purple-mount
    top: true
    mirror: false
    x: 0
-   y: -2
+   y: -6
    reload: 30
    shots: 2
    autoTarget: true
@@ -219,6 +219,8 @@ weapons: [
       frontColor: bf92f9
       speed: 3
       lifetime: 56
+      weaveScale: 2
+      weaveMag: 2.75
       shootEffect: {
          type: MultiEffect
          effects: [
