@@ -51,7 +51,7 @@ weapons: [
    mirror: false
    x: 0
    y: 6
-   reload: 120
+   reload: 190
    shots: 1
    firstShotDelay: 80
    shootStatus: unmoving
@@ -62,7 +62,7 @@ weapons: [
       type: LaserBulletType
       healPercent: 1.5
       collidesTeam: false
-      damage: 54
+      damage: 82
       lifetime: 10
       pierce: true
       collidesAir: true
@@ -126,13 +126,13 @@ weapons: [
       }
    }
    {
-   rotate: false
+   rotate: true
    name: purple-mount
    top: true
    mirror: true
    x: 5
    y: 2
-   reload: 30.20
+   reload: 20
    shots: 1
    alternate: false
    autoTarget: true
