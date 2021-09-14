@@ -128,8 +128,9 @@ weapons: [
    shots: 1
    alternate: true
    autoTarget: true
+   shootSound: lasershoot
    bullet: {
-      type: BasicBulletType
+      type: LaserBoltBulletType
       collidesTeam: false
       damage: 24
       lifetime: 10
