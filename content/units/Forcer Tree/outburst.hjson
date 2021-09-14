@@ -196,6 +196,77 @@ weapons: [
          }
       }
    }
+   {
+   rotate: true
+   name: purple-mount
+   top: true
+   mirror: false
+   x: 0
+   y: -2
+   reload: 30
+   shots: 2
+   autoTarget: true
+   bullet: {
+      type: BasicBulletType
+      collidesTeam: false
+      damage: 32
+      lifetime: 18
+      collidesAir: true
+      keepVelocity: true
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 3
+      lifetime: 56
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f00
+         lightOpacity: 2
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f00
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
+         }
+      }
+   }
 ]
 abilities: [
   {
