@@ -221,11 +221,10 @@ weapons: [
       lifetime: 56
       weaveScale: 5
       weaveMag: 5.20
-      trailLength: 4
-      trailWidth: 4
+      trailLength: 1
+      trailWidth: 1
       trailColor: bf92f9
       trailInterval: 3
-      trailRotation: true
       shootEffect: {
          type: MultiEffect
          effects: [
