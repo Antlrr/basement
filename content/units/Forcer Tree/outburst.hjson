@@ -11,7 +11,7 @@ controller: GroundAI
 lightRadius: 80
 lightColor: bf92f9
 rotateShooting: true
-rotateSpeed: 18.20
+rotateSpeed: 6
 legCount: 6
 legLength: 16
 legBaseOffset: 4
@@ -213,8 +213,8 @@ abilities: [
       region: basement-outburst-glow
       lifetime: 40
       length: 0
-      sizeFrom: 16
-      sizeTo: 16
+      sizeFrom: 20
+      sizeTo: 20
       colorFrom: bf92f9
       colorTo: bf92f900
     }
