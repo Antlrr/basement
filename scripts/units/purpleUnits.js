@@ -19,3 +19,7 @@ forcer.constructor = () => extend(MechUnit, {
 const impulse = extendContent(UnitType, "impulse", {});
 impulse.constructor = () => extend(LegsUnit, {
 });
+
+const outburst = extendContent(UnitType, "outburst", {});
+outburst.constructor = () => extend(LegsUnit, {
+});
