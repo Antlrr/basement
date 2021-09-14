@@ -21,6 +21,7 @@ legSplashRange: 0
 rippleScale: 0.01
 maxStretch: 2
 allowLegStep: true
+legGroupSize: 1
 targetAir: false
 deathExplosionEffect: {
    type: MultiEffect
