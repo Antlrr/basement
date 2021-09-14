@@ -53,9 +53,9 @@ weapons: [
    y: 6
    reload: 120
    shots: 1
-   firstShotDelay: 80
+   firstShotDelay: 60
    shootStatus: unmoving
-   shootStatusDuration: 80
+   shootStatusDuration: 60
    shootSound: shotgun
    colors: [665c9f, bf92f9, ffffff]
    bullet: {
@@ -72,7 +72,7 @@ weapons: [
       serrations: 4
       keepVelocity: false
       hittable: false
-      recoil: -26
+      recoil: -18
       colors: [665c9f, bf92f9, ffffff]
       shootEffect: {
          type: MultiEffect
