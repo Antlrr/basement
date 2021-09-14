@@ -42,6 +42,14 @@ deathExplosionEffect: {
       region: basement-star
       particles: 4
       }
+      {
+      type: ParticleEffect
+      line: true
+      lenFrom: 0
+      lenTo: 2
+      colorFrom: bf92f9
+      colorTo: bf92f900
+      }
    ]
 }
 weapons: [
