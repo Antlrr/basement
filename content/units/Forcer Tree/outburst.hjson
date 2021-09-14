@@ -219,8 +219,13 @@ weapons: [
       frontColor: bf92f9
       speed: 3
       lifetime: 56
-      weaveScale: 2
-      weaveMag: 2.75
+      weaveScale: 5
+      weaveMag: 5.20
+      trailLength: 20
+      trailWidth: 6
+      trailColor: bf92f9
+      trailInterval: 3
+      trailRotation: true
       shootEffect: {
          type: MultiEffect
          effects: [
