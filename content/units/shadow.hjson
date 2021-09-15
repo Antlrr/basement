@@ -44,6 +44,8 @@ weapons: [
             lenTo: 0
             strokeFrom: 1
             strokeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f900
             }
          ]
       }
