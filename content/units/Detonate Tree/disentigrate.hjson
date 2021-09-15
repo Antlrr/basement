@@ -25,9 +25,9 @@ weapons: [
       width: 25
       height: 25
       ignoreRotation: true
-      backColor: a9d8ff
+      backColor: bf92f9
       frontColor: ffffff
-      mixColorTo: a9d8ff
+      mixColorTo: bf92f9
       hitSound: plasmaboom
       shootCone: 80
       ejectEffect: none
@@ -41,8 +41,8 @@ weapons: [
             type: WaveEffect
             sizeFrom: 130
             sizeTo: 0
-            colorFrom: a9d8ff
-            colorTo: ffffff
+            colorFrom: bf92f9
+            colorTo: bf92f900
          }
          {
             type: ParticleEffect
@@ -50,8 +50,8 @@ weapons: [
             sizeFrom: 5
             sizeTo: 0
             particles: 6
-            colorFrom: ffffff
-            colorTo: a9d8ff
+            colorFrom: bf92f9
+            colorTo: bf92f900
          }
          {
             type: ParticleEffect
@@ -59,8 +59,8 @@ weapons: [
             sizeFrom: 6
             sizeTo: 0
             particles: 5
-            colorFrom: ffffff
-            colorTo: a9d8ff            
+            colorFrom: bf92f9
+            colorTo: bf92f900         
             }
          ]
       }
@@ -71,7 +71,7 @@ weapons: [
             type: WaveEffect
             sizeFrom: 0
             sizeTo: 10
-            colorFrom: a9d8ff
+            colorFrom: bf92f9
             colorTo: ffffff
             }
             {
@@ -81,7 +81,7 @@ weapons: [
             sizeTo: 3
             particles: 3
             colorFrom: ffffff
-            colorTo: a9d8ff
+            colorTo: bf92f9
             }
          ]
       }      
@@ -104,7 +104,7 @@ weapons: [
          shrinkX: 0.1
          shrinkY: 0.1
          frontColor: ffffff
-         backColor: a9d8ff
+         backColor: bf92f9
          lifeTime: 130
          homingPower: 0.02
          trailEffect: {
@@ -143,9 +143,9 @@ weapons: [
                maxRange: 50
                ignoreRotation: true
                healPercent: 4
-               backColor: a9d8ff
+               backColor: bf92f9
                frontColor: ffffff
-               mixColorTo: a9d8ff
+               mixColorTo: bf92f9
                shootCone: 360
                hitSize: 22
                collidesAir: false
