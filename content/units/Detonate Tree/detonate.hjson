@@ -13,6 +13,7 @@ lightRadius: 60
 lightColor: bf92f9
 rotateShooting: true
 rotateSpeed: 5
+faceTarget: false
 weapons: [
    {
    mirror: false
