@@ -15,3 +15,40 @@ isCounted: false
 lightRadius: 0
 engineSize: 0
 drawCell: false
+weapons: [
+   {
+   type: pointDefenseWeapon
+   rotate: true
+   top: false
+   mirror: false
+   shots: 1
+   inaccuracy: 4
+   shotDelay: 6.50
+   x: 0
+   y: 0
+   reload: 2
+   recoil: 1
+   targetInterval: 2
+   targetSwitchInterval: 1
+   bullet: {
+      type: BulletType
+      shootEffect: none
+      maxRange: 100
+      hitEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: ParticleEffect
+            line: true
+            lenFrom: 4
+            lenTo: 0
+            strokeFrom: 1
+            strokeTo: 0
+            }
+         ]
+      }
+      despawnEffect: none
+      damage: 15
+      }
+   }
+]
