@@ -9,14 +9,14 @@ accel: 0.06
 drag: 0.017
 lowAltitude: false
 flying: true
-rotateShooting: true
+rotateShooting: false
 circleTarget: true
 weapons: [
    {
    x: 0
    y: 0
    mirror: false
-   reload: 40
+   reload: 80
    soundPitchMin: 1
    shootSound: plasmaDrop
    bullet: { 
