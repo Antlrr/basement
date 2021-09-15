@@ -27,9 +27,9 @@ weapons: [
    shotDelay: 6.50
    x: 0
    y: 0
-   reload: 0.01
+   reload: 2
    recoil: 1
-   targetInterval: 2
+   targetInterval: 1
    targetSwitchInterval: 1
    bullet: {
       type: BulletType
