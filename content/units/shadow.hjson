@@ -32,7 +32,10 @@ weapons: [
    targetSwitchInterval: 1
    bullet: {
       type: BulletType
-      shootEffect: none
+      shootEffect: {
+         type: ParticleEffect
+         particles: 0
+      }
       maxRange: 100
       hitEffect: {
          type: MultiEffect
@@ -46,6 +49,7 @@ weapons: [
             strokeTo: 0
             colorFrom: bf92f9
             colorTo: bf92f900
+            particles: 6
             }
          ]
       }
