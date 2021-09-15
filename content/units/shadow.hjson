@@ -73,6 +73,29 @@ weapons: [
    shootCone: 360
    inaccuracy: 360
    shootSound: lasershoot
+   shotDelay: 80
+   shootEffect: {
+      type: MultiEffect
+      effects: [
+         {
+         type: WaveEffect
+         sizeFrom: 20
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: ffffff
+         }
+         {
+         type: ParticleEffect
+         length: 0
+         lifetime: 170
+         particles: 1
+         sizeFrom: 0
+         sizeTo: 2
+         colorFrom: bf92f9
+         colorTo: ffffff
+         }
+      ]
+   }
    bullet: {
       type: BasicBulletType
       damage: 28
