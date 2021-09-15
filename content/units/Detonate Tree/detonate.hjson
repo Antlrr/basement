@@ -93,7 +93,6 @@ weapons: [
          lifetime: 25
          speed: 2
          damage: 24
-         knockback: 50
          fragBullets: 1
          fragBullet: {
             type: BasicBulletType
