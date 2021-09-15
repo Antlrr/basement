@@ -15,6 +15,7 @@ isCounted: false
 lightRadius: 0
 engineSize: 0
 drawCell: false
+faceTarget: false
 weapons: [
    {
    type: pointDefenseWeapon
@@ -55,6 +56,51 @@ weapons: [
       }
       despawnEffect: none
       damage: 1500
+      }
+   }
+   {
+   top: false
+   mirror: false
+   rotate: true
+   rotateSpeed: 60
+   x: 0
+   y: 0
+   shots: 2
+   shotDelay: 0
+   shootY: 0
+   recoil: 0
+   reload: 10
+   shootCone: 360
+   inaccuracy: 360
+   shootSound: shoo
+   bullet: {
+      type: BasicBulletType
+      damage: 20
+      width: 7
+      height: 7
+      hitSize: 7
+      speed: 4
+      lifetime: 14
+      frontColor: bf92f9
+      backColor: 6d56bf
+      hitColor: bf92f9
+      sprite: circle-bullet
+      shootEffect: none
+      trailLength: 7
+      trailWidth: 3.5
+      trailMult: 1
+      trailSize: 1
+      trailColor: 6d56bf
+      fragCone: 180
+      fragBullets: 2
+      fragBullet: {
+         type: LightningBulletType
+         damage: 3
+         lightningLength: 6
+         lightningLengthRand: 6
+         lightningColor: bf92f9
+         hitColor: bf92f9
+         }
       }
    }
 ]
