@@ -74,6 +74,7 @@ weapons: [
    inaccuracy: 360
    shootSound: lasershoot
    shotDelay: 80
+   firstShotDelay: 90
    shootEffect: {
       type: MultiEffect
       effects: [
