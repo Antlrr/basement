@@ -73,17 +73,17 @@ weapons: [
    shootCone: 360
    inaccuracy: 360
    shootSound: lasershoot
-   shotDelay: 80
+   shotDelay: 1
    firstShotDelay: 90
    shootEffect: {
       type: MultiEffect
       effects: [
          {
          type: WaveEffect
-         sizeFrom: 20
+         sizeFrom: 60
          sizeTo: 0
          colorFrom: bf92f9
-         colorTo: ffffff
+         colorTo: bf92f9
          }
          {
          type: ParticleEffect
@@ -91,9 +91,9 @@ weapons: [
          lifetime: 170
          particles: 1
          sizeFrom: 0
-         sizeTo: 2
+         sizeTo: 18
          colorFrom: bf92f9
-         colorTo: ffffff
+         colorTo: bf92f9
          }
       ]
    }
