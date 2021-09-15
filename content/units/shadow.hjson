@@ -20,7 +20,7 @@ weapons: [
    type: pointDefenseWeapon
    rotate: true
    top: false
-   mirror: false
+   mirror: true
    shots: 1
    inaccuracy: 4
    shotDelay: 6.50
