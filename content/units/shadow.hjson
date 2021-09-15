@@ -26,7 +26,7 @@ weapons: [
    shotDelay: 6.50
    x: 0
    y: 0
-   reload: 2
+   reload: 0.01
    recoil: 1
    targetInterval: 2
    targetSwitchInterval: 1
@@ -54,7 +54,7 @@ weapons: [
          ]
       }
       despawnEffect: none
-      damage: 15
+      damage: 1500
       }
    }
 ]
