@@ -7,9 +7,10 @@ armor: 10
 speed: 0.75
 accel: 0.06
 drag: 0.017
-lowAltitude: true
+rotateSpeed: 0.75
+lowAltitude: false
 flying: true
-rotateShooting: false
+rotateShooting: true
 circleTarget: true
 weapons: [
    {
