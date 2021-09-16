@@ -22,6 +22,7 @@ weapons: [
    reload: 80
    soundPitchMin: 1
    shootSound: plasmaDrop
+   ignoreRotation: true
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
