@@ -12,7 +12,7 @@ lightRadius: 80
 lightColor: bf92f9
 rotateShooting: true
 rotateSpeed: 3
-legCount: 6
+legCount: 4
 legMoveSpace: 1
 legPairOffset: 3
 legLength: 30f
@@ -24,7 +24,7 @@ rippleScale: 2
 legSpeed: 0.2
 maxStretch: 4
 allowLegStep: true
-legGroupSize: 2
+legGroupSize: 1
 targetAir: false
 deathExplosionEffect: {
    type: MultiEffect
