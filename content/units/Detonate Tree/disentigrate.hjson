@@ -8,7 +8,7 @@ speed: 0.75
 accel: 0.06
 drag: 0.017
 rotateSpeed: 0.75
-lowAltitude: false
+lowAltitude: true
 flying: true
 rotateShooting: true
 targetAir: false
