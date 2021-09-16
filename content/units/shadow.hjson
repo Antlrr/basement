@@ -1,5 +1,5 @@
 type: mech
-controller: ground
+controller: groundAI
 mineTier: 3
 mineSpeed: 4
 health: 460
@@ -8,7 +8,7 @@ speed: 2.5
 accel: 0.06
 drag: 0.017
 lowAltitude: true
-flying: true
+flying: false
 rotateShooting: false
 buildSpeed: 2.6
 isCounted: false
