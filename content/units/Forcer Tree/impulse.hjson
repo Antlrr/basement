@@ -15,7 +15,7 @@ rotateSpeed: 18.20
 legCount: 4
 legLength: 10
 legBaseOffset: 2
-legExtension: -0.50
+legExtension: -2
 legSpeed: 0.20
 legSplashRange: 0
 rippleScale: 0.01
