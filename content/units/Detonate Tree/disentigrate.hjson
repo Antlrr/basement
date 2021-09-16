@@ -22,10 +22,14 @@ weapons: [
    soundPitchMin: 1
    shootSound: plasmaDrop
    rotate: true
+   rotateSpeed: 2
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
       width: 25
+      trailLength: 20
+      trailWidth: 6
+      trailColor: bf92f9
       height: 25
       backColor: bf92f9
       frontColor: ffffff
