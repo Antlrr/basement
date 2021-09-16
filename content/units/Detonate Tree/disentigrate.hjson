@@ -175,37 +175,30 @@ weapons: [
       }
    }
    {
-   rotate: true
-   name: big-purple-mount
-   top: true
+   rotate: false
+   name: purple-weapon-mount
+   top: false
    mirror: true
-   x: 6
-   y: 4
-   reload: 30
-   shots: 2
+   x: 10
+   y: 8
+   reload: 30.20
+   shots: 1
+   alternate: true
    autoTarget: true
+   shootSound: lasershoot
    bullet: {
-      type: BasicBulletType
+      type: LaserBoltBulletType
       collidesTeam: false
-      damage: 32
-      lifetime: 18
+      damage: 24
+      lifetime: 10
       collidesAir: true
-      keepVelocity: true
+      keepVelocity: false
       hittable: true
       recoil: 0
       backColor: 665c9f
       frontColor: bf92f9
-      speed: 2
-      width: 8
-      height: 8
+      speed: 3
       lifetime: 56
-      weaveScale: 5
-      weaveMag: 5.20
-      trailLength: 2
-      trailWidth: 2
-      trailColor: bf92f9
-      trailInterval: 0.01
-      homingPower: 0.5
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -216,7 +209,7 @@ weapons: [
          region: basement-star
          particles: 3
          colorFrom: bf92f9
-         colorTo: 665c9f00
+         colorTo: 665c9f
          lightOpacity: 2
          }
          {
@@ -226,7 +219,7 @@ weapons: [
          region: basement-round
          particles: 3
          colorFrom: bf92f9
-         colorTo: 665c9f00
+         colorTo: 665c9f
          lightOpacity: 1
          }
       ]
