@@ -135,7 +135,7 @@ abilities: [
       length: 0
       sizeFrom: 12
       sizeTo: 12
-      spin: 12
+      spin: 2
       colorFrom: bf92f9
       colorTo: bf92f900
       }
