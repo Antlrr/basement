@@ -17,7 +17,7 @@ legMoveSpace: 1
 legPairOffset: 3
 legLength: 30f
 legExtension: -15
-legBaseOffset: 10
+legBaseOffset: 3
 landShake: 0.1
 legLengthScl: 0.96
 rippleScale: 2
