@@ -131,11 +131,11 @@ abilities: [
       lightOpacity: 10
       particles: 1
       region: basement-shadow-glow
-      lifetime: 20
+      lifetime: 1
       length: 0
       sizeFrom: 12
       sizeTo: 12
-      spin: 2
+      spin: 16
       colorFrom: bf92f9
       colorTo: bf92f900
       }
