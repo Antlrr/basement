@@ -10,7 +10,7 @@ drag: 0.017
 rotateSpeed: 0.75
 lowAltitude: true
 flying: true
-rotateShooting: true
+rotateShooting: false
 targetAir: false
 weapons: [
    {
