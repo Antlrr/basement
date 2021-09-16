@@ -129,12 +129,12 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       lightOpacity: 10
-      particles: 8
+      particles: 1
       region: basement-shadow-glow
       lifetime: 20
       length: 0
-      sizeFrom: 7
-      sizeTo: 7
+      sizeFrom: 12
+      sizeTo: 12
       spin: 12
       colorFrom: bf92f9
       colorTo: bf92f900
