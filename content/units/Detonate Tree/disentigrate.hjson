@@ -12,6 +12,7 @@ lowAltitude: false
 flying: true
 rotateShooting: true
 circleTarget: true
+targetAir: false
 weapons: [
    {
    x: 0
