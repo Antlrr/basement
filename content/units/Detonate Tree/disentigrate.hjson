@@ -180,19 +180,18 @@ weapons: [
       }
    }
    {
-   rotate: false
-   name: purple-weapon-mount
-   top: false
+   rotate: true
+   name: purple-mount
+   top: true
    mirror: true
-   x: 10
-   y: 8
-   reload: 30.20
+   x: 5
+   y: 2
+   reload: 20
    shots: 1
-   alternate: true
+   alternate: false
    autoTarget: true
-   shootSound: lasershoot
    bullet: {
-      type: LaserBoltBulletType
+      type: BasicBulletType
       collidesTeam: false
       damage: 24
       lifetime: 10
@@ -204,6 +203,8 @@ weapons: [
       frontColor: bf92f9
       speed: 3
       lifetime: 56
+      width: 8
+      length: 6
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -225,6 +226,86 @@ weapons: [
          particles: 3
          colorFrom: bf92f9
          colorTo: 665c9f
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
+         }
+      }
+   }
+   {
+   rotate: true
+   name: big-purple-mount
+   top: true
+   mirror: false
+   x: 0
+   y: -6
+   reload: 30
+   shots: 2
+   autoTarget: true
+   bullet: {
+      type: BasicBulletType
+      collidesTeam: false
+      damage: 32
+      lifetime: 18
+      collidesAir: true
+      keepVelocity: true
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 2
+      width: 8
+      height: 8
+      lifetime: 56
+      weaveScale: 5
+      weaveMag: 5.20
+      trailLength: 2
+      trailWidth: 2
+      trailColor: bf92f9
+      trailInterval: 0.01
+      homingPower: 0.5
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f00
+         lightOpacity: 2
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f00
          lightOpacity: 1
          }
       ]
