@@ -13,6 +13,7 @@ flying: true
 rotateShooting: true
 circleTarget: true
 targetAir: false
+faceTarget: false
 weapons: [
    {
    x: 0
