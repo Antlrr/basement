@@ -1,5 +1,5 @@
-type: flying
-controller: FlyingAI
+type: mech
+controller: ground
 mineTier: 3
 mineSpeed: 4
 health: 460
@@ -16,6 +16,7 @@ lightRadius: 0
 engineSize: 0
 drawCell: false
 faceTarget: false
+mechSideSway: 0
 weapons: [
    {
    type: pointDefenseWeapon
@@ -131,10 +132,10 @@ abilities: [
       lightOpacity: 10
       particles: 6
       region: circle
-      lifetime: 100
+      lifetime: 120
       length: 0
       sizeFrom: 12
-      sizeTo: 10
+      sizeTo: 8
       spin: 16
       colorFrom: bf92f9
       colorTo: bf92f9
