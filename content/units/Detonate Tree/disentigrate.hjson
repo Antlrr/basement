@@ -184,8 +184,8 @@ weapons: [
    name: purple-mount
    top: true
    mirror: true
-   x: 5
-   y: 2
+   x: 8
+   y: 6
    reload: 20
    shots: 1
    alternate: false
