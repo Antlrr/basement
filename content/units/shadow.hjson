@@ -130,7 +130,7 @@ abilities: [
       type: ParticleEffect
       lightOpacity: 10
       particles: 6
-      region: basement-shadow-glow
+      region: circle
       lifetime: 100
       length: 0
       sizeFrom: 12
