@@ -11,9 +11,7 @@ rotateSpeed: 0.75
 lowAltitude: false
 flying: true
 rotateShooting: true
-circleTarget: true
 targetAir: false
-faceTarget: false
 weapons: [
    {
    name: purple-laser-mount
@@ -23,22 +21,20 @@ weapons: [
    reload: 80
    soundPitchMin: 1
    shootSound: plasmaDrop
-   ignoreRotation: true
+   rotate: true
    bullet: { 
       type: BasicBulletType
       sprite: basement-star
       width: 25
       height: 25
-      ignoreRotation: true
       backColor: bf92f9
       frontColor: ffffff
       mixColorTo: bf92f9
       hitSound: plasmaboom
-      shootCone: 80
       ejectEffect: none
       hitShake: 4
       collidesAir: false
-      lifeTime: 100
+      lifeTime: 80
       despawnEffect: {
          type: MultiEffect
          effects: [
@@ -94,7 +90,7 @@ weapons: [
       spin: 3
       shrinkX: 0.7
       shrinkY: 0.7
-      speed: 1
+      speed: 2
       collides: false
       healPercent: 15
       splashDamage: 980
