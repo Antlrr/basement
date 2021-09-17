@@ -13,8 +13,8 @@ lowAltitude: true
 flying: true
 rotateShooting: false
 targetAir: false
-engineOffset: 13
-engineSize: 5.75
+engineOffset: 14
+engineSize: 4
 weapons: [
    {
    name: purple-laser-mount
