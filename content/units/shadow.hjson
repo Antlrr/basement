@@ -135,10 +135,10 @@ abilities: [
       lifetime: 120
       length: 0
       sizeFrom: 4
-      sizeTo: 4
+      sizeTo: 2
       spin: 16
       colorFrom: bf92f9
-      colorTo: bf92f9
+      colorTo: bf92f900
       }
    }
 ]
