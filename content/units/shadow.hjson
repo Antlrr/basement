@@ -130,7 +130,7 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       lightOpacity: 10
-      particles: 1
+      particles: 6
       region: circle
       lifetime: 120
       length: 0
