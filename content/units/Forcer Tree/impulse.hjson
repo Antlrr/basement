@@ -7,7 +7,7 @@ armor: 10
 speed: 0.85
 accel: 0.4
 drag: 0.1
-hitsize: 2
+hitSize: 6
 controller: GroundAI
 lightRadius: 60
 lightColor: bf92f9
