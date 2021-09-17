@@ -1,5 +1,6 @@
 type: mech
 controller: groundAI
+canBoost: true
 mineTier: 3
 mineSpeed: 4
 health: 460
@@ -129,12 +130,12 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       lightOpacity: 10
-      particles: 6
+      particles: 1
       region: circle
       lifetime: 120
       length: 0
-      sizeFrom: 12
-      sizeTo: 8
+      sizeFrom: 4
+      sizeTo: 4
       spin: 16
       colorFrom: bf92f9
       colorTo: bf92f9
