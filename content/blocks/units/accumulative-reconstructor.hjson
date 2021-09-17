@@ -1,0 +1,25 @@
+type: Reconstructor
+size: 6
+constructTime: 1920
+consumes: {
+  power: 8
+    items: {
+      items: [
+        thorium/32
+        titanium/40
+        metaglass/34
+        silicon/130
+      ]
+    }
+  }
+upgrades: [
+  [impulse, outburst]
+  [discharge, disentegrate]
+]
+requirements: [
+  thorium/52
+  titanium/64
+  lead/48
+  silicon/152
+]
+category: units
