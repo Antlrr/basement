@@ -7,7 +7,7 @@ armor: 10
 speed: 0.75
 accel: 0.06
 drag: 0.017
-hitsize: 11
+hitsize: 16.5
 rotateSpeed: 0.75
 lowAltitude: true
 flying: true
