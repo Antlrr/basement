@@ -8,8 +8,8 @@ const discharge = extendContent(UnitType, "discharge", {});
 discharge.constructor = () => extend(UnitEntity, {
 });
 
-const disentigrate = extendContent(UnitType, "disentigrate", {});
-disentigrate.constructor = () => extend(UnitEntity, {
+const disentegrate = extendContent(UnitType, "disentegrate", {});
+disentegrate.constructor = () => extend(UnitEntity, {
 });
 
 const forcer = extendContent(UnitType, "forcer", {});
