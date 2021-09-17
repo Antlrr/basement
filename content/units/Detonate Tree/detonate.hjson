@@ -17,6 +17,7 @@ faceTarget: false
 weapons: [
    {
    mirror: false
+   rotate: true
    reload: 140
    shots: 4
    shotDelay: 20
