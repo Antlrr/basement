@@ -75,6 +75,7 @@ weapons: [
             sprite: basement-detonate-bullet
             width: 11
             height: 11
+            layer: 37
             shootEffect: hitLancer
             smokeEffect: none 
             ejectEffect: none
@@ -87,7 +88,7 @@ weapons: [
             trailChance: 0.2
             ignoreRotation: true
             healPercent: 4
-            backColor: 8a73c6
+            backColor: bf92f9
             frontColor: ffffff
             mixColorTo: bf92f9
             shootCone: 360
@@ -129,6 +130,7 @@ weapons: [
             sprite: basement-detonate-bullet
             backColor: a9d8ff
             damage: 24
+            layer: 37
             lifetime: 10
             speed: 10
             fragBullets: 2
