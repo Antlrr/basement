@@ -42,6 +42,7 @@ weapons: [
       sprite: basement-detonate-bullet
       width: 11
       height: 11
+      layer: 37
       shootEffect: hitLancer
       smokeEffect: none
       ejectEffect: none
