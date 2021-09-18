@@ -12,6 +12,10 @@ const disentegrate = extendContent(UnitType, "disentegrate", {});
 disentegrate.constructor = () => extend(UnitEntity, {
 });
 
+const ignite = extendContent(UnitType, "ignite", {});
+ignite.constructor = () => extend(UnitEntity, {
+});
+
 const forcer = extendContent(UnitType, "forcer", {});
 forcer.constructor = () => extend(MechUnit, {
 });
