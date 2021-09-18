@@ -81,67 +81,6 @@ weapons: [
       weaveMag: 6
       }
    }
-]
-abilities: [
-  {
-    type: MoveLightningAbility
-    chance: 1
-    minSpeed: -1
-    maxSpeed: 0
-    length: 0
-    shootSound: none
-    shootEffect: {
-      type: ParticleEffect
-      lightOpacity: 10
-      particles: 8
-      region: circle
-      lifetime: 1
-      length: 0
-      sizeFrom: 8
-      sizeTo: 8
-      colorFrom: bf92f9
-      colorTo: bf92f9
-      }
-   }
-   {
-   type: MoveLightningAbility
-    chance: 1
-    minSpeed: -1
-    maxSpeed: 0
-    length: 0
-    shootSound: none
-    shootEffect: {
-      type: ParticleEffect
-      lightOpacity: 10
-      particles: 8
-      region: circle
-      lifetime: 40
-      length: 0
-      sizeFrom: 8
-      sizeTo: 2
-      colorFrom: bf92f9
-      colorTo: bf92f900
-      }
-   }
-   {
-      type: EnergyFieldAbility
-      damage: 28
-      reload: 240
-      range: 85
-      maxTargets: 6
-      shootSound: lasershoot
-      color: bf92f9
-      healPercent: 5
-      status: unmoving
-      statusDuration: 120
-      shootEffect: {
-         type: WaveEffect
-         sizeFrom: 50
-         sizeTo: 50
-         colorFrom: bf92f9
-         colorTo: bf92f900
-      }
-   }
    {
    rotate: true
    name: purple-mount
@@ -292,3 +231,65 @@ abilities: [
    }
 ]
 
+
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 8
+      region: circle
+      lifetime: 1
+      length: 0
+      sizeFrom: 8
+      sizeTo: 8
+      colorFrom: bf92f9
+      colorTo: bf92f9
+      }
+   }
+   {
+   type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 8
+      region: circle
+      lifetime: 40
+      length: 0
+      sizeFrom: 8
+      sizeTo: 2
+      colorFrom: bf92f9
+      colorTo: bf92f900
+      }
+   }
+   {
+      type: EnergyFieldAbility
+      damage: 28
+      reload: 240
+      range: 85
+      maxTargets: 6
+      shootSound: lasershoot
+      color: bf92f9
+      healPercent: 5
+      status: unmoving
+      statusDuration: 120
+      shootEffect: {
+         type: WaveEffect
+         sizeFrom: 50
+         sizeTo: 50
+         colorFrom: bf92f9
+         colorTo: bf92f900
+      }
+   }
+]
