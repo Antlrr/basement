@@ -19,13 +19,13 @@ weapons: [
    rotateSpeed: 60
    x: 0
    y: 0
-   shots: 6
+   shots: 2
    shotDelay: 0
    shootY: 0
    recoil: 0
-   reload: 10
-   shootCone: 40
-   inaccuracy: 40
+   reload: 60
+   shootCone: 30
+   inaccuracy: 30
    shootSound: lasershoot
    shotDelay: 4
    shootEffect: {
@@ -59,7 +59,7 @@ weapons: [
       speed: 1
       lifetime: 160
       frontColor: bf92f9
-      backColor: 6d56bf
+      backColor: bf92f9
       hitColor: bf92f9
       sprite: circle-bullet
       shootEffect: none
@@ -69,8 +69,8 @@ weapons: [
       trailSize: 1
       trailColor: 6d56bf
       trailInterval: 1
-      shrinkY: 0
-      shrinkX: 0
+      shrinkY: 0.1
+      shrinkX: 0.1
       pierce: true
       pierceBuilding: true
       pierceCap: 4
@@ -123,7 +123,7 @@ abilities: [
    {
       type: EnergyFieldAbility
       damage: 28
-      reload: 58
+      reload: 240
       range: 85
       maxTargets: 6
       shootSound: lasershoot
