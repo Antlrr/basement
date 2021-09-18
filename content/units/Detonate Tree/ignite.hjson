@@ -91,10 +91,10 @@ abilities: [
       lightOpacity: 10
       particles: 38
       region: circle
-      lifetime: 120
+      lifetime: 400
       length: 0
       sizeFrom: 8
-      sizeTo: 8
+      sizeTo: 7.75
       spin: 16
       colorFrom: bf92f9
       colorTo: bf92f900
