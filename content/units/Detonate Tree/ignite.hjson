@@ -25,7 +25,7 @@ weapons: [
    recoil: 0
    reload: 10
    shootCone: 40
-   inaccuracy: 360
+   inaccuracy: 40
    shootSound: lasershoot
    shotDelay: 4
    shootEffect: {
@@ -68,6 +68,8 @@ weapons: [
       trailMult: 1
       trailSize: 1
       trailColor: 6d56bf
+      shrinkY: 0
+      shrinkX: 0
       pierce: true
       pierceBuilding: true
       pierceCap: 4
