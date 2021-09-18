@@ -90,21 +90,20 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       lightOpacity: 10
-      particles: 10
+      particles: 8
       region: circle
-      lifetime: 10
+      lifetime: 40
       length: 0
       sizeFrom: 8
       sizeTo: 8
-      spin: 16
       colorFrom: bf92f9
-      colorTo: bf92f900
+      colorTo: bf92f9
       }
    }
    {
       type: EnergyFieldAbility
       damage: 28
-      reload: 5
+      reload: 58
       range: 85
       maxTargets: 18
       shootSound: lasershoot
