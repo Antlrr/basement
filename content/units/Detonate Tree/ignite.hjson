@@ -68,6 +68,7 @@ weapons: [
       trailMult: 1
       trailSize: 1
       trailColor: 6d56bf
+      trailInterval: 1
       shrinkY: 0
       shrinkX: 0
       pierce: true
