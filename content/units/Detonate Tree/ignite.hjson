@@ -100,6 +100,7 @@ abilities: [
       colorTo: bf92f9
       }
    }
+   {
    type: MoveLightningAbility
     chance: 1
     minSpeed: -1
