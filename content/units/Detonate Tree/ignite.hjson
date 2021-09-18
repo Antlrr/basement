@@ -142,4 +142,153 @@ abilities: [
          colorTo: bf92f900
       }
    }
+   {
+   rotate: true
+   name: purple-mount
+   top: true
+   mirror: true
+   x: 16
+   y: -9
+   reload: 10
+   shots: 1
+   alternate: false
+   autoTarget: true
+   bullet: {
+      type: BasicBulletType
+      collidesTeam: false
+      damage: 24
+      lifetime: 10
+      collidesAir: true
+      keepVelocity: false
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 3
+      lifetime: 56
+      width: 8
+      length: 6
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 2
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
+         }
+      }
+   }
+   {
+   rotate: true
+   name: purple-mount
+   top: true
+   mirror: true
+   x: 16
+   y: 9
+   reload: 10
+   shots: 1
+   alternate: false
+   autoTarget: true
+   bullet: {
+      type: BasicBulletType
+      collidesTeam: false
+      damage: 24
+      lifetime: 10
+      collidesAir: true
+      keepVelocity: false
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 3
+      lifetime: 56
+      width: 8
+      length: 6
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 2
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
+         }
+      }
+   }
 ]
+
