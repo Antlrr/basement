@@ -19,11 +19,11 @@ weapons: [
    rotateSpeed: 60
    x: 0
    y: 0
-   shots: 2
+   shots: 3
    shotDelay: 0
    shootY: 0
    recoil: 0
-   reload: 60
+   reload: 20
    shootCone: 30
    inaccuracy: 30
    shootSound: lasershoot
@@ -74,8 +74,8 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 4
-      weaveScale: 7
-      weaveMag: 8
+      weaveScale: 5
+      weaveMag: 6
       }
    }
 ]
