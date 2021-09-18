@@ -161,7 +161,7 @@ weapons: [
    top: true
    mirror: true
    x: 16
-   y: 9
+   y: 11
    reload: 10
    shots: 1
    alternate: false
