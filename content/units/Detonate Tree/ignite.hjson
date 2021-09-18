@@ -90,7 +90,7 @@ weapons: [
    y: -9
    reload: 10
    shots: 1
-   alternate: false
+   alternate: true
    autoTarget: true
    bullet: {
       type: BasicBulletType
@@ -162,9 +162,9 @@ weapons: [
    mirror: true
    x: 16
    y: 11
-   reload: 10
+   reload: 14
    shots: 1
-   alternate: false
+   alternate: true
    autoTarget: true
    bullet: {
       type: BasicBulletType
