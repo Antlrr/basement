@@ -56,16 +56,16 @@ weapons: [
       width: 7
       height: 7
       hitSize: 7
-      speed: 4
-      lifetime: 14
+      speed: 1
+      lifetime: 160
       frontColor: bf92f9
       backColor: 6d56bf
       hitColor: bf92f9
       sprite: circle-bullet
       shootEffect: none
-      trailLength: 7
+      trailLength: 0
       trailWidth: 3.5
-      trailMult: 1
+      trailMult: 6
       trailSize: 1
       trailColor: 6d56bf
       trailInterval: 1
@@ -74,14 +74,33 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 4
-      weaveScale: 4
-      weaveMag: 5
+      weaveScale: 7
+      weaveMag: 8
       }
    }
 ]
 abilities: [
   {
     type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 8
+      region: circle
+      lifetime: 1
+      length: 0
+      sizeFrom: 8
+      sizeTo: 8
+      colorFrom: bf92f9
+      colorTo: bf92f9
+      }
+   }
+   type: MoveLightningAbility
     chance: 1
     minSpeed: -1
     maxSpeed: 0
