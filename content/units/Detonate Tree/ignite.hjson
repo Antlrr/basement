@@ -11,3 +11,26 @@ rotateSpeed: 0.50
 lowAltitude: true
 flying: true
 rotateShooting: false
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 38
+      region: circle
+      lifetime: 120
+      length: 0
+      sizeFrom: 8
+      sizeTo: 8
+      spin: 16
+      colorFrom: bf92f9
+      colorTo: bf92f900
+      }
+   }
+]
