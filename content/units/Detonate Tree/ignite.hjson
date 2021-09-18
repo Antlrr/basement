@@ -68,6 +68,11 @@ weapons: [
       trailMult: 1
       trailSize: 1
       trailColor: 6d56bf
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 4
+      weaveScale: 4
+      weaveMag: 5
       }
    }
 ]
