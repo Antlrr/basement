@@ -11,6 +11,8 @@ rotateSpeed: 0.50
 lowAltitude: true
 flying: true
 rotateShooting: false
+engineOffset: 16
+engineSize: 5
 weapons: [
    {
    top: false
