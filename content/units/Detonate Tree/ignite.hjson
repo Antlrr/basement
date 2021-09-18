@@ -11,6 +11,66 @@ rotateSpeed: 0.50
 lowAltitude: true
 flying: true
 rotateShooting: false
+weapons: [
+   {
+   top: false
+   mirror: false
+   rotate: true
+   rotateSpeed: 60
+   x: 0
+   y: 0
+   shots: 6
+   shotDelay: 0
+   shootY: 0
+   recoil: 0
+   reload: 10
+   shootCone: 40
+   inaccuracy: 360
+   shootSound: lasershoot
+   shotDelay: 4
+   shootEffect: {
+      type: MultiEffect
+      effects: [
+         {
+         type: WaveEffect
+         sizeFrom: 60
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: bf92f9
+         }
+         {
+         type: ParticleEffect
+         length: 0
+         lifetime: 170
+         particles: 1
+         sizeFrom: 0
+         sizeTo: 18
+         colorFrom: bf92f9
+         colorTo: bf92f9
+         }
+      ]
+   }
+   bullet: {
+      type: BasicBulletType
+      damage: 28
+      width: 7
+      height: 7
+      hitSize: 7
+      speed: 4
+      lifetime: 14
+      frontColor: bf92f9
+      backColor: 6d56bf
+      hitColor: bf92f9
+      sprite: circle-bullet
+      shootEffect: none
+      trailLength: 7
+      trailWidth: 3.5
+      trailMult: 1
+      trailSize: 1
+      trailColor: 6d56bf
+      }
+   }
+]
 abilities: [
   {
     type: MoveLightningAbility
