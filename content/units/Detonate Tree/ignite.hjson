@@ -95,9 +95,9 @@ abilities: [
       lifetime: 40
       length: 0
       sizeFrom: 8
-      sizeTo: 8
+      sizeTo: 2
       colorFrom: bf92f9
-      colorTo: bf92f9
+      colorTo: bf92f900
       }
    }
    {
@@ -105,11 +105,18 @@ abilities: [
       damage: 28
       reload: 58
       range: 85
-      maxTargets: 18
+      maxTargets: 6
       shootSound: lasershoot
       color: bf92f9
       healPercent: 5
       status: unmoving
       statusDuration: 120
+      shootEffect: {
+         type: WaveEffect
+         sizeFrom: 50
+         sizeTo: 50
+         colorFrom: bf92f9
+         colorTo: bf92f900
+      }
    }
 ]
