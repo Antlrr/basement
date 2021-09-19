@@ -363,4 +363,11 @@ abilities: [
          colorTo: bf92f900
       }
    }
+   {
+    type: UnitSpawnAbility
+    unit: crawler
+    spawnX: 0
+    spawnY: 0
+    spawnTime: 600
+  }
 ]
