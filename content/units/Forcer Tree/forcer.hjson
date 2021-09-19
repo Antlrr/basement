@@ -12,6 +12,7 @@ lightRadius: 60
 lightColor: bf92f9
 rotateShooting: true
 rotateSpeed: 20
+deathSound: bigshot
 weapons: [
    {
    rotate: false
