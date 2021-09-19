@@ -229,6 +229,77 @@ weapons: [
          }
       }
    }
+   {
+   rotate: true
+   name: bolt-weapon-mount
+   top: true
+   mirror: true
+   x: 20
+   y: 3.75
+   reload: 8
+   shots: 1
+   alternate: false
+   autoTarget: true
+   shootSound: lasershoot
+   bullet: {
+      type: LaserBoltBulletType
+      collidesTeam: false
+      damage: 30
+      collidesAir: true
+      keepVelocity: false
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 2
+      lifetime: 56
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 3
+         region: basement-star
+         colorFrom: bf92f9
+         colorTo: bf92f900
+         lightOpacity: 10
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f900
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f900
+               }
+            ]
+         }
+      }
+   }
 ]
 
 
