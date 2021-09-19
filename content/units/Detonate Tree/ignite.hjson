@@ -234,7 +234,7 @@ weapons: [
    name: bolt-weapon-mount
    top: true
    mirror: true
-   x: 20
+   x: 23
    y: 3.75
    reload: 8
    shots: 1
@@ -243,6 +243,9 @@ weapons: [
    shootSound: lasershoot
    bullet: {
       type: LaserBoltBulletType
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
       collidesTeam: false
       damage: 30
       collidesAir: true
@@ -259,7 +262,7 @@ weapons: [
          {
          type: WaveEffect
          sizeFrom: 0
-         sizeTo: 3
+         sizeTo: 8
          region: basement-star
          colorFrom: bf92f9
          colorTo: bf92f900
