@@ -12,7 +12,7 @@ lowAltitude: true
 flying: true
 rotateShooting: false
 engineOffset: 10
-payloadCapacity: 98.89
+payloadCapacity: 64
 buildSpeed: 2.6
 weapons: [
    {
