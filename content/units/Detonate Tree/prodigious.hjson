@@ -38,7 +38,7 @@ deathExplosionEffect: {
       type: ParticleEffect
       lightOpacity: 10
       layer: 100
-      region: basement-diamond
+      region: basement-star
       particles: 1
       length: 0
       lifetime: 240
@@ -47,16 +47,17 @@ deathExplosionEffect: {
       colorTo: f0000000
       sizeFrom: 360
       sizeTo: 0
+      spin: 60
     }
     {
       type: ParticleEffect
       lightOpacity: 10
-      region: basement-diamond
+      region: circle
       particles: 1
       length: 0
       lifetime: 220
       interp: swing
-      colorFrom: 000000
+      colorFrom: 00000050
       colorTo: 000000
       sizeFrom: 300
       sizeTo: 0
@@ -66,7 +67,7 @@ deathExplosionEffect: {
       lightOpacity: 10
       sizeFrom: 500
       sizeTo: 60
-      strokeFrom: 10
+      strokeFrom: 30
       strokeTo: 0
       colorFrom: f00000
       colorTo: f0000000
