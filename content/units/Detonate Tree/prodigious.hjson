@@ -15,3 +15,61 @@ lightColor: ffffff
 lightRadius: 0
 mineTier: 900
 mineSpeed: 1200
+deathSound: demise
+deathExplosionEffect: {
+  type: MultiEffect
+  lifetime: 240
+  effects: [
+    {
+      type: ParticleEffect
+      lightOpacity: 10
+      line: true
+      lifetime: 120
+      length: -600
+      baseLength: 600
+      strokeFrom: 0
+      strokeTo: 12
+      lenFrom: 0
+      lenTo: 60
+      colorFrom: f00000
+      colorTo: f0000000
+    }
+    {
+      type: ParticleEffect
+      lightOpacity: 10
+      layer: 100
+      region: basement-diamond
+      particles: 1
+      length: 0
+      lifetime: 240
+      interp: swing
+      colorFrom: f00000
+      colorTo: f0000000
+      sizeFrom: 360
+      sizeTo: 0
+    }
+    {
+      type: ParticleEffect
+      lightOpacity: 10
+      region: basement-diamond
+      particles: 1
+      length: 0
+      lifetime: 220
+      interp: swing
+      colorFrom: 000000
+      colorTo: 000000
+      sizeFrom: 300
+      sizeTo: 0
+    }
+    {
+      type: WaveEffect
+      lightOpacity: 10
+      sizeFrom: 500
+      sizeTo: 60
+      strokeFrom: 10
+      strokeTo: 0
+      colorFrom: f00000
+      colorTo: f0000000
+    }
+  ]
+}
