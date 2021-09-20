@@ -4,12 +4,12 @@ hitSize: 60
 health: 54629124
 armor: 2589
 speed: 0.7
-rotateSpeed: 0.9
+rotateSpeed: 0.8
 accel: 1
 drag: 0.5
 lowAltitude: true
-engineOffset: 150
-engineSize: 24
+engineOffset: 120
+engineSize: 20
 fallSpeed: 0.010
 lightColor: ffffff
 lightRadius: 0
