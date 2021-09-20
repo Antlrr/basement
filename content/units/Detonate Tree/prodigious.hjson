@@ -45,8 +45,8 @@ deathExplosionEffect: {
       interp: swing
       colorFrom: f00000
       colorTo: f0000000
-      sizeFrom: 5
-      sizeTo: 5
+      sizeFrom: 380
+      sizeTo: 380
       spin: 60
     }
     {
@@ -60,8 +60,8 @@ deathExplosionEffect: {
       interp: swing
       colorFrom: f00000
       colorTo: f0000000
-      sizeFrom: 5
-      sizeTo: 5
+      sizeFrom: 380
+      sizeTo: 380
       spin: 30
     }
     {
