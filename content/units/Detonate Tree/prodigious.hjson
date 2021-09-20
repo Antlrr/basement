@@ -1,6 +1,6 @@
 type: flying
 flying: true
-hitSize: 60
+hitSize: 88
 health: 54629124
 armor: 2589
 speed: 0.7
@@ -13,3 +13,5 @@ engineSize: 20
 fallSpeed: 0.010
 lightColor: ffffff
 lightRadius: 0
+mineTier: 900
+mineSpeed: 1200
