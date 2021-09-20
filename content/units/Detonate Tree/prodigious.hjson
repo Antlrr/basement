@@ -1,0 +1,16 @@
+type: flying
+controller: FlyingAI
+mineTier: 69
+mineSpeed: 95
+health: 524605
+armor: 99
+speed: 0.05
+accel: 0.06
+drag: 0.017
+hitSize: 28
+rotateSpeed: 0.10
+lowAltitude: true
+flying: true
+rotateShooting: true
+engineOffset: 40
+engineSize: 10
