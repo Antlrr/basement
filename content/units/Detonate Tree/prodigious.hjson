@@ -22,7 +22,6 @@ deathExplosionEffect: {
   effects: [
     {
       type: ParticleEffect
-      lightOpacity: 10
       line: true
       lifetime: 120
       length: -600
@@ -37,7 +36,6 @@ deathExplosionEffect: {
     {
       type: ParticleEffect
       line: true
-      layer: 100
       particles: 12
       lifetime: 240
       interp: swing
@@ -46,12 +44,11 @@ deathExplosionEffect: {
       strokeFrom: 0
       strokeTo: 2
       lenFrom: 0
-      lenTo: 6
+      lenTo: 390
       spin: 60
     }
     {
       type: ParticleEffect
-      lightOpacity: 10
       layer: 100
       region: circle
       particles: 1
@@ -66,7 +63,6 @@ deathExplosionEffect: {
     }
     {
       type: ParticleEffect
-      lightOpacity: 10
       region: circle
       particles: 1
       length: 0
@@ -79,7 +75,6 @@ deathExplosionEffect: {
     }
     {
       type: WaveEffect
-      lightOpacity: 10
       sizeFrom: 500
       sizeTo: 60
       strokeFrom: 30
