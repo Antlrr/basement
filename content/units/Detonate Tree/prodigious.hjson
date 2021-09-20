@@ -36,31 +36,31 @@ deathExplosionEffect: {
     }
     {
       type: ParticleEffect
-      lightOpacity: 10
+      line: true
       layer: 100
-      region: circle-mid
-      particles: 1
-      length: 0
+      particles: 12
       lifetime: 240
       interp: swing
       colorFrom: f00000
       colorTo: f0000000
-      sizeFrom: 380
-      sizeTo: 380
+      strokeFrom: 0
+      strokeTo: 2
+      lenFrom: 0
+      lenTo: 6
       spin: 60
     }
     {
       type: ParticleEffect
       lightOpacity: 10
       layer: 100
-      region: circle-mid
+      region: circle
       particles: 1
       length: 0
       lifetime: 240
       interp: swing
       colorFrom: f00000
       colorTo: f0000000
-      sizeFrom: 380
+      sizeFrom: 360
       sizeTo: 380
       spin: 30
     }
