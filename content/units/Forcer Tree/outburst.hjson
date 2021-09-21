@@ -133,12 +133,12 @@ weapons: [
    name: purple-mount
    top: true
    mirror: true
+   autoTarget: true
    x: 5
    y: 2
    reload: 20
    shots: 1
    alternate: false
-   autoTarget: true
    bullet: {
       type: BasicBulletType
       collidesTeam: false
