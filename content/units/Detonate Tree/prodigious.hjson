@@ -58,7 +58,7 @@ deathExplosionEffect: {
       colorFrom: bf92f9
       colorTo: bf92f900
       sizeFrom: 360
-      sizeTo: 380
+      sizeTo: 0
       spin: 30
     }
     {
