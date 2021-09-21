@@ -80,6 +80,7 @@ weapons: [
       colors: [665c9f, bf92f9, ffffff]
       shootEffect: {
          type: MultiEffect
+         lifetime: 80
          effects: [
          {
          type: ParticleEffect
