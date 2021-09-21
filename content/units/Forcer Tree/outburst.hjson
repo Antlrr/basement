@@ -133,6 +133,7 @@ weapons: [
    name: purple-mount
    top: true
    mirror: true
+   controllable: false
    autoTarget: true
    x: 5
    y: 2
