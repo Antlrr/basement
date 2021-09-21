@@ -86,6 +86,7 @@ weapons: [
       shootEffect: {
          type: MultiEffect
          lifetime: 60
+         followParent: true
          effects: [
          {
          type: ParticleEffect
