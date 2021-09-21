@@ -63,8 +63,6 @@ weapons: [
    reload: 120
    shots: 1
    firstShotDelay: 60
-   shootStatus: unmoving
-   shootStatusDuration: 60
    shootSound: shotgun
    colors: [665c9f, bf92f9, ffffff]
    bullet: {
