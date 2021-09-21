@@ -30,8 +30,8 @@ deathExplosionEffect: {
       strokeTo: 12
       lenFrom: 0
       lenTo: 60
-      colorFrom: f00000
-      colorTo: f0000000
+      colorFrom: bf92f9
+      colorTo: bf92f900
     }
     {
       type: ParticleEffect
@@ -39,8 +39,8 @@ deathExplosionEffect: {
       particles: 12
       lifetime: 240
       interp: swing
-      colorFrom: f00000
-      colorTo: f0000000
+      colorFrom: bf92f9
+      colorTo: bf92f900
       strokeFrom: 0
       strokeTo: 2
       lenFrom: 0
@@ -55,8 +55,8 @@ deathExplosionEffect: {
       length: 0
       lifetime: 240
       interp: swing
-      colorFrom: f00000
-      colorTo: f0000000
+      colorFrom: bf92f9
+      colorTo: bf92f900
       sizeFrom: 360
       sizeTo: 380
       spin: 30
@@ -68,7 +68,7 @@ deathExplosionEffect: {
       length: 0
       lifetime: 220
       interp: swing
-      colorFrom: 00000050
+      colorFrom: bf92f950
       colorTo: 00000000
       sizeFrom: 300
       sizeTo: 0
@@ -79,8 +79,8 @@ deathExplosionEffect: {
       sizeTo: 60
       strokeFrom: 30
       strokeTo: 0
-      colorFrom: f00000
-      colorTo: f0000000
+      colorFrom: bf92f9
+      colorTo: bf92f900
     }
   ]
 }
