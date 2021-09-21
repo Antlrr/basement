@@ -58,8 +58,6 @@ weapons: [
    reload: 250
    shots: 1
    firstShotDelay: 80
-   shootStatus: unmoving
-   shootStatusDuration: 80
    shootSound: shotgun
    colors: [665c9f, bf92f9, ffffff]
    bullet: {
@@ -70,7 +68,7 @@ weapons: [
       lifetime: 10
       pierce: true
       collidesAir: true
-      statusDuration: 240
+      statusDuration: 120
       status: shocked
       length: 180
       width: 20
@@ -81,6 +79,7 @@ weapons: [
       shootEffect: {
          type: MultiEffect
          lifetime: 80
+         followParent: true
          effects: [
          {
          type: ParticleEffect
