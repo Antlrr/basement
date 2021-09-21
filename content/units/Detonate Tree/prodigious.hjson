@@ -69,7 +69,7 @@ deathExplosionEffect: {
       lifetime: 220
       interp: swing
       colorFrom: 00000050
-      colorTo: 000000
+      colorTo: 00000000
       sizeFrom: 300
       sizeTo: 0
     }
