@@ -90,7 +90,7 @@ weapons: [
          particles: 3
          colorFrom: bf92f9
          colorTo: 665c9f
-         lightOpacity:1 10
+         lightOpacity: 10
          }
          {
          type: ParticleEffect
