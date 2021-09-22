@@ -130,43 +130,42 @@ weapons: [
    }
    {
    rotate: true
-   name: purple-mount
+   name: bolt-weapon-mount
    top: true
    mirror: true
-   controllable: false
-   autoTarget: true
-   x: 5
-   y: 2
-   reload: 20
+   x: 8
+   y: 7
+   reload: 8
    shots: 1
    alternate: false
+   autoTarget: true
+   shootSound: lasershoot
    bullet: {
-      type: BasicBulletType
+      type: LaserBoltBulletType
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
       collidesTeam: false
-      damage: 24
-      lifetime: 10
+      damage: 30
       collidesAir: true
       keepVelocity: false
       hittable: true
       recoil: 0
       backColor: 665c9f
       frontColor: bf92f9
-      speed: 3
+      speed: 2
       lifetime: 56
-      width: 8
-      length: 6
       shootEffect: {
          type: MultiEffect
          effects: [
          {
-         type: ParticleEffect
-         sizeFrom: 2
-         sizeTo: 0
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 8
          region: basement-star
-         particles: 3
          colorFrom: bf92f9
-         colorTo: 665c9f
-         lightOpacity: 2
+         colorTo: bf92f900
+         lightOpacity: 10
          }
          {
          type: ParticleEffect
@@ -190,14 +189,14 @@ weapons: [
             sizeFrom: 2
             sizeTo: 0
             colorFrom: bf92f9
-            colorTo: bf92f9
+            colorTo: bf92f900
          }
          {
             type: WaveEffect
             sizeFrom: 0
             sizeTo: 4
             colorFrom: bf92f9
-            colorTo: bf92f9
+            colorTo: bf92f900
                }
             ]
          }
