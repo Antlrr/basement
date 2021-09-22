@@ -135,8 +135,8 @@ weapons: [
    name: bolt-weapon-mount
    top: true
    mirror: true
-   x: 8
-   y: 8.75
+   x: 6
+   y: 10
    reload: 8
    shots: 2
    alternate: false
