@@ -133,8 +133,8 @@ weapons: [
    name: bolt-weapon-mount
    top: true
    mirror: true
-   x: 8
-   y: 7
+   x: 5
+   y: 3
    reload: 8
    shots: 1
    alternate: false
@@ -211,6 +211,7 @@ weapons: [
    y: -6
    reload: 30
    shots: 2
+   controllable: false
    autoTarget: true
    bullet: {
       type: BasicBulletType
