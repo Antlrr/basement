@@ -1,0 +1,309 @@
+type: legs
+hovering: true
+canBoost: false
+commandLimit: 10
+health: 3460
+armor: 13
+speed: 0.85
+accel: 0.4
+drag: 0.1
+hitSize: 16
+controller: GroundAI
+lightRadius: 80
+lightColor: bf92f9
+rotateShooting: true
+rotateSpeed: 3
+legCount: 4
+legMoveSpace: 1
+legPairOffset: 3
+legLength: 30
+legExtension: -15
+legBaseOffset: 3
+landShake: 0.1
+legLengthScl: 0.96
+rippleScale: 2
+legSpeed: 0.2
+maxStretch: 4
+allowLegStep: true
+legGroupSize: 1
+targetAir: false
+deathExplosionEffect: {
+   type: MultiEffect
+   effects: [
+      {
+      type: WaveEffect
+      sizeFrom: 0
+      sizeTo: 20
+      colorFrom: bf92f9
+      colorTo: bf92f9
+      }
+      {
+      type: ParticleEffect
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: bf92f9
+      colorTo: bf92f900
+      region: basement-star
+      particles: 6
+      }
+   ]
+}
+weapons: [
+   {
+   name: eruption-cannon
+   rotate: true
+   top: true
+   mirror: false
+   x: 0
+   y: 0
+   reload: 250
+   shots: 1
+   firstShotDelay: 80
+   shootSound: shotgun
+   colors: [665c9f, bf92f9, ffffff]
+   bullet: {
+      type: ContinuousLaserBulletType
+      healPercent: 1.5
+      collidesTeam: false
+      damage: 82
+      lifetime: 10
+      pierce: true
+      collidesAir: true
+      statusDuration: 120
+      status: shocked
+      length: 180
+      width: 20
+      keepVelocity: false
+      hittable: false
+      recoil: -26
+      colors: [665c9f, bf92f9, ffffff]
+      shootEffect: {
+         type: MultiEffect
+         lifetime: 80
+         followParent: true
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 8
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity:1 10
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 7
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 10
+         }
+         {
+         type: WaveEffect
+         sizeFrom: 18
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         }
+         {
+         type: WaveEffect
+         sizeFrom: 10
+         sizeTo: 0
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         }
+       ]
+     }
+     hitEffect: {
+        type: ParticleEffect
+        particles: 2
+        region: basement-star
+        sizeFrom: 2
+        sizeTo: 0
+        colorFrom: bf92f9
+        colorTo: bf92f9
+         }
+      }
+   }
+   {
+   rotate: true
+   name: purple-mount
+   top: true
+   mirror: true
+   controllable: false
+   autoTarget: true
+   x: 5
+   y: 2
+   reload: 20
+   shots: 1
+   alternate: false
+   bullet: {
+      type: BasicBulletType
+      collidesTeam: false
+      damage: 24
+      lifetime: 10
+      collidesAir: true
+      keepVelocity: false
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 3
+      lifetime: 56
+      width: 8
+      length: 6
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 2
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
+         }
+      }
+   }
+   {
+   rotate: true
+   name: big-purple-mount
+   top: true
+   mirror: false
+   x: 0
+   y: -6
+   reload: 30
+   shots: 2
+   autoTarget: true
+   bullet: {
+      type: BasicBulletType
+      collidesTeam: false
+      damage: 32
+      lifetime: 18
+      collidesAir: true
+      keepVelocity: true
+      hittable: true
+      recoil: 0
+      backColor: 665c9f
+      frontColor: bf92f9
+      speed: 2
+      width: 8
+      height: 8
+      lifetime: 56
+      weaveScale: 5
+      weaveMag: 5.20
+      trailLength: 2
+      trailWidth: 2
+      trailColor: bf92f9
+      trailInterval: 0.01
+      homingPower: 0.5
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+         {
+         type: ParticleEffect
+         sizeFrom: 2
+         sizeTo: 0
+         region: basement-star
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f00
+         lightOpacity: 2
+         }
+         {
+         type: ParticleEffect
+         sizeFrom: 6
+         sizeTo: 0
+         region: basement-round
+         particles: 3
+         colorFrom: bf92f9
+         colorTo: 665c9f00
+         lightOpacity: 1
+         }
+      ]
+   }
+   hitEffect: {
+      type: MultiEffect
+      effects: [
+         {
+            type: ParticleEffect
+            particles: 2
+            region: basement-star
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: bf92f9
+            colorTo: bf92f9
+         }
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 4
+            colorFrom: bf92f9
+            colorTo: bf92f9
+               }
+            ]
+         }
+      }
+   }
+]
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 8
+      region: basement-outburst-glow
+      lifetime: 40
+      length: 0
+      sizeFrom: 24
+      sizeTo: 24
+      colorFrom: bf92f9
+      colorTo: bf92f900
+    }
+  }
+]
