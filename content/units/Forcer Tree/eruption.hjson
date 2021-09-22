@@ -57,7 +57,7 @@ weapons: [
    mirror: false
    x: 0
    y: 0
-   reload: 670
+   reload: 900
    shots: 1
    firstShotDelay: 120
    shootSound: shotgun
@@ -72,7 +72,7 @@ weapons: [
       collidesAir: true
       statusDuration: 120
       status: burning
-      length: 390
+      length: 450
       width: 20
       keepVelocity: false
       hittable: false
