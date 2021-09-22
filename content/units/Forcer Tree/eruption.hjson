@@ -27,6 +27,7 @@ maxStretch: 4
 allowLegStep: true
 legGroupSize: 1
 targetAir: false
+immunities: [burning]
 deathExplosionEffect: {
    type: MultiEffect
    effects: [
@@ -56,9 +57,9 @@ weapons: [
    mirror: false
    x: 0
    y: 0
-   reload: 250
+   reload: 670
    shots: 1
-   firstShotDelay: 80
+   firstShotDelay: 120
    shootSound: shotgun
    colors: [665c9f, bf92f9, ffffff]
    bullet: {
@@ -70,12 +71,12 @@ weapons: [
       pierce: true
       collidesAir: true
       statusDuration: 120
-      status: shocked
-      length: 180
+      status: burning
+      length: 200
       width: 20
       keepVelocity: false
       hittable: false
-      recoil: -26
+      recoil: -58
       colors: [665c9f, bf92f9, ffffff]
       shootEffect: {
          type: MultiEffect
@@ -135,7 +136,7 @@ weapons: [
    top: true
    mirror: true
    x: 8
-   y: 7
+   y: 8.75
    reload: 8
    shots: 2
    alternate: false
