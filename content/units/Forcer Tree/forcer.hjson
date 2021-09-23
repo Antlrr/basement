@@ -80,6 +80,7 @@ weapons: [
 ]
 decals: [
    {
+   lightOpacity: 10
    region: basement-forcer-glow
    x: 0
    y: 0
