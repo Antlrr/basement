@@ -8,7 +8,7 @@ rotateSpeed: 0.10
 accel: 1
 drag: 0.5
 lowAltitude: true
-engineOffset: 69
+engineOffset: 60
 engineSize: 20
 fallSpeed: 0.010
 lightColor: ffffff
