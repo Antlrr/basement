@@ -31,6 +31,7 @@ deathExplosionEffect: {
       sizeTo: 40
       colorFrom: ffffff
       colorTo: ffffff00
+      spin: 10
       }
       {
       length: 0
@@ -42,6 +43,7 @@ deathExplosionEffect: {
       sizeTo: 40
       colorFrom: ffffff
       colorTo: ffffff00
+      spin: -10
       }
       {
       length: 0
@@ -75,6 +77,7 @@ deathExplosionEffect: {
       sizeTo: 40
       colorFrom: ffffff
       colorTo: ffffff00
+      spin: 5
       }
       {
       length: 0
@@ -86,6 +89,7 @@ deathExplosionEffect: {
       sizeTo: 40
       colorFrom: ffffff
       colorTo: ffffff00
+      spin: -5
       }
    ]
 }
