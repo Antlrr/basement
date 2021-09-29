@@ -25,79 +25,67 @@ deathExplosionEffect: {
       length: 0
       particles: 1
       cone: 0
-      baseLength: -36
-      randLength: false
       lifetime: 340
       region: basement-prodi-death0
       sizeFrom: 40
       sizeTo: 40
-      colorFrom: ffffff00
-      colorTo: ffffff
+      colorFrom: ffffff
+      colorTo: ffffff00
       }
       {
       length: 0
       particles: 1
       cone: 0
-      baseLength: -36
-      randLength: false
       lifetime: 320
       region: basement-prodi-death1
       sizeFrom: 40
       sizeTo: 40
-      colorFrom: ffffff00
-      colorTo: ffffff
+      colorFrom: ffffff
+      colorTo: ffffff00
       }
       {
       length: 0
       particles: 1
       cone: 0
-      baseLength: -36
-      randLength: false
       lifetime: 310
       region: basement-prodi-death2
       sizeFrom: 40
       sizeTo: 40
-      colorFrom: ffffff00
-      colorTo: ffffff
+      colorFrom: ffffff
+      colorTo: ffffff00
       }
       {
       length: 0
       particles: 1
       cone: 0
-      baseLength: -36
-      randLength: false
       lifetime: 300
       region: basement-prodi-death3
       sizeFrom: 40
       sizeTo: 40
-      colorFrom: ffffff00
-      colorTo: ffffff
+      colorFrom: ffffff
+      colorTo: ffffff00
       }
       {
       length: 0
       particles: 1
       cone: 0
-      baseLength: -36
-      randLength: false
       lifetime: 290
       region: basement-prodi-death4
       sizeFrom: 40
       sizeTo: 40
-      colorFrom: ffffff00
-      colorTo: ffffff
+      colorFrom: ffffff
+      colorTo: ffffff00
       }
       {
       length: 0
       particles: 1
       cone: 0
-      baseLength: -36
-      randLength: false
       lifetime: 280
       region: basement-prodi-death5
       sizeFrom: 40
       sizeTo: 40
-      colorFrom: ffffff00
-      colorTo: ffffff
+      colorFrom: ffffff
+      colorTo: ffffff00
       }
    ]
 }
