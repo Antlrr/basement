@@ -98,5 +98,6 @@ deathExplosionEffect: {
       sizeTo: 40
       colorFrom: ffffff00
       colorTo: ffffff
-    }
-]
+      }
+   ]
+}
