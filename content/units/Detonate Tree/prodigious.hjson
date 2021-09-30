@@ -9,7 +9,7 @@ accel: 1
 drag: 0.5
 lowAltitude: true
 engineOffset: 60
-engineSize: 20
+engineSize: 25
 fallSpeed: 0.010
 lightColor: ffffff
 lightRadius: 0
