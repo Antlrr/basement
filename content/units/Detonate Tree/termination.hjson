@@ -92,33 +92,32 @@ deathExplosionEffect: {
       spin: -5
       }
       {
-            {
-         type: ParticleEffect
-         region: circle
-         particles: 12
-         length: 15
-         baseLength: 5
-         lifetime: 60
-         sizeFrom: 5
-         sizeTo: 3
-         colorFrom: 4a4b54
-         colorTo: 4a4b5400
-         layer: 29
+      type: ParticleEffect
+      region: circle
+      particles: 12
+      length: 15
+      baseLength: 5
+      lifetime: 60
+      sizeFrom: 5
+      sizeTo: 3
+      colorFrom: 4a4b54
+      colorTo: 4a4b5400
+      layer: 29
       }
       {
-         type: ParticleEffect
-         line: true
-         particles: 10
-         length: 100
-         baseLength: 0
-         lifetime: 60
-         strokeFrom: 6
-         strokeTo: 0
-         lenFrom: 12
-         lenTo: 0
-         colorFrom: 7afadc
-         colorTo: 7afadc
-         layer: 29
+      type: ParticleEffect
+      line: true
+      particles: 10
+      length: 80
+      baseLength: 0
+      lifetime: 60
+      strokeFrom: 6
+      strokeTo: 0
+      lenFrom: 12
+      lenTo: 0
+      colorFrom: 7afadc
+      colorTo: 7afadc
+      layer: 29
       }
    ]
 }
