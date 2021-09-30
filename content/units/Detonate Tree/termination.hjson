@@ -16,6 +16,7 @@ lightRadius: 0
 mineTier: 900
 mineSpeed: 1200
 deathSound: demise
+outlineColor: 2d2c32
 deathExplosionEffect: {
    type: MultiEffect
    lifetime: 440
