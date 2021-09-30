@@ -1,8 +1,8 @@
 type: flying
 flying: true
 hitSize: 88
-health: 54629124
-armor: 2589
+health: 600000000
+armor: 80000
 speed: 0.7
 rotateSpeed: 0.10
 accel: 1
@@ -27,8 +27,8 @@ deathExplosionEffect: {
       cone: 0
       lifetime: 340
       region: basement-prodi-death0
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 80
+      sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff00
       spin: 10
@@ -39,8 +39,8 @@ deathExplosionEffect: {
       cone: 0
       lifetime: 320
       region: basement-prodi-death1
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 80
+      sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff00
       spin: -10
@@ -51,8 +51,8 @@ deathExplosionEffect: {
       cone: 0
       lifetime: 310
       region: basement-prodi-death2
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 80
+      sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff00
       }
@@ -62,8 +62,8 @@ deathExplosionEffect: {
       cone: 0
       lifetime: 300
       region: basement-prodi-death3
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 80
+      sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff00
       }
@@ -73,8 +73,8 @@ deathExplosionEffect: {
       cone: 0
       lifetime: 290
       region: basement-prodi-death4
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 80
+      sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff00
       spin: 5
@@ -85,8 +85,8 @@ deathExplosionEffect: {
       cone: 0
       lifetime: 280
       region: basement-prodi-death5
-      sizeFrom: 40
-      sizeTo: 40
+      sizeFrom: 80
+      sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff00
       spin: -5
