@@ -25,9 +25,9 @@ deathExplosionEffect: {
       length: 0
       particles: 1
       cone: 0
-      lifetime: 340
+      lifetime: 380
       region: basement-prodi-death0
-      sizeFrom: 80
+      sizeFrom: 100
       sizeTo: 0
       colorFrom: 7adadc
       colorTo: 7afadc00
@@ -37,9 +37,9 @@ deathExplosionEffect: {
       length: 0
       particles: 1
       cone: 0
-      lifetime: 320
+      lifetime: 380
       region: basement-prodi-death1
-      sizeFrom: 80
+      sizeFrom: 100
       sizeTo: 0
       colorFrom: 7afadc
       colorTo: 7afadc00
