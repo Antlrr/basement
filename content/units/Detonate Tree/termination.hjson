@@ -102,7 +102,6 @@ deathExplosionEffect: {
       sizeTo: 3
       colorFrom: 4a4b54
       colorTo: 4a4b5400
-      layer: 29
       }
       {
       type: ParticleEffect
@@ -117,7 +116,6 @@ deathExplosionEffect: {
       lenTo: 0
       colorFrom: 7afadc
       colorTo: 7afadc
-      layer: 29
       }
    ]
 }
