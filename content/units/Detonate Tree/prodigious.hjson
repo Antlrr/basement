@@ -9,7 +9,7 @@ accel: 1
 drag: 0.5
 lowAltitude: true
 engineOffset: 60
-engineSize: 25
+engineSize: 20
 fallSpeed: 0.010
 lightColor: ffffff
 lightRadius: 0
@@ -60,7 +60,7 @@ deathExplosionEffect: {
       length: 0
       particles: 1
       cone: 0
-      lifetime: 300
+      lifetime: 310
       region: basement-prodi-death3
       sizeFrom: 80
       sizeTo: 0
@@ -83,7 +83,7 @@ deathExplosionEffect: {
       length: 0
       particles: 1
       cone: 0
-      lifetime: 280
+      lifetime: 290
       region: basement-prodi-death5
       sizeFrom: 80
       sizeTo: 0
