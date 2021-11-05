@@ -66,38 +66,16 @@ weapons: [
    rotateSpeed: 60
    x: 0
    y: 0
-   shots: 90
+   shots: 10
    shotDelay: 0
    shootY: 0
    recoil: 0
-   reload: 10
+   reload: 60
    shootCone: 360
    inaccuracy: 360
    shootSound: lasershoot
    spacing: 2
-   shotDelay: 10
-   shootEffect: {
-      type: MultiEffect
-      effects: [
-         {
-         type: WaveEffect
-         sizeFrom: 60
-         sizeTo: 0
-         colorFrom: bf92f9
-         colorTo: bf92f9
-         }
-         {
-         type: ParticleEffect
-         length: 0
-         lifetime: 170
-         particles: 1
-         sizeFrom: 0
-         sizeTo: 18
-         colorFrom: bf92f9
-         colorTo: bf92f9
-         }
-      ]
-   }
+   shotDelay: 2
    bullet: {
       type: BasicBulletType
       shrinkX: 0
@@ -106,8 +84,9 @@ weapons: [
       width: 7
       height: 7
       hitSize: 7
-      speed: 4
+      speed: 12
       lifetime: 14
+      drag: 0.1
       frontColor: bf92f9
       backColor: 6d56bf
       hitColor: bf92f9
