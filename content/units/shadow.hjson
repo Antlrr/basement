@@ -1,6 +1,7 @@
-type: mech
+type: flying
 controller: groundAI
-canBoost: true
+canBoost: false
+flying: true
 mineTier: 3
 mineSpeed: 4
 health: 460
@@ -129,15 +130,16 @@ abilities: [
     shootSound: none
     shootEffect: {
       type: ParticleEffect
-      layer: 114.50
+      layer: 110
       lightOpacity: 10
       particles: 6
       region: circle
       lifetime: 120
-      length: 0
-      sizeFrom: 4
-      sizeTo: 2
+      length: 2
+      sizeFrom: 2
+      sizeTo: 1
       spin: 16
+      effectChance: 0.1
       colorFrom: bf92f9
       colorTo: bf92f900
       }
