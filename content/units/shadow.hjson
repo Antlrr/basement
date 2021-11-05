@@ -139,7 +139,7 @@ abilities: [
       spin: 16
       chance: 0.01
       colorFrom: bf92f9
-      colorTo: 6c499a
+      colorTo: 6c499a00
       }
    }
 ]
