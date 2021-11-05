@@ -129,6 +129,7 @@ abilities: [
     shootSound: none
     shootEffect: {
       type: ParticleEffect
+      layer: 114.50
       lightOpacity: 10
       particles: 6
       region: circle
