@@ -6,7 +6,7 @@ mineTier: 3
 mineSpeed: 4
 health: 460
 armor: 3
-speed: 2.5
+speed: 1
 accel: 0.06
 drag: 0.017
 rotateShooting: false
@@ -139,7 +139,7 @@ abilities: [
       spin: 16
       chance: 0.01
       colorFrom: bf92f9
-      colorTo: 6c499a00
+      colorTo: 6c499a0
       }
    }
 ]
