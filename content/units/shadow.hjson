@@ -84,8 +84,8 @@ weapons: [
       width: 7
       height: 7
       hitSize: 7
-      speed: 12
-      lifetime: 14
+      speed: 10
+      lifetime: 34
       drag: 0.1
       frontColor: bf92f9
       backColor: 6d56bf
