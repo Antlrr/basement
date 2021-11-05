@@ -133,13 +133,13 @@ abilities: [
       particles: 6
       region: circle
       lifetime: 120
-      length: 4
+      length: 10
       sizeFrom: 2
       sizeTo: 1
       spin: 16
-      effectChance: 0.01
+      chance: 0.01
       colorFrom: bf92f9
-      colorTo: bf92f900
+      colorTo: 6c499a
       }
    }
 ]
