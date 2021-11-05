@@ -1,5 +1,5 @@
 type: flying
-controller: groundAI
+controller: flyingAI
 canBoost: false
 flying: true
 mineTier: 3
@@ -74,8 +74,8 @@ weapons: [
    shootCone: 360
    inaccuracy: 360
    shootSound: lasershoot
-   shotDelay: 1
-   firstShotDelay: 90
+   spacing: 2
+   shotDelay: 10
    shootEffect: {
       type: MultiEffect
       effects: [
@@ -100,6 +100,8 @@ weapons: [
    }
    bullet: {
       type: BasicBulletType
+      shrinkX: 0
+      shrinkY: 0
       damage: 28
       width: 7
       height: 7
@@ -139,7 +141,7 @@ abilities: [
       spin: 16
       chance: 0.01
       colorFrom: bf92f9
-      colorTo: 6c499a0
+      colorTo: 6c499a10
       }
    }
 ]
