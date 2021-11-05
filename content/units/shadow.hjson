@@ -9,7 +9,6 @@ armor: 3
 speed: 2.5
 accel: 0.06
 drag: 0.017
-flying: false
 rotateShooting: false
 buildSpeed: 2.6
 isCounted: false
@@ -134,11 +133,11 @@ abilities: [
       particles: 6
       region: circle
       lifetime: 120
-      length: 2
+      length: 4
       sizeFrom: 2
       sizeTo: 1
       spin: 16
-      effectChance: 0.1
+      effectChance: 0.01
       colorFrom: bf92f9
       colorTo: bf92f900
       }
