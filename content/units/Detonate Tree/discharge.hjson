@@ -37,7 +37,7 @@ deathExplosionEffect: {
 }
 weapons: [
    {
-   name: purple-weapon-mount
+   name: yellow-weapon-mount
    top: true
    mirror: true
    rotate: true
@@ -116,7 +116,7 @@ weapons: [
                particles: 8
                colorFrom: feffae
                colorTo: feffae00
-               interp: swing
+               interp: smoother
                }
             ]
          }
@@ -144,6 +144,9 @@ weapons: [
                width: 11
                height: 11
                layer: 11
+               trailWidth: 3
+               trailLength: 10
+               trailColor: feffae
                shootEffect: hitLancer
                smokeEffect: none 
                ejectEffect: none
@@ -161,14 +164,15 @@ weapons: [
                keepVelocity: false
                shrinkX: 0
                shrinkY: 0
-               speed: 0
+               speed: 7
+               drag: 0.1
                splashDamage: 55
                splashDamageRadius: 48
                fragBullets: 4
                fragBullet: {
                   type: LightningBulletType
                   lightningLength: 4
-                  lightningColor: bf92f9
+                  lightningColor: feffae
                   damage: 24
                   }
                }
