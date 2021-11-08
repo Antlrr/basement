@@ -21,15 +21,15 @@ deathExplosionEffect: {
          type: WaveEffect
          sizeFrom: 0
          sizeTo: 10
-         colorFrom: bf92f9
-         colorTo: bf92f900
+         colorFrom: feffae
+         colorTo: feffae00
       }
       {
          type: ParticleEffect
          sizeFrom: 4
          sizeTo: 0
-         colorFrom: bf92f9
-         colorTo: bf92f900
+         colorFrom: feffae
+         colorTo: feffae00
          region: basement-star
          particles: 8
       }
@@ -37,67 +37,67 @@ deathExplosionEffect: {
 }
 weapons: [
    {
-      name: purple-weapon-mount
-      top: false
-      mirror: true
-      rotate: false
-      alternate: true
-      reload: 80
-      x: 5
-      y: 1
-      shots: 2
-      recoil: 0.5
-      shootSound: missile
-      bullet: {
+   name: purple-weapon-mount
+   top: true
+   mirror: true
+   rotate: true
+   alternate: true
+   reload: 80
+   x: 5
+   y: 1
+   shots: 2
+   recoil: 0.5
+   shootSound: missile
+   bullet: {
+      type: BasicBulletType
+      bulletSprite: missile
+      hitEffect: hitLancer
+      width: 8
+      height: 8
+      damage: 5
+      collidesTiles: true
+      frontColor: ffffff
+      backColor: feffae
+      speed: 2.75
+      lifetime: 60.80
+      scaleVelocity: true
+      trailMult: 1
+      trailSize: 4
+      trailColor: feffae
+      trailChance: 0.2
+      splashDamageRadius: 56
+      splashDamage: 20
+      homingPower: 0.07
+      fragBullets: 2
+      fragLifeMin: 0.3
+      fragBullet: {
          type: BasicBulletType
-         bulletSprite: missile
-         hitEffect: hitLancer
-         width: 8
-         height: 8
-         damage: 5
-         collidesTiles: true
-         frontColor: bf92f9
-         backColor: 8a73c6
-         speed: 2.75
-         lifetime: 60.80
-         scaleVelocity: true
+         sprite: basement-detonate-bullet
+         width: 11
+         height: 11
+         layer: 37
+         shootEffect: hitLancer
+         smokeEffect: none 
+         ejectEffect: none
+         maxRange: 5
+         trailEffect: artilleryTrail
          trailMult: 1
          trailSize: 4
-         trailColor: ffffff
+         trailColor: feffae
+         trailInterp: slope
          trailChance: 0.2
-         splashDamageRadius: 56
-         splashDamage: 20
-         homingPower: 0.07
-         fragBullets: 2
-         fragLifeMin: 0.3
-         fragBullet: {
-            type: BasicBulletType
-            sprite: basement-detonate-bullet
-            width: 11
-            height: 11
-            layer: 37
-            shootEffect: hitLancer
-            smokeEffect: none 
-            ejectEffect: none
-            maxRange: 5
-            trailEffect: artilleryTrail
-            trailMult: 1
-            trailSize: 4
-            trailColor: bf92f9
-            trailInterp: slope
-            trailChance: 0.2
-            ignoreRotation: true
-            healPercent: 4
-            backColor: bf92f9
-            frontColor: ffffff
-            mixColorTo: bf92f9
-            shootCone: 360
-            hitSize: 22
-            collidesAir: false
-            lifetime: 500
-            hitEffect: {
-               type: MultiEffect
-               effects: [
+         ignoreRotation: true
+         healPercent: 0.6
+         backColor: bf92f9
+         frontColor: ffffff
+         mixColorTo: bf92f9
+         shootCone: 360
+         hitSize: 22
+         collidesAir: false
+         lifetime: 500
+         hitEffect: {
+            type: MultiEffect
+            effects: [
                {
                type: blastExplosion
                }
