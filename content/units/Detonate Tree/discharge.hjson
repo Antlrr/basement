@@ -45,12 +45,10 @@ weapons: [
    reload: 80
    x: 5
    y: 1
-   shots: 2
    recoil: 0.5
    shootSound: missile
    bullet: {
       type: BasicBulletType
-      layer: 11
       bulletSprite: missile
       weaveScale: 3
       weaveMag: 4
@@ -83,12 +81,6 @@ weapons: [
          smokeEffect: none 
          ejectEffect: none
          maxRange: 5
-         trailEffect: artilleryTrail
-         trailMult: 1
-         trailSize: 4
-         trailColor: feffae
-         trailInterp: slope
-         trailChance: 0.2
          ignoreRotation: true
          healPercent: 0.6
          backColor: feffae
@@ -143,16 +135,10 @@ weapons: [
                sprite: basement-detonate-bullet
                width: 11
                height: 11
+               layer: 11
                shootEffect: hitLancer
                smokeEffect: none 
                ejectEffect: none
-               maxRange: 5
-               trailEffect: artilleryTrail
-               trailMult: 1
-               trailSize: 4
-               trailColor: bf92f9
-               trailInterp: slope
-               trailChance: 0.2
                ignoreRotation: true
                healPercent: 4
                backColor: feffae
