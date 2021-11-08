@@ -122,29 +122,28 @@ weapons: [
             sides: -1
             colorFrom: feffae
             colorTo: feffae
-            }
+               }
             ]
-            }
-            keepVelocity: false
-            shrinkX: 0
-            shrinkY: 0
-            speed: 0
-            splashDamage: 55
-            splashDamageRadius: 45
-            fragBullets: 2
-            fragBullet: {
-               type: LightningBulletType
-               lightningColor: feffae
-               shootCone: 360
-               lightningLength: 8
-               speed: 2
-               damage: 10
-               shootEffect: {
-                  type: WaveEffect
-                  sizeFrom: 25
-                  sizeTo: 0
-                  sides: -1
-                 }
+         }
+         keepVelocity: false
+         shrinkX: 0
+         shrinkY: 0
+         speed: 0
+         splashDamage: 55
+         splashDamageRadius: 45
+         fragBullets: 2
+         fragBullet: {
+            type: LightningBulletType
+            lightningColor: feffae
+            shootCone: 360
+            lightningLength: 8
+            speed: 2
+            damage: 10
+            shootEffect: {
+               type: WaveEffect
+               sizeFrom: 25
+               sizeTo: 0
+               sides: -1
                }
             }
          }
