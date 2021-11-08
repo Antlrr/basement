@@ -43,16 +43,16 @@ weapons: [
       sprite: basement-detonate-bullet
       width: 11
       height: 11
-      layer: 37
+      layer: 10
       shootEffect: hitLancer
       smokeEffect: none
       ejectEffect: none
       maxRange: 50
       ignoreRotation: true
       healPercent: 4
-      backColor: bf92f9
+      backColor: feffae
       frontColor: ffffff
-      mixColorTo: 665c9f
+      mixColorTo: feffae
       hitSound: spark
       shootCone: 360
       hitSize: 22
@@ -67,16 +67,16 @@ weapons: [
                region: basement-round
                sizeFrom: 5
                sizeTo: 0
-               colorFrom: 665c9f
-               colorTo: bf92f9
+               colorFrom: feffae
+               colorTo: feffae
             }
             {
                type: WaveEffect
                sizeFrom: 0
                sizeTo: 20
                sides: -1
-               colorFrom: 665c9f
-               colorTo: bf92f9
+               colorFrom: feffae
+               colorTo: feffae
             }
          ]
       }
@@ -89,49 +89,41 @@ weapons: [
       fragBullets: 4
       fragBullet: {
          type: BasicBulletType
-         backColor: bf92f9
+         sprite: mine-bullet
+         width: 11
+         height: 11
+         shootEffect: hitLancer
+         ejectEffect: none
+         healPercent: 0.4
+         backColor: feffae
          frontColor: ffffff
-         sprite: missile
+         mixColorTo: feffae
+         hitSound: spark
          shootCone: 360
-         lifetime: 25
-         speed: 2
-         damage: 24
-         fragBullets: 1
-         fragBullet: {
-            type: BasicBulletType
-            sprite: mine-bullet
-            width: 11
-            height: 11
-            shootEffect: hitLancer
-            smokeEffect: none
-            ejectEffect: none
-            maxRange: 50
-            ignoreRotation: true
-            healPercent: 4
-            backColor: bf92f9
-            frontColor: ffffff
-            mixColorTo: bf92f9
-            hitSound: spark
-            shootCone: 360
-            hitSize: 22
-            collidesAir: false
-            lifetime: 5
-            layer: 66
-            hitEffect: {
-               type: MultiEffect
-               effects: [
-                  {
-                     type: blastExplosion
-                  }
-                  {
-                     type: WaveEffect
-                     sizeFrom: 20
-                     sizeTo: 0
-                     sides: -1
-                     colorFrom: 665c9f
-                     colorTo: bf92f9
-                  }
-               ]
+         hitSize: 22
+         collidesAir: false
+         lifetime: 30
+         speed: 4
+         drag: 0.1
+         trailColor: feffae
+         trailWidth: 6
+         trailLength: 10
+         layer: 10
+         hitEffect: {
+            type: MultiEffect
+            effects: [
+            {
+            type: blastExplosion
+            }              
+            {
+            type: WaveEffect              
+            sizeFrom: 20
+            sizeTo: 0
+            sides: -1
+            colorFrom: feffae
+            colorTo: feffae
+            }
+            ]
             }
             keepVelocity: false
             shrinkX: 0
@@ -142,7 +134,7 @@ weapons: [
             fragBullets: 2
             fragBullet: {
                type: LightningBulletType
-               lightningColor: bf92f9
+               lightningColor: feffae
                shootCone: 360
                lightningLength: 8
                speed: 2
