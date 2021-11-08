@@ -62,11 +62,11 @@ weapons: [
       frontColor: ffffff
       backColor: feffae
       lifetime: 56
-      speed: 1
-      lifetime: 80.20
+      speed: 2.50
+      lifetime: 70
       scaleVelocity: true
       trailLength: 5
-      trailWidth: 3
+      trailWidth: 2
       trailColor: feffae
       splashDamageRadius: 56
       splashDamage: 20
