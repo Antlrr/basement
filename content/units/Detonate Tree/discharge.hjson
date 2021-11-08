@@ -50,15 +50,18 @@ weapons: [
    shootSound: missile
    bullet: {
       type: BasicBulletType
+      layer: 11
       bulletSprite: missile
+      weaveScale: 3
       hitEffect: hitLancer
       width: 8
       height: 8
-      damage: 5
+      damage: 12
       collidesTiles: true
       frontColor: ffffff
       backColor: feffae
-      speed: 2.75
+      lifetime: 56
+      speed: 1
       lifetime: 60.80
       scaleVelocity: true
       trailMult: 1
@@ -75,7 +78,7 @@ weapons: [
          sprite: basement-detonate-bullet
          width: 11
          height: 11
-         layer: 37
+         layer: 11
          shootEffect: hitLancer
          smokeEffect: none 
          ejectEffect: none
@@ -88,9 +91,9 @@ weapons: [
          trailChance: 0.2
          ignoreRotation: true
          healPercent: 0.6
-         backColor: bf92f9
+         backColor: feffae
          frontColor: ffffff
-         mixColorTo: bf92f9
+         mixColorTo: feffae
          shootCone: 360
          hitSize: 22
          collidesAir: false
@@ -128,9 +131,10 @@ weapons: [
          fragBullet: {
             type: BasicBulletType
             sprite: basement-detonate-bullet
-            backColor: a9d8ff
+            frontColor: ffffff
+            backColor: feffae
             damage: 24
-            layer: 37
+            layer: 11
             lifetime: 10
             speed: 10
             fragBullets: 2
@@ -151,9 +155,9 @@ weapons: [
                trailChance: 0.2
                ignoreRotation: true
                healPercent: 4
-               backColor: 8a73c6
-               frontColor: bf92f9
-               mixColorTo: a9d8ff
+               backColor: feffae
+               frontColor: ffffff
+               mixColorTo: feffae
                hitSound: spark
                shootCone: 360
                hitSize: 22
