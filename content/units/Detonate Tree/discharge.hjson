@@ -109,14 +109,14 @@ weapons: [
                }
                {
                type: ParticleEffect
-               sizeFrom: 5
+               sizeFrom: 2
                sizeTo: 0
                length: 28
                region: basement-diamond
                particles: 8
                colorFrom: feffae
                colorTo: feffae00
-               interp: slope
+               interp: swing
                }
             ]
          }
