@@ -103,10 +103,10 @@ weapons: [
          hitSize: 22
          collidesAir: false
          lifetime: 30
-         speed: 12
+         speed: 8
          drag: 0.1
          trailColor: feffae
-         trailWidth: 6
+         trailWidth: 4
          trailLength: 10
          layer: 10
          hitEffect: {
