@@ -103,7 +103,7 @@ weapons: [
          hitSize: 22
          collidesAir: false
          lifetime: 30
-         speed: 4
+         speed: 12
          drag: 0.1
          trailColor: feffae
          trailWidth: 6
@@ -128,7 +128,6 @@ weapons: [
          keepVelocity: false
          shrinkX: 0
          shrinkY: 0
-         speed: 0
          splashDamage: 55
          splashDamageRadius: 45
          fragBullets: 2
