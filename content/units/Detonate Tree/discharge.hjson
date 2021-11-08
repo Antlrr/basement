@@ -26,12 +26,15 @@ deathExplosionEffect: {
       }
       {
          type: ParticleEffect
-         sizeFrom: 4
+         lightOpacity: 0
+         particles: 12
+         length: 30
+         lifetime: 50
+         sizeFrom: 10
          sizeTo: 0
-         colorFrom: feffae
-         colorTo: feffae00
-         region: basement-star
-         particles: 8
+         colorFrom: 787878
+         colorTo: 78787875
+         sizeInterp: pow5In
       }
    ]
 }
