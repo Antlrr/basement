@@ -90,6 +90,9 @@ weapons: [
          hitSize: 22
          collidesAir: false
          lifetime: 500
+         trailWidth: 3
+         trailLength: 10
+         trailColor: feffae
          hitEffect: {
             type: MultiEffect
             effects: [
@@ -101,25 +104,30 @@ weapons: [
                sizeFrom: 0
                sizeTo: 30
                sides: -1
-               colorFrom: bf92f9
-               colorTo: bf92f900
+               colorFrom: feffae
+               colorTo: feffae00
                }
                {
                type: ParticleEffect
-               sizeFrom: 4
+               sizeFrom: 5
                sizeTo: 0
+               length: 28
                region: basement-diamond
                particles: 8
+               colorFrom: feffae
+               colorTo: feffae00
+               interp: slope
                }
             ]
          }
          keepVelocity: false
          shrinkX: 0
          shrinkY: 0
-         speed: 0
+         speed: 3
+         drag: 0.1
          splashDamage: 55
          splashDamageRadius: 45
-         fragBullets: 4
+         fragBullets: 2
          fragBullet: {
             type: BasicBulletType
             sprite: basement-detonate-bullet
