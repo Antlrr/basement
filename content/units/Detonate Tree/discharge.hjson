@@ -14,7 +14,7 @@ rotateShooting: true
 buildSpeed: 2.6
 engineOffset: 6
 engineSize: 2
-fallSpeed: 2
+fallSpeed: 0.2
 deathExplosionEffect: {
    type: MultiEffect
    effects: [
@@ -31,11 +31,12 @@ deathExplosionEffect: {
          particles: 12
          length: 50
          lifetime: 50
-         sizeFrom: 2.30
+         sizeFrom: 2.50
          sizeTo: 0
          colorFrom: 787878
          colorTo: 78787875
          sizeInterp: pow5In
+         layer: 114
       }
    ]
 }
