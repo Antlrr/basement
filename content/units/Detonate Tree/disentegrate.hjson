@@ -17,7 +17,7 @@ engineOffset: 14
 engineSize: 4
 weapons: [
    {
-   name: purple-laser-mount
+   name: yellow-laser-mount
    x: 0
    y: 0
    mirror: false
@@ -105,7 +105,7 @@ weapons: [
       fragBullets: 4
       fragBullet: {
          type: BasicBulletType
-         sprite: basement-detonate-bullet
+         sprite: yellow-detonate-bullet
          width: 12
          height: 12
          layer: 57
