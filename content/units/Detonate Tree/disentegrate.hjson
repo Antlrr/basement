@@ -32,11 +32,11 @@ weapons: [
       width: 25
       trailLength: 20
       trailWidth: 6
-      trailColor: bf92f9
+      trailColor: feffae
       height: 25
-      backColor: bf92f9
+      backColor: feffae
       frontColor: ffffff
-      mixColorTo: bf92f9
+      mixColorTo: feffae
       hitSound: plasmaboom
       ejectEffect: none
       hitShake: 4
@@ -49,8 +49,8 @@ weapons: [
             type: WaveEffect
             sizeFrom: 130
             sizeTo: 0
-            colorFrom: bf92f9
-            colorTo: bf92f900
+            colorFrom: feffae
+            colorTo: feffae00
          }
          {
             type: ParticleEffect
@@ -58,8 +58,8 @@ weapons: [
             sizeFrom: 5
             sizeTo: 0
             particles: 6
-            colorFrom: bf92f9
-            colorTo: bf92f900
+            colorFrom: feffae
+            colorTo: feffae00
          }
          {
             type: ParticleEffect
@@ -67,8 +67,8 @@ weapons: [
             sizeFrom: 6
             sizeTo: 0
             particles: 5
-            colorFrom: bf92f9
-            colorTo: bf92f900         
+            colorFrom: feffae
+            colorTo: feffae00         
             }
          ]
       }
@@ -79,7 +79,7 @@ weapons: [
             type: WaveEffect
             sizeFrom: 0
             sizeTo: 10
-            colorFrom: bf92f9
+            colorFrom: feffae
             colorTo: ffffff
             }
             {
@@ -89,7 +89,7 @@ weapons: [
             sizeTo: 3
             particles: 3
             colorFrom: ffffff
-            colorTo: bf92f9
+            colorTo: feffae
             }
          ]
       }      
@@ -105,82 +105,35 @@ weapons: [
       fragBullets: 4
       fragBullet: {
          type: BasicBulletType
-         sprite: yellow-detonate-bullet
-         width: 12
-         height: 12
+         sprite: basement-detonate-bullet
+         drag: 0.1
          layer: 57
-         spin: 3
-         shrinkX: 0.1
-         shrinkY: 0.1
-         frontColor: ffffff
+         width: 11
+         height: 11
+         healPercent: 4
          backColor: bf92f9
-         lifeTime: 130
-         homingPower: 0.02
-         trailEffect: {
-            type: ParticleEffect
-            particles: 4
-            region: basement-diamond
-            sizeFrom: 3
-            sizeTo: 0
-            }
-         despawnEffect: {
+         frontColor: ffffff
+         mixColorTo: bf92f9
+         hitSize: 22
+         collidesAir: false
+         lifetime: 500
+         hitEffect: {
             type: MultiEffect
             effects: [
                {
-                  type: ParticleEffect
-                  region: basement-diamond
-                  particles: 4
-                  sizeFrom: 2
-                  sizeTo: 0
+               type: WaveEffect
+               sizeFrom: 20
+               sizeTo: 0
+               sides: -1
                }
-               {
-                  type: WaveEffect
-                  sizeFrom: 0
-                  sizeTo: 5
-                  }
-               ]
-            }
-            fragBullets: 1
-            fragBullet: {
-               type: BasicBulletType
-               sprite: basement-detonate-bullet
-               layer: 57
-               width: 11
-               height: 11
-               shootEffect: hitLancer
-               smokeEffect: none
-               ejectEffect: none
-               maxRange: 50
-               ignoreRotation: true
-               healPercent: 4
-               backColor: bf92f9
-               frontColor: ffffff
-               mixColorTo: bf92f9
-               shootCone: 360
-               hitSize: 22
-               collidesAir: false
-               lifetime: 500
-               hitEffect: {
-                  type: MultiEffect
-                  effects: [
-                     {
-                        type: blastExplosion
-                     }
-                     {
-                        type: WaveEffect
-                        sizeFrom: 20
-                        sizeTo: 0
-                        sides: -1
-                     }
-                  ]
-               }
-               keepVelocity: false
-               shrinkX: 0
-               shrinkY: 0
-               speed: 0
-               splashDamage: 55
-               splashDamageRadius: 45
-            }
+            ]
+         }
+         keepVelocity: false
+         shrinkX: 0
+         shrinkY: 0
+         speed: 8
+         splashDamage: 55
+         splashDamageRadius: 45
          }
       }
    }
