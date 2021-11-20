@@ -16,9 +16,9 @@ rotateSpeed: 10
 legCount: 4
 legMoveSpace: 1
 legPairOffset: 4
-legLength: 18
+legLength: 28
 legExtension: -15
-legBaseOffset: 3
+legBaseOffset: 6
 landShake: 0.1
 legLengthScl: 0.96
 rippleScale: 2
