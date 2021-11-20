@@ -111,9 +111,9 @@ weapons: [
          width: 11
          height: 11
          healPercent: 4
-         backColor: bf92f9
+         backColor: feffae
          frontColor: ffffff
-         mixColorTo: bf92f9
+         mixColorTo: feffae
          hitSize: 22
          collidesAir: false
          lifetime: 500
